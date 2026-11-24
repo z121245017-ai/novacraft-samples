@@ -1,0 +1,61 @@
+name: Pactrover Payout Snapshot Replay
+on:
+  workflow_dispatch:
+jobs:
+  replay:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - name: Fresh Linux checkout, pinned Nano build, and collector replay (--limit 2)
+        shell: bash
+        run: |
+          set -euo pipefail
+          echo "=== ENV_START ==="
+          echo "UTC_START=$(date -u +%Y-%m-%dT%H:%M:%SZ)"
+          uname -a
+          grep -E '^(PRETTY_NAME|VERSION_ID)=' /etc/os-release || cat /etc/os-release
+          git --version
+          python3 --version
+          cc --version | head -n 2
+          openssl version
+          echo "=== ENV_END ==="
+
+          work=$(mktemp -d)
+          repo="$work/pactrover-www"
+          echo "=== STEP_1_CHECKOUT ==="
+          git init -q "$repo"
+          git -C "$repo" fetch -q --depth=1 https://github.com/pactrover/www.git d87bf17099a5a9c621062bd71be11bfc69b18925
+          git -C "$repo" checkout -q --detach FETCH_HEAD
+          cd "$repo"
+          echo "CHECKED_OUT_COMMIT=$(git rev-parse HEAD)"
+          test "$(git rev-parse HEAD)" = "d87bf17099a5a9c621062bd71be11bfc69b18925"
+
+          echo "=== STEP_2_NANO_BUILD ==="
+          build=$(mktemp -d)
+          src="$build/nano-node"
+          pin=0d8eea4524b8da626cbab50c286c48eae25c76a9
+          example=examples/nano-marketplace-receipt
+          git init -q "$src"
+          git -C "$src" fetch -q --depth=1 https://github.com/nanocurrency/nano-node.git "$pin"
+          git -C "$src" checkout -q --detach FETCH_HEAD
+          test "$(git -C "$src" rev-parse HEAD)" = "$pin"
+          cc -O2 -fPIC -shared -DED25519_CUSTOMHASH -DED25519_CUSTOMRNG -I"$src" \
+            "$example/nano_hash.c" "$src/crypto/ed25519-donna/ed25519.c" \
+            "$src/crypto/blake2/blake2b-ref.c" -o "$build/nano-verify.so"
+          echo "NANO_BUILD_EXIT=$?"
+          ls -la "$build/nano-verify.so"
+
+          echo "=== STEP_3_COLLECT_LIMIT_2 ==="
+          set +e
+          python3 examples/atto-payout-snapshot/collect.py --nano-lib "$build/nano-verify.so" --limit 2 > "$work/snapshot.json" 2> "$work/snapshot.err"
+          collect_rc=$?
+          set -e
+          echo "COLLECT_EXIT=$collect_rc"
+          echo "UTC_END=$(date -u +%Y-%m-%dT%H:%M:%SZ)"
+          echo "=== COLLECT_STDERR_START ==="
+          cat "$work/snapshot.err"
+          echo "=== COLLECT_STDERR_END ==="
+          echo "=== COLLECT_STDOUT_START ==="
+          cat "$work/snapshot.json"
+          echo "=== COLLECT_STDOUT_END ==="
+          exit "$collect_rc"
