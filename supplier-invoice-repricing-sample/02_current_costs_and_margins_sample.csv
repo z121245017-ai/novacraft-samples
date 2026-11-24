@@ -1,0 +1,9 @@
+sku,old_unit_cost_ex_vat_gbp,current_retail_inc_vat_gbp,target_margin_pct,shop1_stocked,shop2_stocked
+DOG-FOOD-SALMON-2KG,7.10,14.99,42,yes,yes
+DOG-TREAT-DUCK-200G,2.05,4.99,50,yes,yes
+CAT-LITTER-CLUMP-10L,5.50,11.99,45,yes,no
+DOG-LEASH-REFLECT-M,5.00,11.99,50,yes,yes
+CAT-WAND-FEATHER,1.45,3.99,55,no,yes
+DOG-SHAMPOO-OAT-500ML,3.90,8.99,48,yes,yes
+WILD-BIRD-SEED-5KG,4.80,8.49,40,yes,yes
+PET-BOWL-SS-MED,2.80,6.99,50,yes,yes

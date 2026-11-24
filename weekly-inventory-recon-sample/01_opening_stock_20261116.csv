@@ -1,0 +1,9 @@
+warehouse,sku,product_name,opening_qty,unit_cost_usd,snapshot_date
+WH-MAIN,KIT-MUG-350-BLK,Insulated Travel Mug 350ml - Black,48,6.50,2026-11-16
+WH-MAIN,KIT-MUG-350-WHT,Insulated Travel Mug 350ml - White,32,6.50,2026-11-16
+WH-MAIN,CHG-GAN-65W-US,USB-C GaN Fast Charger 65W (US),60,11.20,2026-11-16
+WH-MAIN,CBL-USBC-2M-NYL,Braided USB-C Cable 2m,120,1.85,2026-11-16
+WH-MAIN,PET-BOWL-SS-M,Stainless Pet Bowl - Medium,25,4.10,2026-11-16
+WH-MAIN,PET-LEASH-6FT-RED,Reflective Dog Leash 6ft - Red,18,5.40,2026-11-16
+WH-MAIN,PKG-BOX-300X200,Corrugated Mailer Box 300x200mm,200,0.45,2026-11-16
+WH-MAIN,KIT-FILTER-4PK,Replacement Water Filter 4-Pack,14,9.00,2026-11-16

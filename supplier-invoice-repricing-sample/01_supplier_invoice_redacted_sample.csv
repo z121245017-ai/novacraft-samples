@@ -1,0 +1,9 @@
+invoice_line,supplier_code,sku,description,pack_unit,units_per_pack,pack_price_gbp,invoice_tax_basis,vat_rate_pct,notes
+L01,PET-DRY-2KG,DOG-FOOD-SALMON-2KG,Grain-Free Salmon Dog Food 2kg,case_of_6,6,46.80,ex_vat,20,Supplier Oct price rise
+L02,PET-TRT-200,DOG-TREAT-DUCK-200G,Duck Jerky Treats 200g,box_of_12,12,27.60,ex_vat,20,
+L03,CAT-LIT-10L,CAT-LITTER-CLUMP-10L,Clumping Plant Cat Litter 10L,single_bag,1,7.20,inc_vat,20,Invoice quotes inc-VAT!
+L04,DOG-LSH-6FT,DOG-LEASH-REFLECT-M,Reflective Nylon Dog Leash 6ft,pack_of_4,4,20.00,ex_vat,20,Unchanged cost
+L05,CAT-TOY-FTH,CAT-WAND-FEATHER,Interactive Feather Wand Toy,carton_of_20,20,34.00,ex_vat,20,Promo ended
+L06,PET-SHM-500,DOG-SHAMPOO-OAT-500ML,Oatmeal Sensitive Dog Shampoo 500ml,case_of_6,6,26.40,ex_vat,20,New bottle price
+L07,BRD-SD-5KG,WILD-BIRD-SEED-5KG,Wild Bird Seed Mix 5kg (Zero-Rated),single_sack,1,5.40,ex_vat,0,UK 0% VAT agricultural/bird feed
+L08,PET-BWL-SSM,PET-BOWL-SS-MED,Non-Slip Stainless Bowl Medium,pack_of_10,10,31.00,ex_vat,20,Steel surcharge

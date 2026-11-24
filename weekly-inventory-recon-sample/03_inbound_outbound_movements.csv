@@ -1,0 +1,8 @@
+warehouse,move_ref,order_ref,fulfillment_id,move_timestamp,type,sku,qty,note
+WH-MAIN,PO-410,,,2026-11-18 08:30,inbound_receipt,KIT-MUG-350-BLK,20,Supplier EastStar carton #1
+WH-MAIN,SHP-8801-1,ORD-8801,FUL-8801-1,2026-11-16 11:25,outbound_sale,KIT-MUG-350-BLK,6,WMS ship mirror of ORD-8801/FUL-8801-1
+WH-MAIN,SHP-8802-B,ORD-8802,FUL-8802-B,2026-11-17 16:00,outbound_sale,KIT-MUG-350-BLK,2,Second split fulfillment for ORD-8802
+WH-MAIN,PO-411,,,2026-11-19 10:00,inbound_receipt,CHG-GAN-65W-US,15,Partial PO receipt
+WH-MAIN,RET-102,,,2026-11-20 13:15,inbound_return,KIT-MUG-350-WHT,2,Restocked unopened customer return
+WH-MAIN,DMG-019,,,2026-11-21 15:40,outbound_damage,PET-BOWL-SS-M,1,Dented in stockroom
+WH-MAIN,USE-044,,,2026-11-22 17:00,outbound_internal,PKG-BOX-300X200,45,Weekly order packing consumption
