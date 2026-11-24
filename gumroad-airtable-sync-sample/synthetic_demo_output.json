@@ -1,0 +1,125 @@
+{
+  "reconciliation_stats": {
+    "checked": 3,
+    "backfilled_sales": 1,
+    "already_present": 2,
+    "backfilled_refunds": 0
+  },
+  "sales_row_count": 3,
+  "refunds_row_count": 1,
+  "sales": [
+    {
+      "sale_id": "SYN-SALE-1001",
+      "product_id": "PROD-SYN-A",
+      "product_name": "Synthetic Digital Pack A",
+      "buyer_email": "buyer1@example.test",
+      "sale_timestamp_utc": "2026-11-24T01:00:00Z",
+      "amount": 29.0,
+      "currency": "USD",
+      "is_test_purchase": true,
+      "source_channel": "gumroad_ping",
+      "has_refund": false,
+      "ingest_count": 3
+    },
+    {
+      "sale_id": "SYN-SALE-1002",
+      "product_id": "PROD-SYN-B",
+      "product_name": "Synthetic Digital Pack B",
+      "buyer_email": "buyer2@example.test",
+      "sale_timestamp_utc": "2026-11-24T01:15:00Z",
+      "amount": 45.0,
+      "currency": "GBP",
+      "is_test_purchase": false,
+      "source_channel": "gumroad_ping",
+      "has_refund": true,
+      "ingest_count": 2
+    },
+    {
+      "sale_id": "SYN-SALE-1003",
+      "product_id": "PROD-SYN-A",
+      "product_name": "Synthetic Digital Pack A",
+      "buyer_email": "buyer3@example.test",
+      "sale_timestamp_utc": "2026-11-24T01:40:00Z",
+      "amount": 19.5,
+      "currency": "EUR",
+      "is_test_purchase": false,
+      "source_channel": "reconciliation_backfill",
+      "has_refund": false,
+      "ingest_count": 1
+    }
+  ],
+  "refunds": [
+    {
+      "refund_id": "SYN-REF-2001",
+      "sale_id": "SYN-SALE-1002",
+      "refund_amount": 45.0,
+      "currency": "GBP",
+      "refunded_at_utc": "2026-11-24T02:00:00Z",
+      "reason": "customer_requested_refund",
+      "source_channel": "gumroad_refund_event"
+    }
+  ],
+  "audit_log": [
+    {
+      "action": "INSERTED_NEW_ROW",
+      "table": "Sales",
+      "sale_id": "SYN-SALE-1001",
+      "amount": 29.0,
+      "currency": "USD",
+      "source_channel": "gumroad_ping"
+    },
+    {
+      "action": "DEDUPED_UPSERT_NO_NEW_ROW",
+      "table": "Sales",
+      "sale_id": "SYN-SALE-1001",
+      "source_channel": "gumroad_ping_replay",
+      "ingest_count": 2
+    },
+    {
+      "action": "INSERTED_NEW_ROW",
+      "table": "Sales",
+      "sale_id": "SYN-SALE-1002",
+      "amount": 45.0,
+      "currency": "GBP",
+      "source_channel": "gumroad_ping"
+    },
+    {
+      "action": "INSERTED_REFUND_ROW",
+      "table": "Refunds",
+      "refund_id": "SYN-REF-2001",
+      "sale_id": "SYN-SALE-1002",
+      "refund_amount": 45.0,
+      "currency": "GBP",
+      "source_channel": "gumroad_refund_event"
+    },
+    {
+      "action": "DEDUPED_UPSERT_NO_NEW_ROW",
+      "table": "Sales",
+      "sale_id": "SYN-SALE-1001",
+      "source_channel": "reconciliation_backfill",
+      "ingest_count": 3
+    },
+    {
+      "action": "DEDUPED_UPSERT_NO_NEW_ROW",
+      "table": "Sales",
+      "sale_id": "SYN-SALE-1002",
+      "source_channel": "reconciliation_backfill",
+      "ingest_count": 2
+    },
+    {
+      "action": "DEDUPED_REFUND_NO_NEW_ROW",
+      "table": "Refunds",
+      "refund_id": "SYN-REF-2001",
+      "sale_id": "SYN-SALE-1002",
+      "source_channel": "reconciliation_backfill"
+    },
+    {
+      "action": "INSERTED_NEW_ROW",
+      "table": "Sales",
+      "sale_id": "SYN-SALE-1003",
+      "amount": 19.5,
+      "currency": "EUR",
+      "source_channel": "reconciliation_backfill"
+    }
+  ]
+}
