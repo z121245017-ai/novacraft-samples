@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Deterministic 1-page SINGLE-ISSUE negative-review digest generator for Read Aloud v1.83.0-v1.84.1 (Mozilla AMO).
 
-Focuses strictly on ONE pinpointed issue (`Expanded permission prompts & privacy perception driving uninstalls since v1.83.0`),
+Focuses strictly on ONE pinpointed issue (`5 of 11 low-rated text reviews mentioning permissions/privacy since v1.83.0`),
 explicitly reporting:
   - Target release cluster & deduped rating denominator (checked across versions for unique user_ids)
   - Independent user review permalinks (verified unique user_ids)
@@ -92,12 +92,12 @@ def main():
         "",
         "| Field | Verified Fact |",
         "| :--- | :--- |",
-        "| **Single Pinpointed Issue** | **Expanded permission prompts & data-collection perception driving uninstalls** (introduced in `v1.83.0`–`v1.84.1`, with users citing unannounced permission scope & missing changelog/source transparency) |",
+        "| **Single Pinpointed Issue** | **Expanded permission prompts & privacy concerns** (`5 of 11` low-rated text reviews in `v1.83.0`–`v1.84.1` mention permissions/privacy; 2 of those 5 also mention uninstalling) |",
         "| **Target Release Cluster** | Read Aloud **`v1.83.0`, `v1.83.1`, `v1.83.2`, `v1.84.1`** (released `2026-10-23` to `2026-10-27` UTC) |",
         "| **Verification Status** | **User-Reported Only — NOT Locally Reproduced** (`仅用户报告 / 未本地复现`; no fake local repro or manifest diff claimed) |",
         f"| **Sample Window (UTC)** | **`{dts[0]}` to `{dts[-1]}`** (across latest 150 AMO ratings fetched; cross-version deduped by `user.id`) |",
         f"| **Deduped Cluster Denominator** | **`{len(rows)}` unique user ratings** (`5★={scores[5]}`, `4★={scores[4]}`, `3★={scores[3]}`, `2★={scores[2]}`, `1★={scores[1]}`) -> **`{len(neg)}/{len(rows)}` (`{len(neg)/len(rows)*100:.1f}%`) `<=3★`** (`{len(neg_text)}` with text + `{len(neg_notext)}` star-only with cause **Unknown**) |",
-        f"| **Pinpointed Issue Frequency** | **`{len(perm_hits)} / {len(neg_text)}` text `<=3★` reviews** (`{len(perm_hits)}/{len(neg)}` all `<=3★`, **`{perm_unique_users}` independent Firefox AMO users**) |",
+        f"| **Pinpointed Issue Frequency** | **`{len(perm_hits)} of {len(neg_text)}` low-rated (`<=3★`) text reviews mentioning permissions/privacy** (`{len(perm_hits)}/{len(neg)}` all `<=3★`, **`{perm_unique_users}` independent Firefox AMO users**) |",
         "| **Other Storefronts (Chrome / Edge / Safari)** | **Unknown** (not fetched in this public AMO sample; version & frequency counts can be merged if your team provides authorized exports) |",
         "",
         "## 2. Independent Verifiable Review Sources (`5` Distinct Users, Signed-Out `HTTP 200`)",
