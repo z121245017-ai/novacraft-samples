@@ -1,0 +1,21 @@
+{
+  "model": "Synthetic desktop cable grommet",
+  "unit": "mm",
+  "method": "Computed from the saved ASCII OBJ, independent of the original mesh lists. No use of HardCuts or customer assets.",
+  "bounds": [
+    48.0,
+    48.0,
+    12.0
+  ],
+  "bore_mm": 32.0,
+  "vertices": 384,
+  "triangles": 768,
+  "edge_incidence_values": [
+    2
+  ],
+  "euler_characteristic": 0,
+  "volume_mesh_mm3": 6524.021,
+  "volume_design_mm3": 6534.513,
+  "relative_error_percent": -0.1606,
+  "sha256": "677680b98f6a49f176e86c0e73bca3a4a280e6103a2982890c26ff31c08d202e"
+}
