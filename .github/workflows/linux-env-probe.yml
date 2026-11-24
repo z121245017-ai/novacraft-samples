@@ -1,0 +1,15 @@
+name: Linux Env Probe
+on:
+  workflow_dispatch:
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Probe Linux toolchain
+        run: |
+          uname -a
+          cat /etc/os-release
+          git --version
+          python3 --version
+          cc --version | head -n 2
+          openssl version
