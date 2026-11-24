@@ -1,0 +1,66 @@
+{
+  "synthetic_demo": true,
+  "glb_file": "floorplan_1f_synthetic.glb",
+  "glb_bytes": 5900,
+  "tolerance_m": 0.01,
+  "node_count": 8,
+  "rule_out_display_and_hidden_geometry": {
+    "all_nodes_unit_scale": true,
+    "all_nodes_identity_rotation": true,
+    "unexpected_meshes_inside_d1_opening_below_2m": [],
+    "floor_slab_span_m": [
+      6.0,
+      4.0
+    ],
+    "conclusion": "Ruled out global scale/unit mismatch, viewer clipping, and hidden jamb meshes: all 8 nodes use scale=[1,1,1], Floor_Slab & Wall_North measure exact 6.000 m, and zero hidden meshes intrude below y=2.0 m inside Doorway D1."
+  },
+  "checks": [
+    {
+      "id": "CHK-01",
+      "name": "Exterior North Wall Overall Length (Wall_North)",
+      "category": "measurable_dimension",
+      "plan_spec_m": 6.0,
+      "model_measured_m": 6.0,
+      "delta_m": 0.0,
+      "status": "PASS",
+      "evidence": {
+        "mesh": "Wall_North",
+        "x_range_m": [
+          0.0,
+          6.0
+        ]
+      }
+    },
+    {
+      "id": "CHK-02",
+      "name": "Interior Partition Doorway D1 Clear Opening Width",
+      "category": "measurable_dimension",
+      "plan_spec_m": 0.9,
+      "model_measured_m": 0.82,
+      "delta_m": -0.08,
+      "status": "FAIL",
+      "classification": "source_to_model_geometry_defect",
+      "evidence": {
+        "west_mesh": "Wall_Partition_West",
+        "west_jamb_max_x_m": 2.54,
+        "west_plan_jamb_x_m": 2.5,
+        "east_mesh": "Wall_Partition_East",
+        "east_jamb_min_x_m": 3.36,
+        "east_plan_jamb_x_m": 3.4
+      }
+    },
+    {
+      "id": "CHK-03",
+      "name": "Ceiling / Wall Extrusion Height & Door D1 Lintel Elevation",
+      "category": "source_ambiguity",
+      "plan_spec_m": null,
+      "model_assumed_values_m": {
+        "wall_extrusion_height_m": 2.8,
+        "door_d1_lintel_soffit_m": 2.1
+      },
+      "status": "UNVERIFIABLE_FROM_2D_PLAN",
+      "classification": "source_drawing_ambiguity_not_model_bug",
+      "action_required": "Request section/elevation drawing or client specification before marking 2.800 m ceiling height or 2.100 m door head height as PASS or FAIL."
+    }
+  ]
+}
