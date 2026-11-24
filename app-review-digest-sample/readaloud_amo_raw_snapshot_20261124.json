@@ -1,0 +1,5202 @@
+{
+  "fetched_at_utc": "2026-11-24T10:32:22.466968+00:00",
+  "addon_slug": "read-aloud",
+  "versions_meta": {
+    "1.84.1": {
+      "id": 6630713,
+      "version": "1.84.1",
+      "released": "2026-10-27"
+    },
+    "1.84.0": {
+      "id": 6625012,
+      "version": "1.84.0",
+      "released": "2026-10-26"
+    },
+    "1.83.2": {
+      "id": 6614817,
+      "version": "1.83.2",
+      "released": "2026-10-23"
+    },
+    "1.83.1": {
+      "id": 6614591,
+      "version": "1.83.1",
+      "released": "2026-10-23"
+    },
+    "1.83.0": {
+      "id": 6613056,
+      "version": "1.83.0",
+      "released": "2026-10-23"
+    },
+    "1.82.0": {
+      "id": 6593350,
+      "version": "1.82.0",
+      "released": "2026-10-19"
+    },
+    "1.81.1": {
+      "id": 6143069,
+      "version": "1.81.1",
+      "released": "2026-02-06"
+    },
+    "1.81.0": {
+      "id": 6134510,
+      "version": "1.81.0",
+      "released": "2026-01-29"
+    },
+    "1.80.0": {
+      "id": 5979715,
+      "version": "1.80.0",
+      "released": "2025-06-30"
+    },
+    "1.79.2": {
+      "id": 5949487,
+      "version": "1.79.2",
+      "released": "2025-05-15"
+    },
+    "1.79.1": {
+      "id": 5943335,
+      "version": "1.79.1",
+      "released": "2025-05-06"
+    },
+    "1.78.0": {
+      "id": 5899442,
+      "version": "1.78.0",
+      "released": "2025-02-25"
+    },
+    "1.77.0": {
+      "id": 5861961,
+      "version": "1.77.0",
+      "released": "2024-12-16"
+    },
+    "1.76.0": {
+      "id": 5852284,
+      "version": "1.76.0",
+      "released": "2024-11-29"
+    },
+    "1.73.0": {
+      "id": 5806593,
+      "version": "1.73.0",
+      "released": "2024-09-11"
+    }
+  },
+  "ratings_fetched_count": 150,
+  "by_version": {
+    "1.84.1": [
+      {
+        "id": 2786870,
+        "addon": {
+          "id": 952959,
+          "slug": "read-aloud",
+          "name": {
+            "en-US": "Read Aloud: A Text to Speech Voice Reader",
+            "es-ES": "Texto A Voz",
+            "it": "Read Aloud: Un Lettore Vocale da Testo a Voce",
+            "vi": "Đọc Cho Tôi Nghe",
+            "zh-CN": "Read Aloud: 文本语音朗读助理",
+            "zh-TW": "Read Aloud: 文字語音朗讀助理"
+          },
+          "icon_url": "https://addons.mozilla.org/user-media/addon_icons/952/952959-64.png?modified=cccc5f2c"
+        },
+        "body": "It harvests so much info I uninstalled it",
+        "created": "2026-11-20T09:53:24Z",
+        "is_deleted": false,
+        "is_developer_reply": false,
+        "is_latest": true,
+        "previous_count": 0,
+        "user": {
+          "id": 20344501,
+          "name": "dave",
+          "url": "https://addons.mozilla.org/en-US/firefox/user/20344501/",
+          "username": "anonymous-6d102fe48a052c86806d9dc63285ed29"
+        },
+        "score": 1,
+        "reply": null,
+        "version": {
+          "id": 6630713,
+          "version": "1.84.1"
+        }
+      },
+      {
+        "id": 2786200,
+        "addon": {
+          "id": 952959,
+          "slug": "read-aloud",
+          "name": {
+            "en-US": "Read Aloud: A Text to Speech Voice Reader",
+            "es-ES": "Texto A Voz",
+            "it": "Read Aloud: Un Lettore Vocale da Testo a Voce",
+            "vi": "Đọc Cho Tôi Nghe",
+            "zh-CN": "Read Aloud: 文本语音朗读助理",
+            "zh-TW": "Read Aloud: 文字語音朗讀助理"
+          },
+          "icon_url": "https://addons.mozilla.org/user-media/addon_icons/952/952959-64.png?modified=cccc5f2c"
+        },
+        "body": null,
+        "created": "2026-11-18T11:26:51Z",
+        "is_deleted": false,
+        "is_developer_reply": false,
+        "is_latest": true,
+        "previous_count": 0,
+        "user": {
+          "id": 17850106,
+          "name": "Augida",
+          "url": "https://addons.mozilla.org/en-US/firefox/user/17850106/",
+          "username": "anonymous-269114fa48282f97cab1bf6a1e06d71c"
+        },
+        "score": 1,
+        "reply": null,
+        "version": {
+          "id": 6630713,
+          "version": "1.84.1"
+        }
+      },
+      {
+        "id": 2785710,
+        "addon": {
+          "id": 952959,
+          "slug": "read-aloud",
+          "name": {
+            "en-US": "Read Aloud: A Text to Speech Voice Reader",
+            "es-ES": "Texto A Voz",
+            "it": "Read Aloud: Un Lettore Vocale da Testo a Voce",
+            "vi": "Đọc Cho Tôi Nghe",
+            "zh-CN": "Read Aloud: 文本语音朗读助理",
+            "zh-TW": "Read Aloud: 文字語音朗讀助理"
+          },
+          "icon_url": "https://addons.mozilla.org/user-media/addon_icons/952/952959-64.png?modified=cccc5f2c"
+        },
+        "body": null,
+        "created": "2026-11-16T21:09:59Z",
+        "is_deleted": false,
+        "is_developer_reply": false,
+        "is_latest": true,
+        "previous_count": 0,
+        "user": {
+          "id": 20335207,
+          "name": "Rocky",
+          "url": "https://addons.mozilla.org/en-US/firefox/user/20335207/",
+          "username": "anonymous-3771e9d69a01d8c2cd1f65765b06ccb4"
+        },
+        "score": 1,
+        "reply": null,
+        "version": {
+          "id": 6630713,
+          "version": "1.84.1"
+        }
+      },
+      {
+        "id": 2785609,
+        "addon": {
+          "id": 952959,
+          "slug": "read-aloud",
+          "name": {
+            "en-US": "Read Aloud: A Text to Speech Voice Reader",
+            "es-ES": "Texto A Voz",
+            "it": "Read Aloud: Un Lettore Vocale da Testo a Voce",
+            "vi": "Đọc Cho Tôi Nghe",
+            "zh-CN": "Read Aloud: 文本语音朗读助理",
+            "zh-TW": "Read Aloud: 文字語音朗讀助理"
+          },
+          "icon_url": "https://addons.mozilla.org/user-media/addon_icons/952/952959-64.png?modified=cccc5f2c"
+        },
+        "body": null,
+        "created": "2026-11-16T13:35:53Z",
+        "is_deleted": false,
+        "is_developer_reply": false,
+        "is_latest": true,
+        "previous_count": 0,
+        "user": {
+          "id": 20334010,
+          "name": "ARIS",
+          "url": "https://addons.mozilla.org/en-US/firefox/user/20334010/",
+          "username": "anonymous-33e108aae16e9cb8fe665598d00b237f"
+        },
+        "score": 5,
+        "reply": null,
+        "version": {
+          "id": 6630713,
+          "version": "1.84.1"
+        }
+      },
+      {
+        "id": 2785446,
+        "addon": {
+          "id": 952959,
+          "slug": "read-aloud",
+          "name": {
+            "en-US": "Read Aloud: A Text to Speech Voice Reader",
+            "es-ES": "Texto A Voz",
+            "it": "Read Aloud: Un Lettore Vocale da Testo a Voce",
+            "vi": "Đọc Cho Tôi Nghe",
+            "zh-CN": "Read Aloud: 文本语音朗读助理",
+            "zh-TW": "Read Aloud: 文字語音朗讀助理"
+          },
+          "icon_url": "https://addons.mozilla.org/user-media/addon_icons/952/952959-64.png?modified=cccc5f2c"
+        },
+        "body": "BIG Crack on the speaker ... Wake up and fix it !",
+        "created": "2026-11-15T22:53:44Z",
+        "is_deleted": false,
+        "is_developer_reply": false,
+        "is_latest": true,
+        "previous_count": 0,
+        "user": {
+          "id": 20332630,
+          "name": "Firefox user 20332630",
+          "url": "https://addons.mozilla.org/en-US/firefox/user/20332630/",
+          "username": "anonymous-c1e31b2021a856ed01e74786c83e88e1"
+        },
+        "score": 1,
+        "reply": null,
+        "version": {
+          "id": 6630713,
+          "version": "1.84.1"
+        }
+      },
+      {
+        "id": 2785139,
+        "addon": {
+          "id": 952959,
+          "slug": "read-aloud",
+          "name": {
+            "en-US": "Read Aloud: A Text to Speech Voice Reader",
+            "es-ES": "Texto A Voz",
+            "it": "Read Aloud: Un Lettore Vocale da Testo a Voce",
+            "vi": "Đọc Cho Tôi Nghe",
+            "zh-CN": "Read Aloud: 文本语音朗读助理",
+            "zh-TW": "Read Aloud: 文字語音朗讀助理"
+          },
+          "icon_url": "https://addons.mozilla.org/user-media/addon_icons/952/952959-64.png?modified=cccc5f2c"
+        },
+        "body": null,
+        "created": "2026-11-15T04:18:25Z",
+        "is_deleted": false,
+        "is_developer_reply": false,
+        "is_latest": true,
+        "previous_count": 0,
+        "user": {
+          "id": 19978499,
+          "name": "RedIxora",
+          "url": "https://addons.mozilla.org/en-US/firefox/user/19978499/",
+          "username": "anonymous-bdc1d5a14132473cbfa6cdac6e1955a4"
+        },
+        "score": 4,
+        "reply": null,
+        "version": {
+          "id": 6630713,
+          "version": "1.84.1"
+        }
+      },
+      {
+        "id": 2784705,
+        "addon": {
+          "id": 952959,
+          "slug": "read-aloud",
+          "name": {
+            "en-US": "Read Aloud: A Text to Speech Voice Reader",
+            "es-ES": "Texto A Voz",
+            "it": "Read Aloud: Un Lettore Vocale da Testo a Voce",
+            "vi": "Đọc Cho Tôi Nghe",
+            "zh-CN": "Read Aloud: 文本语音朗读助理",
+            "zh-TW": "Read Aloud: 文字語音朗讀助理"
+          },
+          "icon_url": "https://addons.mozilla.org/user-media/addon_icons/952/952959-64.png?modified=cccc5f2c"
+        },
+        "body": "This gets the job done, but very very poorly. I use it with pdfs and it doesn't scan it all right (like, randomly turns \"of\" into \"o\")  which might be a problem with the PDFs but is still annoying. I use google translate voice because it's the best and it still does random extra long pauses for commas... I tried some AI readers and they all had more processing time (using those resources...) and still have pauses at the end of every line, so it looks like it doesn't get much better than this for PDF readers in 2026.",
+        "created": "2026-11-14T03:41:44Z",
+        "is_deleted": false,
+        "is_developer_reply": false,
+        "is_latest": true,
+        "previous_count": 0,
+        "user": {
+          "id": 20327729,
+          "name": "izch",
+          "url": "https://addons.mozilla.org/en-US/firefox/user/20327729/",
+          "username": "anonymous-ac0d36a78c339cec80fbbaca54c456ec"
+        },
+        "score": 3,
+        "reply": null,
+        "version": {
+          "id": 6630713,
+          "version": "1.84.1"
+        }
+      },
+      {
+        "id": 2784550,
+        "addon": {
+          "id": 952959,
+          "slug": "read-aloud",
+          "name": {
+            "en-US": "Read Aloud: A Text to Speech Voice Reader",
+            "es-ES": "Texto A Voz",
+            "it": "Read Aloud: Un Lettore Vocale da Testo a Voce",
+            "vi": "Đọc Cho Tôi Nghe",
+            "zh-CN": "Read Aloud: 文本语音朗读助理",
+            "zh-TW": "Read Aloud: 文字語音朗讀助理"
+          },
+          "icon_url": "https://addons.mozilla.org/user-media/addon_icons/952/952959-64.png?modified=cccc5f2c"
+        },
+        "body": "Could you please add more natural-sounding pronunciation for Nepali?",
+        "created": "2026-11-13T15:43:56Z",
+        "is_deleted": false,
+        "is_developer_reply": false,
+        "is_latest": true,
+        "previous_count": 0,
+        "user": {
+          "id": 20326374,
+          "name": "Rudraksh",
+          "url": "https://addons.mozilla.org/en-US/firefox/user/20326374/",
+          "username": "anonymous-5a7b4bd065ecb4a7f3e3728fbc9b7ba8"
+        },
+        "score": 3,
+        "reply": null,
+        "version": {
+          "id": 6630713,
+          "version": "1.84.1"
+        }
+      },
+      {
+        "id": 2778274,
+        "addon": {
+          "id": 952959,
+          "slug": "read-aloud",
+          "name": {
+            "en-US": "Read Aloud: A Text to Speech Voice Reader",
+            "es-ES": "Texto A Voz",
+            "it": "Read Aloud: Un Lettore Vocale da Testo a Voce",
+            "vi": "Đọc Cho Tôi Nghe",
+            "zh-CN": "Read Aloud: 文本语音朗读助理",
+            "zh-TW": "Read Aloud: 文字語音朗讀助理"
+          },
+          "icon_url": "https://addons.mozilla.org/user-media/addon_icons/952/952959-64.png?modified=cccc5f2c"
+        },
+        "body": "Great update, much more usable, a ton of voices!",
+        "created": "2026-10-27T23:57:57Z",
+        "is_deleted": false,
+        "is_developer_reply": false,
+        "is_latest": true,
+        "previous_count": 0,
+        "user": {
+          "id": 20282245,
+          "name": "m3",
+          "url": "https://addons.mozilla.org/en-US/firefox/user/20282245/",
+          "username": "anonymous-90acfa850f05a1f20c5b05c92c1b9e63"
+        },
+        "score": 5,
+        "reply": null,
+        "version": {
+          "id": 6630713,
+          "version": "1.84.1"
+        }
+      }
+    ],
+    "1.83.2": [
+      {
+        "id": 2775800,
+        "addon": {
+          "id": 952959,
+          "slug": "read-aloud",
+          "name": {
+            "en-US": "Read Aloud: A Text to Speech Voice Reader",
+            "es-ES": "Texto A Voz",
+            "it": "Read Aloud: Un Lettore Vocale da Testo a Voce",
+            "vi": "Đọc Cho Tôi Nghe",
+            "zh-CN": "Read Aloud: 文本语音朗读助理",
+            "zh-TW": "Read Aloud: 文字語音朗讀助理"
+          },
+          "icon_url": "https://addons.mozilla.org/user-media/addon_icons/952/952959-64.png?modified=cccc5f2c"
+        },
+        "body": "You absolutely must uninstall it straight away after the update!!! Data leech!!! \n\nI’ve been using it for ages. It’s now collecting massive amounts of data that aren’t necessary. Why on earth would a text-to-speech service need to know which websites I usually visit?",
+        "created": "2026-10-24T07:09:20Z",
+        "is_deleted": false,
+        "is_developer_reply": false,
+        "is_latest": true,
+        "previous_count": 0,
+        "user": {
+          "id": 20270940,
+          "name": "Firefox user 20270940",
+          "url": "https://addons.mozilla.org/en-US/firefox/user/20270940/",
+          "username": "anonymous-19936ce028a15a54ce5d7beb3887fd01"
+        },
+        "score": 1,
+        "reply": null,
+        "version": {
+          "id": 6614817,
+          "version": "1.83.2"
+        }
+      },
+      {
+        "id": 2775770,
+        "addon": {
+          "id": 952959,
+          "slug": "read-aloud",
+          "name": {
+            "en-US": "Read Aloud: A Text to Speech Voice Reader",
+            "es-ES": "Texto A Voz",
+            "it": "Read Aloud: Un Lettore Vocale da Testo a Voce",
+            "vi": "Đọc Cho Tôi Nghe",
+            "zh-CN": "Read Aloud: 文本语音朗读助理",
+            "zh-TW": "Read Aloud: 文字語音朗讀助理"
+          },
+          "icon_url": "https://addons.mozilla.org/user-media/addon_icons/952/952959-64.png?modified=cccc5f2c"
+        },
+        "body": "totally stopped working after the update",
+        "created": "2026-10-24T04:02:04Z",
+        "is_deleted": false,
+        "is_developer_reply": false,
+        "is_latest": true,
+        "previous_count": 0,
+        "user": {
+          "id": 18344574,
+          "name": "Firefox user 18344574",
+          "url": "https://addons.mozilla.org/en-US/firefox/user/18344574/",
+          "username": "anonymous-d7711727d65c2c086871970c900bbb8e"
+        },
+        "score": 1,
+        "reply": null,
+        "version": {
+          "id": 6614817,
+          "version": "1.83.2"
+        }
+      }
+    ],
+    "1.83.1": [
+      {
+        "id": 2775721,
+        "addon": {
+          "id": 952959,
+          "slug": "read-aloud",
+          "name": {
+            "en-US": "Read Aloud: A Text to Speech Voice Reader",
+            "es-ES": "Texto A Voz",
+            "it": "Read Aloud: Un Lettore Vocale da Testo a Voce",
+            "vi": "Đọc Cho Tôi Nghe",
+            "zh-CN": "Read Aloud: 文本语音朗读助理",
+            "zh-TW": "Read Aloud: 文字語音朗讀助理"
+          },
+          "icon_url": "https://addons.mozilla.org/user-media/addon_icons/952/952959-64.png?modified=cccc5f2c"
+        },
+        "body": "I've been using this extension/add-on for a long time. It's had its ups and downs, but as of today after I was prompted to update it on mobile, it stopped working completely",
+        "created": "2026-10-23T23:05:38Z",
+        "is_deleted": false,
+        "is_developer_reply": false,
+        "is_latest": true,
+        "previous_count": 0,
+        "user": {
+          "id": 16531945,
+          "name": "Firefox user 16531945",
+          "url": "https://addons.mozilla.org/en-US/firefox/user/16531945/",
+          "username": "anonymous-321c55ff276650a454dfd676c7e40f24"
+        },
+        "score": 1,
+        "reply": null,
+        "version": {
+          "id": 6614591,
+          "version": "1.83.1"
+        }
+      },
+      {
+        "id": 2775715,
+        "addon": {
+          "id": 952959,
+          "slug": "read-aloud",
+          "name": {
+            "en-US": "Read Aloud: A Text to Speech Voice Reader",
+            "es-ES": "Texto A Voz",
+            "it": "Read Aloud: Un Lettore Vocale da Testo a Voce",
+            "vi": "Đọc Cho Tôi Nghe",
+            "zh-CN": "Read Aloud: 文本语音朗读助理",
+            "zh-TW": "Read Aloud: 文字語音朗讀助理"
+          },
+          "icon_url": "https://addons.mozilla.org/user-media/addon_icons/952/952959-64.png?modified=cccc5f2c"
+        },
+        "body": null,
+        "created": "2026-10-23T22:51:06Z",
+        "is_deleted": false,
+        "is_developer_reply": false,
+        "is_latest": true,
+        "previous_count": 0,
+        "user": {
+          "id": 18973546,
+          "name": "Firefox user 18973546",
+          "url": "https://addons.mozilla.org/en-US/firefox/user/18973546/",
+          "username": "anonymous-09f9bf09b7fd31bb2dcb8e62babd56af"
+        },
+        "score": 4,
+        "reply": null,
+        "version": {
+          "id": 6614591,
+          "version": "1.83.1"
+        }
+      }
+    ],
+    "1.83.0": [
+      {
+        "id": 2775694,
+        "addon": {
+          "id": 952959,
+          "slug": "read-aloud",
+          "name": {
+            "en-US": "Read Aloud: A Text to Speech Voice Reader",
+            "es-ES": "Texto A Voz",
+            "it": "Read Aloud: Un Lettore Vocale da Testo a Voce",
+            "vi": "Đọc Cho Tôi Nghe",
+            "zh-CN": "Read Aloud: 文本语音朗读助理",
+            "zh-TW": "Read Aloud: 文字語音朗讀助理"
+          },
+          "icon_url": "https://addons.mozilla.org/user-media/addon_icons/952/952959-64.png?modified=cccc5f2c"
+        },
+        "body": "Multiple permissions requests were added recently, with the most recent one being especially egregious. Requesting access to browsing history and personally identifiable information? No explanation. Website link does not link to source code to inspect the changes.\n\nI am uninstalling. Too suspicious for me.",
+        "created": "2026-10-23T21:29:28Z",
+        "is_deleted": false,
+        "is_developer_reply": false,
+        "is_latest": true,
+        "previous_count": 0,
+        "user": {
+          "id": 12275591,
+          "name": "Techman",
+          "url": "https://addons.mozilla.org/en-US/firefox/user/12275591/",
+          "username": "Techman"
+        },
+        "score": 1,
+        "reply": null,
+        "version": {
+          "id": 6613056,
+          "version": "1.83.0"
+        }
+      },
+      {
+        "id": 2775681,
+        "addon": {
+          "id": 952959,
+          "slug": "read-aloud",
+          "name": {
+            "en-US": "Read Aloud: A Text to Speech Voice Reader",
+            "es-ES": "Texto A Voz",
+            "it": "Read Aloud: Un Lettore Vocale da Testo a Voce",
+            "vi": "Đọc Cho Tôi Nghe",
+            "zh-CN": "Read Aloud: 文本语音朗读助理",
+            "zh-TW": "Read Aloud: 文字語音朗讀助理"
+          },
+          "icon_url": "https://addons.mozilla.org/user-media/addon_icons/952/952959-64.png?modified=cccc5f2c"
+        },
+        "body": "Damn, the new requested authorisations are extensive…",
+        "created": "2026-10-23T20:56:05Z",
+        "is_deleted": false,
+        "is_developer_reply": false,
+        "is_latest": true,
+        "previous_count": 0,
+        "user": {
+          "id": 18013694,
+          "name": "ok",
+          "url": "https://addons.mozilla.org/en-US/firefox/user/18013694/",
+          "username": "anonymous-c5c6f35f23baed99e81ac81170990e23"
+        },
+        "score": 3,
+        "reply": null,
+        "version": {
+          "id": 6613056,
+          "version": "1.83.0"
+        }
+      },
+      {
+        "id": 2775675,
+        "addon": {
+          "id": 952959,
+          "slug": "read-aloud",
+          "name": {
+            "en-US": "Read Aloud: A Text to Speech Voice Reader",
+            "es-ES": "Texto A Voz",
+            "it": "Read Aloud: Un Lettore Vocale da Testo a Voce",
+            "vi": "Đọc Cho Tôi Nghe",
+            "zh-CN": "Read Aloud: 文本语音朗读助理",
+            "zh-TW": "Read Aloud: 文字語音朗讀助理"
+          },
+          "icon_url": "https://addons.mozilla.org/user-media/addon_icons/952/952959-64.png?modified=cccc5f2c"
+        },
+        "body": "App is usually great but new version isn't working Ive had to reinstall the previous version, im sure the dev will fix it",
+        "created": "2026-10-23T20:39:46Z",
+        "is_deleted": false,
+        "is_developer_reply": false,
+        "is_latest": true,
+        "previous_count": 0,
+        "user": {
+          "id": 20269987,
+          "name": "Firefox user 20269987",
+          "url": "https://addons.mozilla.org/en-US/firefox/user/20269987/",
+          "username": "anonymous-2c5b11b7e5408fa024838a55bdc54037"
+        },
+        "score": 2,
+        "reply": null,
+        "version": {
+          "id": 6613056,
+          "version": "1.83.0"
+        }
+      },
+      {
+        "id": 2775664,
+        "addon": {
+          "id": 952959,
+          "slug": "read-aloud",
+          "name": {
+            "en-US": "Read Aloud: A Text to Speech Voice Reader",
+            "es-ES": "Texto A Voz",
+            "it": "Read Aloud: Un Lettore Vocale da Testo a Voce",
+            "vi": "Đọc Cho Tôi Nghe",
+            "zh-CN": "Read Aloud: 文本语音朗读助理",
+            "zh-TW": "Read Aloud: 文字語音朗讀助理"
+          },
+          "icon_url": "https://addons.mozilla.org/user-media/addon_icons/952/952959-64.png?modified=cccc5f2c"
+        },
+        "body": "Ive used this for a long time. I dont know what id do without it",
+        "created": "2026-10-23T19:34:05Z",
+        "is_deleted": false,
+        "is_developer_reply": false,
+        "is_latest": true,
+        "previous_count": 0,
+        "user": {
+          "id": 18360808,
+          "name": "Firefox user 18360808",
+          "url": "https://addons.mozilla.org/en-US/firefox/user/18360808/",
+          "username": "anonymous-606d0497e99324cf61c3518a60d53b58"
+        },
+        "score": 5,
+        "reply": null,
+        "version": {
+          "id": 6613056,
+          "version": "1.83.0"
+        }
+      },
+      {
+        "id": 2775647,
+        "addon": {
+          "id": 952959,
+          "slug": "read-aloud",
+          "name": {
+            "en-US": "Read Aloud: A Text to Speech Voice Reader",
+            "es-ES": "Texto A Voz",
+            "it": "Read Aloud: Un Lettore Vocale da Testo a Voce",
+            "vi": "Đọc Cho Tôi Nghe",
+            "zh-CN": "Read Aloud: 文本语音朗读助理",
+            "zh-TW": "Read Aloud: 文字語音朗讀助理"
+          },
+          "icon_url": "https://addons.mozilla.org/user-media/addon_icons/952/952959-64.png?modified=cccc5f2c"
+        },
+        "body": "Really suspicious permission requests were added",
+        "created": "2026-10-23T17:32:47Z",
+        "is_deleted": false,
+        "is_developer_reply": false,
+        "is_latest": true,
+        "previous_count": 0,
+        "user": {
+          "id": 20269675,
+          "name": "Firefox user 20269675",
+          "url": "https://addons.mozilla.org/en-US/firefox/user/20269675/",
+          "username": "anonymous-de7f7ad1070bc7cf5ae1f597e7de6636"
+        },
+        "score": 2,
+        "reply": null,
+        "version": {
+          "id": 6613056,
+          "version": "1.83.0"
+        }
+      }
+    ],
+    "1.82.0": [
+      {
+        "id": 2773371,
+        "addon": {
+          "id": 952959,
+          "slug": "read-aloud",
+          "name": {
+            "en-US": "Read Aloud: A Text to Speech Voice Reader",
+            "es-ES": "Texto A Voz",
+            "it": "Read Aloud: Un Lettore Vocale da Testo a Voce",
+            "vi": "Đọc Cho Tôi Nghe",
+            "zh-CN": "Read Aloud: 文本语音朗读助理",
+            "zh-TW": "Read Aloud: 文字語音朗讀助理"
+          },
+          "icon_url": "https://addons.mozilla.org/user-media/addon_icons/952/952959-64.png?modified=cccc5f2c"
+        },
+        "body": null,
+        "created": "2026-10-19T08:52:56Z",
+        "is_deleted": false,
+        "is_developer_reply": false,
+        "is_latest": true,
+        "previous_count": 0,
+        "user": {
+          "id": 11404176,
+          "name": "Firefox user 11404176",
+          "url": "https://addons.mozilla.org/en-US/firefox/user/11404176/",
+          "username": "bootch777"
+        },
+        "score": 5,
+        "reply": null,
+        "version": {
+          "id": 6593350,
+          "version": "1.82.0"
+        }
+      }
+    ],
+    "1.81.1": [
+      {
+        "id": 2755832,
+        "addon": {
+          "id": 952959,
+          "slug": "read-aloud",
+          "name": {
+            "en-US": "Read Aloud: A Text to Speech Voice Reader",
+            "es-ES": "Texto A Voz",
+            "it": "Read Aloud: Un Lettore Vocale da Testo a Voce",
+            "vi": "Đọc Cho Tôi Nghe",
+            "zh-CN": "Read Aloud: 文本语音朗读助理",
+            "zh-TW": "Read Aloud: 文字語音朗讀助理"
+          },
+          "icon_url": "https://addons.mozilla.org/user-media/addon_icons/952/952959-64.png?modified=cccc5f2c"
+        },
+        "body": null,
+        "created": "2026-10-04T02:59:44Z",
+        "is_deleted": false,
+        "is_developer_reply": false,
+        "is_latest": true,
+        "previous_count": 0,
+        "user": {
+          "id": 16469534,
+          "name": "Firefox user 16469534",
+          "url": "https://addons.mozilla.org/en-US/firefox/user/16469534/",
+          "username": "anonymous-f201e4e804178625579793902661aecb"
+        },
+        "score": 5,
+        "reply": null,
+        "version": {
+          "id": 6143069,
+          "version": "1.81.1"
+        }
+      },
+      {
+        "id": 2751088,
+        "addon": {
+          "id": 952959,
+          "slug": "read-aloud",
+          "name": {
+            "en-US": "Read Aloud: A Text to Speech Voice Reader",
+            "es-ES": "Texto A Voz",
+            "it": "Read Aloud: Un Lettore Vocale da Testo a Voce",
+            "vi": "Đọc Cho Tôi Nghe",
+            "zh-CN": "Read Aloud: 文本语音朗读助理",
+            "zh-TW": "Read Aloud: 文字語音朗讀助理"
+          },
+          "icon_url": "https://addons.mozilla.org/user-media/addon_icons/952/952959-64.png?modified=cccc5f2c"
+        },
+        "body": null,
+        "created": "2026-09-24T15:08:24Z",
+        "is_deleted": false,
+        "is_developer_reply": false,
+        "is_latest": true,
+        "previous_count": 0,
+        "user": {
+          "id": 20176612,
+          "name": "hsmarie04",
+          "url": "https://addons.mozilla.org/en-US/firefox/user/20176612/",
+          "username": "anonymous-b4b0a6fb7dd3d13b20031d279c254310"
+        },
+        "score": 3,
+        "reply": null,
+        "version": {
+          "id": 6143069,
+          "version": "1.81.1"
+        }
+      },
+      {
+        "id": 2750928,
+        "addon": {
+          "id": 952959,
+          "slug": "read-aloud",
+          "name": {
+            "en-US": "Read Aloud: A Text to Speech Voice Reader",
+            "es-ES": "Texto A Voz",
+            "it": "Read Aloud: Un Lettore Vocale da Testo a Voce",
+            "vi": "Đọc Cho Tôi Nghe",
+            "zh-CN": "Read Aloud: 文本语音朗读助理",
+            "zh-TW": "Read Aloud: 文字語音朗讀助理"
+          },
+          "icon_url": "https://addons.mozilla.org/user-media/addon_icons/952/952959-64.png?modified=cccc5f2c"
+        },
+        "body": "It is not possible to hide the cluttering icon from the toolbar.",
+        "created": "2026-09-24T06:27:04Z",
+        "is_deleted": false,
+        "is_developer_reply": false,
+        "is_latest": true,
+        "previous_count": 0,
+        "user": {
+          "id": 168585,
+          "name": "loukote",
+          "url": "https://addons.mozilla.org/en-US/firefox/user/168585/",
+          "username": "loukote"
+        },
+        "score": 3,
+        "reply": null,
+        "version": {
+          "id": 6143069,
+          "version": "1.81.1"
+        }
+      },
+      {
+        "id": 2748980,
+        "addon": {
+          "id": 952959,
+          "slug": "read-aloud",
+          "name": {
+            "en-US": "Read Aloud: A Text to Speech Voice Reader",
+            "es-ES": "Texto A Voz",
+            "it": "Read Aloud: Un Lettore Vocale da Testo a Voce",
+            "vi": "Đọc Cho Tôi Nghe",
+            "zh-CN": "Read Aloud: 文本语音朗读助理",
+            "zh-TW": "Read Aloud: 文字語音朗讀助理"
+          },
+          "icon_url": "https://addons.mozilla.org/user-media/addon_icons/952/952959-64.png?modified=cccc5f2c"
+        },
+        "body": "Speed is painfully slow, please add 2x speed",
+        "created": "2026-09-19T11:42:39Z",
+        "is_deleted": false,
+        "is_developer_reply": false,
+        "is_latest": true,
+        "previous_count": 0,
+        "user": {
+          "id": 17762959,
+          "name": "Kis Albert",
+          "url": "https://addons.mozilla.org/en-US/firefox/user/17762959/",
+          "username": "anonymous-7c1791a29427ea0afe6073a590e7b9c0"
+        },
+        "score": 2,
+        "reply": null,
+        "version": {
+          "id": 6143069,
+          "version": "1.81.1"
+        }
+      },
+      {
+        "id": 2747935,
+        "addon": {
+          "id": 952959,
+          "slug": "read-aloud",
+          "name": {
+            "en-US": "Read Aloud: A Text to Speech Voice Reader",
+            "es-ES": "Texto A Voz",
+            "it": "Read Aloud: Un Lettore Vocale da Testo a Voce",
+            "vi": "Đọc Cho Tôi Nghe",
+            "zh-CN": "Read Aloud: 文本语音朗读助理",
+            "zh-TW": "Read Aloud: 文字語音朗讀助理"
+          },
+          "icon_url": "https://addons.mozilla.org/user-media/addon_icons/952/952959-64.png?modified=cccc5f2c"
+        },
+        "body": null,
+        "created": "2026-09-16T19:23:16Z",
+        "is_deleted": false,
+        "is_developer_reply": false,
+        "is_latest": true,
+        "previous_count": 0,
+        "user": {
+          "id": 17281305,
+          "name": "Danis Barsant",
+          "url": "https://addons.mozilla.org/en-US/firefox/user/17281305/",
+          "username": "anonymous-4560e0002cca55cc0f76f6b340815631"
+        },
+        "score": 4,
+        "reply": null,
+        "version": {
+          "id": 6143069,
+          "version": "1.81.1"
+        }
+      },
+      {
+        "id": 2747428,
+        "addon": {
+          "id": 952959,
+          "slug": "read-aloud",
+          "name": {
+            "en-US": "Read Aloud: A Text to Speech Voice Reader",
+            "es-ES": "Texto A Voz",
+            "it": "Read Aloud: Un Lettore Vocale da Testo a Voce",
+            "vi": "Đọc Cho Tôi Nghe",
+            "zh-CN": "Read Aloud: 文本语音朗读助理",
+            "zh-TW": "Read Aloud: 文字語音朗讀助理"
+          },
+          "icon_url": "https://addons.mozilla.org/user-media/addon_icons/952/952959-64.png?modified=cccc5f2c"
+        },
+        "body": "My eyesight is deteriorating and I have found Read Aloud to be a lifeline because it is simple to use, unlike a couple of the more sophisticated/complex key command driven tools that require frequent practising to memorize the commands.\nWhile there are sometimes mispronunciations of known words, the usefulness of the tool far outweighs any disadvantages.\nAlso, while selecting the voice, I didn't come across any accents that could be identified as truly Canadian, but I have managed to find one that is fairly close.",
+        "created": "2026-09-15T16:42:08Z",
+        "is_deleted": false,
+        "is_developer_reply": false,
+        "is_latest": true,
+        "previous_count": 0,
+        "user": {
+          "id": 20167318,
+          "name": "Mike",
+          "url": "https://addons.mozilla.org/en-US/firefox/user/20167318/",
+          "username": "anonymous-8df5427e7b30d7b7489887e5acc5a585"
+        },
+        "score": 5,
+        "reply": null,
+        "version": {
+          "id": 6143069,
+          "version": "1.81.1"
+        }
+      },
+      {
+        "id": 2746890,
+        "addon": {
+          "id": 952959,
+          "slug": "read-aloud",
+          "name": {
+            "en-US": "Read Aloud: A Text to Speech Voice Reader",
+            "es-ES": "Texto A Voz",
+            "it": "Read Aloud: Un Lettore Vocale da Testo a Voce",
+            "vi": "Đọc Cho Tôi Nghe",
+            "zh-CN": "Read Aloud: 文本语音朗读助理",
+            "zh-TW": "Read Aloud: 文字語音朗讀助理"
+          },
+          "icon_url": "https://addons.mozilla.org/user-media/addon_icons/952/952959-64.png?modified=cccc5f2c"
+        },
+        "body": null,
+        "created": "2026-09-14T12:30:31Z",
+        "is_deleted": false,
+        "is_developer_reply": false,
+        "is_latest": true,
+        "previous_count": 0,
+        "user": {
+          "id": 20080259,
+          "name": "sealchan",
+          "url": "https://addons.mozilla.org/en-US/firefox/user/20080259/",
+          "username": "anonymous-cf01a1c2550dd21a7acefd0d46e3c3b8"
+        },
+        "score": 5,
+        "reply": null,
+        "version": {
+          "id": 6143069,
+          "version": "1.81.1"
+        }
+      },
+      {
+        "id": 2746313,
+        "addon": {
+          "id": 952959,
+          "slug": "read-aloud",
+          "name": {
+            "en-US": "Read Aloud: A Text to Speech Voice Reader",
+            "es-ES": "Texto A Voz",
+            "it": "Read Aloud: Un Lettore Vocale da Testo a Voce",
+            "vi": "Đọc Cho Tôi Nghe",
+            "zh-CN": "Read Aloud: 文本语音朗读助理",
+            "zh-TW": "Read Aloud: 文字語音朗讀助理"
+          },
+          "icon_url": "https://addons.mozilla.org/user-media/addon_icons/952/952959-64.png?modified=cccc5f2c"
+        },
+        "body": "t works very well and supports various languages",
+        "created": "2026-09-12T19:33:14Z",
+        "is_deleted": false,
+        "is_developer_reply": false,
+        "is_latest": true,
+        "previous_count": 0,
+        "user": {
+          "id": 20161229,
+          "name": "ice moon",
+          "url": "https://addons.mozilla.org/en-US/firefox/user/20161229/",
+          "username": "anonymous-6f56304203e69c1aaa3af448903fd28e"
+        },
+        "score": 5,
+        "reply": null,
+        "version": {
+          "id": 6143069,
+          "version": "1.81.1"
+        }
+      },
+      {
+        "id": 2745863,
+        "addon": {
+          "id": 952959,
+          "slug": "read-aloud",
+          "name": {
+            "en-US": "Read Aloud: A Text to Speech Voice Reader",
+            "es-ES": "Texto A Voz",
+            "it": "Read Aloud: Un Lettore Vocale da Testo a Voce",
+            "vi": "Đọc Cho Tôi Nghe",
+            "zh-CN": "Read Aloud: 文本语音朗读助理",
+            "zh-TW": "Read Aloud: 文字語音朗讀助理"
+          },
+          "icon_url": "https://addons.mozilla.org/user-media/addon_icons/952/952959-64.png?modified=cccc5f2c"
+        },
+        "body": "WORST voices ever! You can't listen to this! AND it's not free either now.",
+        "created": "2026-09-11T18:03:55Z",
+        "is_deleted": false,
+        "is_developer_reply": false,
+        "is_latest": true,
+        "previous_count": 0,
+        "user": {
+          "id": 16527463,
+          "name": "Firefox user 16527463",
+          "url": "https://addons.mozilla.org/en-US/firefox/user/16527463/",
+          "username": "anonymous-880094f91bdc9b768f447bb90dfad484"
+        },
+        "score": 1,
+        "reply": null,
+        "version": {
+          "id": 6143069,
+          "version": "1.81.1"
+        }
+      },
+      {
+        "id": 2745803,
+        "addon": {
+          "id": 952959,
+          "slug": "read-aloud",
+          "name": {
+            "en-US": "Read Aloud: A Text to Speech Voice Reader",
+            "es-ES": "Texto A Voz",
+            "it": "Read Aloud: Un Lettore Vocale da Testo a Voce",
+            "vi": "Đọc Cho Tôi Nghe",
+            "zh-CN": "Read Aloud: 文本语音朗读助理",
+            "zh-TW": "Read Aloud: 文字語音朗讀助理"
+          },
+          "icon_url": "https://addons.mozilla.org/user-media/addon_icons/952/952959-64.png?modified=cccc5f2c"
+        },
+        "body": "Why do you need to access my data and active URLs?",
+        "created": "2026-09-11T14:48:09Z",
+        "is_deleted": false,
+        "is_developer_reply": false,
+        "is_latest": true,
+        "previous_count": 0,
+        "user": {
+          "id": 20158874,
+          "name": "V.avfv",
+          "url": "https://addons.mozilla.org/en-US/firefox/user/20158874/",
+          "username": "anonymous-e2bff342ee732efcbe3142ebba955774"
+        },
+        "score": 1,
+        "reply": null,
+        "version": {
+          "id": 6143069,
+          "version": "1.81.1"
+        }
+      },
+      {
+        "id": 2745230,
+        "addon": {
+          "id": 952959,
+          "slug": "read-aloud",
+          "name": {
+            "en-US": "Read Aloud: A Text to Speech Voice Reader",
+            "es-ES": "Texto A Voz",
+            "it": "Read Aloud: Un Lettore Vocale da Testo a Voce",
+            "vi": "Đọc Cho Tôi Nghe",
+            "zh-CN": "Read Aloud: 文本语音朗读助理",
+            "zh-TW": "Read Aloud: 文字語音朗讀助理"
+          },
+          "icon_url": "https://addons.mozilla.org/user-media/addon_icons/952/952959-64.png?modified=cccc5f2c"
+        },
+        "body": null,
+        "created": "2026-09-10T13:02:07Z",
+        "is_deleted": false,
+        "is_developer_reply": false,
+        "is_latest": true,
+        "previous_count": 0,
+        "user": {
+          "id": 50504,
+          "name": " Nicolap",
+          "url": "https://addons.mozilla.org/en-US/firefox/user/50504/",
+          "username": "nicolap"
+        },
+        "score": 1,
+        "reply": null,
+        "version": {
+          "id": 6143069,
+          "version": "1.81.1"
+        }
+      },
+      {
+        "id": 2744104,
+        "addon": {
+          "id": 952959,
+          "slug": "read-aloud",
+          "name": {
+            "en-US": "Read Aloud: A Text to Speech Voice Reader",
+            "es-ES": "Texto A Voz",
+            "it": "Read Aloud: Un Lettore Vocale da Testo a Voce",
+            "vi": "Đọc Cho Tôi Nghe",
+            "zh-CN": "Read Aloud: 文本语音朗读助理",
+            "zh-TW": "Read Aloud: 文字語音朗讀助理"
+          },
+          "icon_url": "https://addons.mozilla.org/user-media/addon_icons/952/952959-64.png?modified=cccc5f2c"
+        },
+        "body": null,
+        "created": "2026-09-07T17:13:41Z",
+        "is_deleted": false,
+        "is_developer_reply": false,
+        "is_latest": true,
+        "previous_count": 0,
+        "user": {
+          "id": 20150530,
+          "name": "Firefox user 20150530",
+          "url": "https://addons.mozilla.org/en-US/firefox/user/20150530/",
+          "username": "anonymous-c8986c0817e322429b0d10c4f1437a7d"
+        },
+        "score": 1,
+        "reply": null,
+        "version": {
+          "id": 6143069,
+          "version": "1.81.1"
+        }
+      },
+      {
+        "id": 2743455,
+        "addon": {
+          "id": 952959,
+          "slug": "read-aloud",
+          "name": {
+            "en-US": "Read Aloud: A Text to Speech Voice Reader",
+            "es-ES": "Texto A Voz",
+            "it": "Read Aloud: Un Lettore Vocale da Testo a Voce",
+            "vi": "Đọc Cho Tôi Nghe",
+            "zh-CN": "Read Aloud: 文本语音朗读助理",
+            "zh-TW": "Read Aloud: 文字語音朗讀助理"
+          },
+          "icon_url": "https://addons.mozilla.org/user-media/addon_icons/952/952959-64.png?modified=cccc5f2c"
+        },
+        "body": null,
+        "created": "2026-09-06T04:14:37Z",
+        "is_deleted": false,
+        "is_developer_reply": false,
+        "is_latest": true,
+        "previous_count": 0,
+        "user": {
+          "id": 18142561,
+          "name": "Firefox user 18142561",
+          "url": "https://addons.mozilla.org/en-US/firefox/user/18142561/",
+          "username": "anonymous-9789b48c37ccd52ca20c8df09dbf4010"
+        },
+        "score": 5,
+        "reply": null,
+        "version": {
+          "id": 6143069,
+          "version": "1.81.1"
+        }
+      },
+      {
+        "id": 2740022,
+        "addon": {
+          "id": 952959,
+          "slug": "read-aloud",
+          "name": {
+            "en-US": "Read Aloud: A Text to Speech Voice Reader",
+            "es-ES": "Texto A Voz",
+            "it": "Read Aloud: Un Lettore Vocale da Testo a Voce",
+            "vi": "Đọc Cho Tôi Nghe",
+            "zh-CN": "Read Aloud: 文本语音朗读助理",
+            "zh-TW": "Read Aloud: 文字語音朗讀助理"
+          },
+          "icon_url": "https://addons.mozilla.org/user-media/addon_icons/952/952959-64.png?modified=cccc5f2c"
+        },
+        "body": null,
+        "created": "2026-08-26T17:56:43Z",
+        "is_deleted": false,
+        "is_developer_reply": false,
+        "is_latest": true,
+        "previous_count": 0,
+        "user": {
+          "id": 20121652,
+          "name": "Firefox user 20121652",
+          "url": "https://addons.mozilla.org/en-US/firefox/user/20121652/",
+          "username": "anonymous-86554694ced6ab1cff1a5ae6c4bf194f"
+        },
+        "score": 5,
+        "reply": null,
+        "version": {
+          "id": 6143069,
+          "version": "1.81.1"
+        }
+      },
+      {
+        "id": 2739949,
+        "addon": {
+          "id": 952959,
+          "slug": "read-aloud",
+          "name": {
+            "en-US": "Read Aloud: A Text to Speech Voice Reader",
+            "es-ES": "Texto A Voz",
+            "it": "Read Aloud: Un Lettore Vocale da Testo a Voce",
+            "vi": "Đọc Cho Tôi Nghe",
+            "zh-CN": "Read Aloud: 文本语音朗读助理",
+            "zh-TW": "Read Aloud: 文字語音朗讀助理"
+          },
+          "icon_url": "https://addons.mozilla.org/user-media/addon_icons/952/952959-64.png?modified=cccc5f2c"
+        },
+        "body": "IMPORTANT: Default voice is GARBAGE. For English \"GoogleStandard British English (Benjamin)\" was very good. You have to give special permission for it to work, which was not super easy. Follow these instructions:\n\n1. Click the permission thing in the settings that show up when you choose this voice.\n2. Press the grant permission button.\n3. A new page will open. Do NOT press the blue button that says \"Try text-to-speech free\" or \"Start free\". Scroll down and press the other blue button that says \"Speak it\" or similar.\n4. Click \"I am not a robot\" and do a stupid test thing such as clicking on all boxes that contain bridges.\n5. Now everything should work and you can close these tabs!",
+        "created": "2026-08-26T13:19:34Z",
+        "is_deleted": false,
+        "is_developer_reply": false,
+        "is_latest": true,
+        "previous_count": 0,
+        "user": {
+          "id": 20123245,
+          "name": "FelixS",
+          "url": "https://addons.mozilla.org/en-US/firefox/user/20123245/",
+          "username": "anonymous-0cf5472a5d2e40236dcabb3be83ea2be"
+        },
+        "score": 5,
+        "reply": null,
+        "version": {
+          "id": 6143069,
+          "version": "1.81.1"
+        }
+      },
+      {
+        "id": 2733549,
+        "addon": {
+          "id": 952959,
+          "slug": "read-aloud",
+          "name": {
+            "en-US": "Read Aloud: A Text to Speech Voice Reader",
+            "es-ES": "Texto A Voz",
+            "it": "Read Aloud: Un Lettore Vocale da Testo a Voce",
+            "vi": "Đọc Cho Tôi Nghe",
+            "zh-CN": "Read Aloud: 文本语音朗读助理",
+            "zh-TW": "Read Aloud: 文字語音朗讀助理"
+          },
+          "icon_url": "https://addons.mozilla.org/user-media/addon_icons/952/952959-64.png?modified=cccc5f2c"
+        },
+        "body": "La extensión se salta frases, palabras en muchas paginas, tienes que revisar a mano que se salta",
+        "created": "2026-08-02T01:49:36Z",
+        "is_deleted": false,
+        "is_developer_reply": false,
+        "is_latest": true,
+        "previous_count": 0,
+        "user": {
+          "id": 19308578,
+          "name": "kandosh27",
+          "url": "https://addons.mozilla.org/en-US/firefox/user/19308578/",
+          "username": "anonymous-34c34dace467a626a8ad067185d9ff2f"
+        },
+        "score": 1,
+        "reply": null,
+        "version": {
+          "id": 6143069,
+          "version": "1.81.1"
+        }
+      },
+      {
+        "id": 2732876,
+        "addon": {
+          "id": 952959,
+          "slug": "read-aloud",
+          "name": {
+            "en-US": "Read Aloud: A Text to Speech Voice Reader",
+            "es-ES": "Texto A Voz",
+            "it": "Read Aloud: Un Lettore Vocale da Testo a Voce",
+            "vi": "Đọc Cho Tôi Nghe",
+            "zh-CN": "Read Aloud: 文本语音朗读助理",
+            "zh-TW": "Read Aloud: 文字語音朗讀助理"
+          },
+          "icon_url": "https://addons.mozilla.org/user-media/addon_icons/952/952959-64.png?modified=cccc5f2c"
+        },
+        "body": "randomly stutters, loads for a minute, then gives up. \nskips the first ten words.\ncan't see short sentences unless highlighted.\nworse than useless.",
+        "created": "2026-07-30T14:23:10Z",
+        "is_deleted": false,
+        "is_developer_reply": false,
+        "is_latest": true,
+        "previous_count": 0,
+        "user": {
+          "id": 20068112,
+          "name": "rift",
+          "url": "https://addons.mozilla.org/en-US/firefox/user/20068112/",
+          "username": "anonymous-3388f6df81b9ce8eb91d224c90bd468c"
+        },
+        "score": 1,
+        "reply": null,
+        "version": {
+          "id": 6143069,
+          "version": "1.81.1"
+        }
+      },
+      {
+        "id": 2732237,
+        "addon": {
+          "id": 952959,
+          "slug": "read-aloud",
+          "name": {
+            "en-US": "Read Aloud: A Text to Speech Voice Reader",
+            "es-ES": "Texto A Voz",
+            "it": "Read Aloud: Un Lettore Vocale da Testo a Voce",
+            "vi": "Đọc Cho Tôi Nghe",
+            "zh-CN": "Read Aloud: 文本语音朗读助理",
+            "zh-TW": "Read Aloud: 文字語音朗讀助理"
+          },
+          "icon_url": "https://addons.mozilla.org/user-media/addon_icons/952/952959-64.png?modified=cccc5f2c"
+        },
+        "body": null,
+        "created": "2026-07-28T07:31:36Z",
+        "is_deleted": false,
+        "is_developer_reply": false,
+        "is_latest": true,
+        "previous_count": 0,
+        "user": {
+          "id": 14934088,
+          "name": "Firefox user 14934088",
+          "url": "https://addons.mozilla.org/en-US/firefox/user/14934088/",
+          "username": "anonymous-975af34c1f58ccce871ef14a3b6387b2"
+        },
+        "score": 5,
+        "reply": null,
+        "version": {
+          "id": 6143069,
+          "version": "1.81.1"
+        }
+      },
+      {
+        "id": 2731641,
+        "addon": {
+          "id": 952959,
+          "slug": "read-aloud",
+          "name": {
+            "en-US": "Read Aloud: A Text to Speech Voice Reader",
+            "es-ES": "Texto A Voz",
+            "it": "Read Aloud: Un Lettore Vocale da Testo a Voce",
+            "vi": "Đọc Cho Tôi Nghe",
+            "zh-CN": "Read Aloud: 文本语音朗读助理",
+            "zh-TW": "Read Aloud: 文字語音朗讀助理"
+          },
+          "icon_url": "https://addons.mozilla.org/user-media/addon_icons/952/952959-64.png?modified=cccc5f2c"
+        },
+        "body": null,
+        "created": "2026-07-26T02:22:41Z",
+        "is_deleted": false,
+        "is_developer_reply": false,
+        "is_latest": true,
+        "previous_count": 0,
+        "user": {
+          "id": 17789734,
+          "name": "Firefox user 17789734",
+          "url": "https://addons.mozilla.org/en-US/firefox/user/17789734/",
+          "username": "anonymous-0c904ec3d44ca120748b39481927c99a"
+        },
+        "score": 5,
+        "reply": null,
+        "version": {
+          "id": 6143069,
+          "version": "1.81.1"
+        }
+      },
+      {
+        "id": 2731067,
+        "addon": {
+          "id": 952959,
+          "slug": "read-aloud",
+          "name": {
+            "en-US": "Read Aloud: A Text to Speech Voice Reader",
+            "es-ES": "Texto A Voz",
+            "it": "Read Aloud: Un Lettore Vocale da Testo a Voce",
+            "vi": "Đọc Cho Tôi Nghe",
+            "zh-CN": "Read Aloud: 文本语音朗读助理",
+            "zh-TW": "Read Aloud: 文字語音朗讀助理"
+          },
+          "icon_url": "https://addons.mozilla.org/user-media/addon_icons/952/952959-64.png?modified=cccc5f2c"
+        },
+        "body": null,
+        "created": "2026-07-24T04:26:51Z",
+        "is_deleted": false,
+        "is_developer_reply": false,
+        "is_latest": true,
+        "previous_count": 0,
+        "user": {
+          "id": 15559737,
+          "name": "enes",
+          "url": "https://addons.mozilla.org/en-US/firefox/user/15559737/",
+          "username": "anonymous-547f5cb859952a1912299b89de78cd2d"
+        },
+        "score": 5,
+        "reply": null,
+        "version": {
+          "id": 6143069,
+          "version": "1.81.1"
+        }
+      },
+      {
+        "id": 2730006,
+        "addon": {
+          "id": 952959,
+          "slug": "read-aloud",
+          "name": {
+            "en-US": "Read Aloud: A Text to Speech Voice Reader",
+            "es-ES": "Texto A Voz",
+            "it": "Read Aloud: Un Lettore Vocale da Testo a Voce",
+            "vi": "Đọc Cho Tôi Nghe",
+            "zh-CN": "Read Aloud: 文本语音朗读助理",
+            "zh-TW": "Read Aloud: 文字語音朗讀助理"
+          },
+          "icon_url": "https://addons.mozilla.org/user-media/addon_icons/952/952959-64.png?modified=cccc5f2c"
+        },
+        "body": null,
+        "created": "2026-07-20T15:54:02Z",
+        "is_deleted": false,
+        "is_developer_reply": false,
+        "is_latest": true,
+        "previous_count": 0,
+        "user": {
+          "id": 20046492,
+          "name": "Syd",
+          "url": "https://addons.mozilla.org/en-US/firefox/user/20046492/",
+          "username": "anonymous-abb15712fbf939417e7dba2ea0687d3b"
+        },
+        "score": 5,
+        "reply": null,
+        "version": {
+          "id": 6143069,
+          "version": "1.81.1"
+        }
+      },
+      {
+        "id": 2725739,
+        "addon": {
+          "id": 952959,
+          "slug": "read-aloud",
+          "name": {
+            "en-US": "Read Aloud: A Text to Speech Voice Reader",
+            "es-ES": "Texto A Voz",
+            "it": "Read Aloud: Un Lettore Vocale da Testo a Voce",
+            "vi": "Đọc Cho Tôi Nghe",
+            "zh-CN": "Read Aloud: 文本语音朗读助理",
+            "zh-TW": "Read Aloud: 文字語音朗讀助理"
+          },
+          "icon_url": "https://addons.mozilla.org/user-media/addon_icons/952/952959-64.png?modified=cccc5f2c"
+        },
+        "body": null,
+        "created": "2026-07-04T12:43:12Z",
+        "is_deleted": false,
+        "is_developer_reply": false,
+        "is_latest": true,
+        "previous_count": 0,
+        "user": {
+          "id": 19723669,
+          "name": "斗小马",
+          "url": "https://addons.mozilla.org/en-US/firefox/user/19723669/",
+          "username": "anonymous-bebec04357581053aa1d2ae562d3a636"
+        },
+        "score": 4,
+        "reply": null,
+        "version": {
+          "id": 6143069,
+          "version": "1.81.1"
+        }
+      },
+      {
+        "id": 2725306,
+        "addon": {
+          "id": 952959,
+          "slug": "read-aloud",
+          "name": {
+            "en-US": "Read Aloud: A Text to Speech Voice Reader",
+            "es-ES": "Texto A Voz",
+            "it": "Read Aloud: Un Lettore Vocale da Testo a Voce",
+            "vi": "Đọc Cho Tôi Nghe",
+            "zh-CN": "Read Aloud: 文本语音朗读助理",
+            "zh-TW": "Read Aloud: 文字語音朗讀助理"
+          },
+          "icon_url": "https://addons.mozilla.org/user-media/addon_icons/952/952959-64.png?modified=cccc5f2c"
+        },
+        "body": null,
+        "created": "2026-07-02T16:40:02Z",
+        "is_deleted": false,
+        "is_developer_reply": false,
+        "is_latest": true,
+        "previous_count": 0,
+        "user": {
+          "id": 14009137,
+          "name": "Firefox user 14009137",
+          "url": "https://addons.mozilla.org/en-US/firefox/user/14009137/",
+          "username": "anonymous-6486cb4a92645db48e39b91e6fca6bd2"
+        },
+        "score": 5,
+        "reply": null,
+        "version": {
+          "id": 6143069,
+          "version": "1.81.1"
+        }
+      },
+      {
+        "id": 2723021,
+        "addon": {
+          "id": 952959,
+          "slug": "read-aloud",
+          "name": {
+            "en-US": "Read Aloud: A Text to Speech Voice Reader",
+            "es-ES": "Texto A Voz",
+            "it": "Read Aloud: Un Lettore Vocale da Testo a Voce",
+            "vi": "Đọc Cho Tôi Nghe",
+            "zh-CN": "Read Aloud: 文本语音朗读助理",
+            "zh-TW": "Read Aloud: 文字語音朗讀助理"
+          },
+          "icon_url": "https://addons.mozilla.org/user-media/addon_icons/952/952959-64.png?modified=cccc5f2c"
+        },
+        "body": "A ferramenta é simples e prática, isso é ótimo, mas eu também adoraria poder mexer na velocidade do texto",
+        "created": "2026-06-24T02:22:30Z",
+        "is_deleted": false,
+        "is_developer_reply": false,
+        "is_latest": true,
+        "previous_count": 0,
+        "user": {
+          "id": 20000295,
+          "name": "Pedro",
+          "url": "https://addons.mozilla.org/en-US/firefox/user/20000295/",
+          "username": "anonymous-610d16560fab2ca78de61a73afa4ca93"
+        },
+        "score": 5,
+        "reply": null,
+        "version": {
+          "id": 6143069,
+          "version": "1.81.1"
+        }
+      },
+      {
+        "id": 2719885,
+        "addon": {
+          "id": 952959,
+          "slug": "read-aloud",
+          "name": {
+            "en-US": "Read Aloud: A Text to Speech Voice Reader",
+            "es-ES": "Texto A Voz",
+            "it": "Read Aloud: Un Lettore Vocale da Testo a Voce",
+            "vi": "Đọc Cho Tôi Nghe",
+            "zh-CN": "Read Aloud: 文本语音朗读助理",
+            "zh-TW": "Read Aloud: 文字語音朗讀助理"
+          },
+          "icon_url": "https://addons.mozilla.org/user-media/addon_icons/952/952959-64.png?modified=cccc5f2c"
+        },
+        "body": null,
+        "created": "2026-06-12T21:30:38Z",
+        "is_deleted": false,
+        "is_developer_reply": false,
+        "is_latest": true,
+        "previous_count": 0,
+        "user": {
+          "id": 17080858,
+          "name": "PK",
+          "url": "https://addons.mozilla.org/en-US/firefox/user/17080858/",
+          "username": "anonymous-5e1a79ce92352812ca9513b90d150027"
+        },
+        "score": 5,
+        "reply": null,
+        "version": {
+          "id": 6143069,
+          "version": "1.81.1"
+        }
+      },
+      {
+        "id": 2719114,
+        "addon": {
+          "id": 952959,
+          "slug": "read-aloud",
+          "name": {
+            "en-US": "Read Aloud: A Text to Speech Voice Reader",
+            "es-ES": "Texto A Voz",
+            "it": "Read Aloud: Un Lettore Vocale da Testo a Voce",
+            "vi": "Đọc Cho Tôi Nghe",
+            "zh-CN": "Read Aloud: 文本语音朗读助理",
+            "zh-TW": "Read Aloud: 文字語音朗讀助理"
+          },
+          "icon_url": "https://addons.mozilla.org/user-media/addon_icons/952/952959-64.png?modified=cccc5f2c"
+        },
+        "body": "Amazing! Who needs Speechify when you can use OpenAI voices directly!",
+        "created": "2026-06-09T19:03:52Z",
+        "is_deleted": false,
+        "is_developer_reply": false,
+        "is_latest": true,
+        "previous_count": 0,
+        "user": {
+          "id": 19088102,
+          "name": "Daniel Vartanian",
+          "url": "https://addons.mozilla.org/en-US/firefox/user/19088102/",
+          "username": "anonymous-6b6e66f5ef20a9fab57c93eb705de524"
+        },
+        "score": 5,
+        "reply": null,
+        "version": {
+          "id": 6143069,
+          "version": "1.81.1"
+        }
+      },
+      {
+        "id": 2718381,
+        "addon": {
+          "id": 952959,
+          "slug": "read-aloud",
+          "name": {
+            "en-US": "Read Aloud: A Text to Speech Voice Reader",
+            "es-ES": "Texto A Voz",
+            "it": "Read Aloud: Un Lettore Vocale da Testo a Voce",
+            "vi": "Đọc Cho Tôi Nghe",
+            "zh-CN": "Read Aloud: 文本语音朗读助理",
+            "zh-TW": "Read Aloud: 文字語音朗讀助理"
+          },
+          "icon_url": "https://addons.mozilla.org/user-media/addon_icons/952/952959-64.png?modified=cccc5f2c"
+        },
+        "body": "thank you!",
+        "created": "2026-06-07T07:08:52Z",
+        "is_deleted": false,
+        "is_developer_reply": false,
+        "is_latest": true,
+        "previous_count": 0,
+        "user": {
+          "id": 19814859,
+          "name": "Firefox user 19814859",
+          "url": "https://addons.mozilla.org/en-US/firefox/user/19814859/",
+          "username": "anonymous-715924a7a9b9eb6049e9df3962413938"
+        },
+        "score": 5,
+        "reply": null,
+        "version": {
+          "id": 6143069,
+          "version": "1.81.1"
+        }
+      },
+      {
+        "id": 2716889,
+        "addon": {
+          "id": 952959,
+          "slug": "read-aloud",
+          "name": {
+            "en-US": "Read Aloud: A Text to Speech Voice Reader",
+            "es-ES": "Texto A Voz",
+            "it": "Read Aloud: Un Lettore Vocale da Testo a Voce",
+            "vi": "Đọc Cho Tôi Nghe",
+            "zh-CN": "Read Aloud: 文本语音朗读助理",
+            "zh-TW": "Read Aloud: 文字語音朗讀助理"
+          },
+          "icon_url": "https://addons.mozilla.org/user-media/addon_icons/952/952959-64.png?modified=cccc5f2c"
+        },
+        "body": null,
+        "created": "2026-06-01T10:24:53Z",
+        "is_deleted": false,
+        "is_developer_reply": false,
+        "is_latest": true,
+        "previous_count": 0,
+        "user": {
+          "id": 19908280,
+          "name": "Firefox user 19908280",
+          "url": "https://addons.mozilla.org/en-US/firefox/user/19908280/",
+          "username": "anonymous-894c5b58718374cba877786a3d0f9a09"
+        },
+        "score": 5,
+        "reply": null,
+        "version": {
+          "id": 6143069,
+          "version": "1.81.1"
+        }
+      },
+      {
+        "id": 2713208,
+        "addon": {
+          "id": 952959,
+          "slug": "read-aloud",
+          "name": {
+            "en-US": "Read Aloud: A Text to Speech Voice Reader",
+            "es-ES": "Texto A Voz",
+            "it": "Read Aloud: Un Lettore Vocale da Testo a Voce",
+            "vi": "Đọc Cho Tôi Nghe",
+            "zh-CN": "Read Aloud: 文本语音朗读助理",
+            "zh-TW": "Read Aloud: 文字語音朗讀助理"
+          },
+          "icon_url": "https://addons.mozilla.org/user-media/addon_icons/952/952959-64.png?modified=cccc5f2c"
+        },
+        "body": "So happy with this, I use it to read e-books which I open in the browser.",
+        "created": "2026-05-17T07:28:58Z",
+        "is_deleted": false,
+        "is_developer_reply": false,
+        "is_latest": true,
+        "previous_count": 0,
+        "user": {
+          "id": 19934496,
+          "name": "lamppost",
+          "url": "https://addons.mozilla.org/en-US/firefox/user/19934496/",
+          "username": "anonymous-15e9d2c80af686111545e8d256e4cc8b"
+        },
+        "score": 5,
+        "reply": null,
+        "version": {
+          "id": 6143069,
+          "version": "1.81.1"
+        }
+      },
+      {
+        "id": 2712981,
+        "addon": {
+          "id": 952959,
+          "slug": "read-aloud",
+          "name": {
+            "en-US": "Read Aloud: A Text to Speech Voice Reader",
+            "es-ES": "Texto A Voz",
+            "it": "Read Aloud: Un Lettore Vocale da Testo a Voce",
+            "vi": "Đọc Cho Tôi Nghe",
+            "zh-CN": "Read Aloud: 文本语音朗读助理",
+            "zh-TW": "Read Aloud: 文字語音朗讀助理"
+          },
+          "icon_url": "https://addons.mozilla.org/user-media/addon_icons/952/952959-64.png?modified=cccc5f2c"
+        },
+        "body": "It would be great if there were also a context menu option called \"Read aloud from here.\"\nWith the standard columns, it always pauses briefly at the end of each line. If it would first analyze the entire sentence and then read it aloud in one go, that would be much more pleasant. I would find pauses between sentences much more pleasant!",
+        "created": "2026-05-16T10:55:16Z",
+        "is_deleted": false,
+        "is_developer_reply": false,
+        "is_latest": true,
+        "previous_count": 0,
+        "user": {
+          "id": 19911961,
+          "name": "kone",
+          "url": "https://addons.mozilla.org/en-US/firefox/user/19911961/",
+          "username": "anonymous-d80a688e16d018c733c04683df252172"
+        },
+        "score": 3,
+        "reply": null,
+        "version": {
+          "id": 6143069,
+          "version": "1.81.1"
+        }
+      },
+      {
+        "id": 2711112,
+        "addon": {
+          "id": 952959,
+          "slug": "read-aloud",
+          "name": {
+            "en-US": "Read Aloud: A Text to Speech Voice Reader",
+            "es-ES": "Texto A Voz",
+            "it": "Read Aloud: Un Lettore Vocale da Testo a Voce",
+            "vi": "Đọc Cho Tôi Nghe",
+            "zh-CN": "Read Aloud: 文本语音朗读助理",
+            "zh-TW": "Read Aloud: 文字語音朗讀助理"
+          },
+          "icon_url": "https://addons.mozilla.org/user-media/addon_icons/952/952959-64.png?modified=cccc5f2c"
+        },
+        "body": "I was having high hopes at first, but then I learned it doesn't let you use the different voices for TTS you may have installed on Windows, for example. I WANT TO LISTEN TO ANDREW'S VOICE DAMMIT (seriously, his TTS voice is really nice on the ears, you'll find it in Narrator settings as a \"Natural\" voice)",
+        "created": "2026-05-08T21:20:49Z",
+        "is_deleted": false,
+        "is_developer_reply": false,
+        "is_latest": true,
+        "previous_count": 0,
+        "user": {
+          "id": 19919960,
+          "name": "sodar",
+          "url": "https://addons.mozilla.org/en-US/firefox/user/19919960/",
+          "username": "anonymous-2faa5ae5ef3be97274f1c9d92088540f"
+        },
+        "score": 1,
+        "reply": null,
+        "version": {
+          "id": 6143069,
+          "version": "1.81.1"
+        }
+      },
+      {
+        "id": 2709835,
+        "addon": {
+          "id": 952959,
+          "slug": "read-aloud",
+          "name": {
+            "en-US": "Read Aloud: A Text to Speech Voice Reader",
+            "es-ES": "Texto A Voz",
+            "it": "Read Aloud: Un Lettore Vocale da Testo a Voce",
+            "vi": "Đọc Cho Tôi Nghe",
+            "zh-CN": "Read Aloud: 文本语音朗读助理",
+            "zh-TW": "Read Aloud: 文字語音朗讀助理"
+          },
+          "icon_url": "https://addons.mozilla.org/user-media/addon_icons/952/952959-64.png?modified=cccc5f2c"
+        },
+        "body": null,
+        "created": "2026-05-04T04:04:04Z",
+        "is_deleted": false,
+        "is_developer_reply": false,
+        "is_latest": true,
+        "previous_count": 0,
+        "user": {
+          "id": 18832245,
+          "name": "星絢未央",
+          "url": "https://addons.mozilla.org/en-US/firefox/user/18832245/",
+          "username": "anonymous-2a9b7d3db3a89dcc654bf472175c83a8"
+        },
+        "score": 1,
+        "reply": null,
+        "version": {
+          "id": 6143069,
+          "version": "1.81.1"
+        }
+      },
+      {
+        "id": 2709773,
+        "addon": {
+          "id": 952959,
+          "slug": "read-aloud",
+          "name": {
+            "en-US": "Read Aloud: A Text to Speech Voice Reader",
+            "es-ES": "Texto A Voz",
+            "it": "Read Aloud: Un Lettore Vocale da Testo a Voce",
+            "vi": "Đọc Cho Tôi Nghe",
+            "zh-CN": "Read Aloud: 文本语音朗读助理",
+            "zh-TW": "Read Aloud: 文字語音朗讀助理"
+          },
+          "icon_url": "https://addons.mozilla.org/user-media/addon_icons/952/952959-64.png?modified=cccc5f2c"
+        },
+        "body": "Keeps skipping sentences - Very annoying. The standard voice sound like a choking tin frog. The AI voices are substantially better. But why is it skipping sentences?",
+        "created": "2026-05-03T21:17:20Z",
+        "is_deleted": false,
+        "is_developer_reply": false,
+        "is_latest": true,
+        "previous_count": 0,
+        "user": {
+          "id": 19911092,
+          "name": "BoxFolve",
+          "url": "https://addons.mozilla.org/en-US/firefox/user/19911092/",
+          "username": "anonymous-3a4a919aee376fc2aec8c849bdbecf5e"
+        },
+        "score": 2,
+        "reply": null,
+        "version": {
+          "id": 6143069,
+          "version": "1.81.1"
+        }
+      },
+      {
+        "id": 2705963,
+        "addon": {
+          "id": 952959,
+          "slug": "read-aloud",
+          "name": {
+            "en-US": "Read Aloud: A Text to Speech Voice Reader",
+            "es-ES": "Texto A Voz",
+            "it": "Read Aloud: Un Lettore Vocale da Testo a Voce",
+            "vi": "Đọc Cho Tôi Nghe",
+            "zh-CN": "Read Aloud: 文本语音朗读助理",
+            "zh-TW": "Read Aloud: 文字語音朗讀助理"
+          },
+          "icon_url": "https://addons.mozilla.org/user-media/addon_icons/952/952959-64.png?modified=cccc5f2c"
+        },
+        "body": "Just want to counter the people rating one star and saying there's only awful voices. There are really good ones, particularly supertonic. Just download them in the settings and activate them. Seriously, try opening the settings before review bombing.\n\nMoreover, the native PDF support is quite good. PDFs can cause trouble with this sort of software, yet it works great here.",
+        "created": "2026-04-20T00:16:03Z",
+        "is_deleted": false,
+        "is_developer_reply": false,
+        "is_latest": true,
+        "previous_count": 0,
+        "user": {
+          "id": 19525384,
+          "name": "Didactic Traveller",
+          "url": "https://addons.mozilla.org/en-US/firefox/user/19525384/",
+          "username": "anonymous-597616bae09301bfce9a84bd336cd01f"
+        },
+        "score": 5,
+        "reply": null,
+        "version": {
+          "id": 6143069,
+          "version": "1.81.1"
+        }
+      },
+      {
+        "id": 2686372,
+        "addon": {
+          "id": 952959,
+          "slug": "read-aloud",
+          "name": {
+            "en-US": "Read Aloud: A Text to Speech Voice Reader",
+            "es-ES": "Texto A Voz",
+            "it": "Read Aloud: Un Lettore Vocale da Testo a Voce",
+            "vi": "Đọc Cho Tôi Nghe",
+            "zh-CN": "Read Aloud: 文本语音朗读助理",
+            "zh-TW": "Read Aloud: 文字語音朗讀助理"
+          },
+          "icon_url": "https://addons.mozilla.org/user-media/addon_icons/952/952959-64.png?modified=cccc5f2c"
+        },
+        "body": "It's awesome, you can use different voices for TTS and can setup useful shortcut to run it.",
+        "created": "2026-04-16T17:36:21Z",
+        "is_deleted": false,
+        "is_developer_reply": false,
+        "is_latest": true,
+        "previous_count": 0,
+        "user": {
+          "id": 18919280,
+          "name": "d4nchq",
+          "url": "https://addons.mozilla.org/en-US/firefox/user/18919280/",
+          "username": "anonymous-043bb10fa06eced5b4897ef82ce4d7d9"
+        },
+        "score": 5,
+        "reply": null,
+        "version": {
+          "id": 6143069,
+          "version": "1.81.1"
+        }
+      },
+      {
+        "id": 2674288,
+        "addon": {
+          "id": 952959,
+          "slug": "read-aloud",
+          "name": {
+            "en-US": "Read Aloud: A Text to Speech Voice Reader",
+            "es-ES": "Texto A Voz",
+            "it": "Read Aloud: Un Lettore Vocale da Testo a Voce",
+            "vi": "Đọc Cho Tôi Nghe",
+            "zh-CN": "Read Aloud: 文本语音朗读助理",
+            "zh-TW": "Read Aloud: 文字語音朗讀助理"
+          },
+          "icon_url": "https://addons.mozilla.org/user-media/addon_icons/952/952959-64.png?modified=cccc5f2c"
+        },
+        "body": "This extension was great! I have problems seeing font on dark websites because there isn't a light mode toggle on some of them. So, I use to use this to read what was posted. However, I was going to use it again today, it now asks for permission for all open url data when before it just did what it was meant to do. No thank you to that. It'd be great if it returned back to what it originally did.",
+        "created": "2026-04-15T10:05:16Z",
+        "is_deleted": false,
+        "is_developer_reply": false,
+        "is_latest": true,
+        "previous_count": 0,
+        "user": {
+          "id": 6128446,
+          "name": "Zero",
+          "url": "https://addons.mozilla.org/en-US/firefox/user/6128446/",
+          "username": "HollowZero"
+        },
+        "score": 1,
+        "reply": null,
+        "version": {
+          "id": 6143069,
+          "version": "1.81.1"
+        }
+      },
+      {
+        "id": 2662533,
+        "addon": {
+          "id": 952959,
+          "slug": "read-aloud",
+          "name": {
+            "en-US": "Read Aloud: A Text to Speech Voice Reader",
+            "es-ES": "Texto A Voz",
+            "it": "Read Aloud: Un Lettore Vocale da Testo a Voce",
+            "vi": "Đọc Cho Tôi Nghe",
+            "zh-CN": "Read Aloud: 文本语音朗读助理",
+            "zh-TW": "Read Aloud: 文字語音朗讀助理"
+          },
+          "icon_url": "https://addons.mozilla.org/user-media/addon_icons/952/952959-64.png?modified=cccc5f2c"
+        },
+        "body": "what's wrong with this voice? hahaha it's is so bad, this is just hilarious!",
+        "created": "2026-04-13T15:06:03Z",
+        "is_deleted": false,
+        "is_developer_reply": false,
+        "is_latest": true,
+        "previous_count": 0,
+        "user": {
+          "id": 12524158,
+          "name": "Innokenty Shuvalov",
+          "url": "https://addons.mozilla.org/en-US/firefox/user/12524158/",
+          "username": "innokenty"
+        },
+        "score": 2,
+        "reply": null,
+        "version": {
+          "id": 6143069,
+          "version": "1.81.1"
+        }
+      },
+      {
+        "id": 2640567,
+        "addon": {
+          "id": 952959,
+          "slug": "read-aloud",
+          "name": {
+            "en-US": "Read Aloud: A Text to Speech Voice Reader",
+            "es-ES": "Texto A Voz",
+            "it": "Read Aloud: Un Lettore Vocale da Testo a Voce",
+            "vi": "Đọc Cho Tôi Nghe",
+            "zh-CN": "Read Aloud: 文本语音朗读助理",
+            "zh-TW": "Read Aloud: 文字語音朗讀助理"
+          },
+          "icon_url": "https://addons.mozilla.org/user-media/addon_icons/952/952959-64.png?modified=cccc5f2c"
+        },
+        "body": "Holy terrible, dont bother the voice sounds like a 90 year old smoker, how about we fix that.",
+        "created": "2026-04-11T20:53:56Z",
+        "is_deleted": false,
+        "is_developer_reply": false,
+        "is_latest": true,
+        "previous_count": 0,
+        "user": {
+          "id": 19841653,
+          "name": "Gio",
+          "url": "https://addons.mozilla.org/en-US/firefox/user/19841653/",
+          "username": "anonymous-b60bcc340f6dc36c467b2b6aa11519a6"
+        },
+        "score": 1,
+        "reply": null,
+        "version": {
+          "id": 6143069,
+          "version": "1.81.1"
+        }
+      },
+      {
+        "id": 2639512,
+        "addon": {
+          "id": 952959,
+          "slug": "read-aloud",
+          "name": {
+            "en-US": "Read Aloud: A Text to Speech Voice Reader",
+            "es-ES": "Texto A Voz",
+            "it": "Read Aloud: Un Lettore Vocale da Testo a Voce",
+            "vi": "Đọc Cho Tôi Nghe",
+            "zh-CN": "Read Aloud: 文本语音朗读助理",
+            "zh-TW": "Read Aloud: 文字語音朗讀助理"
+          },
+          "icon_url": "https://addons.mozilla.org/user-media/addon_icons/952/952959-64.png?modified=cccc5f2c"
+        },
+        "body": null,
+        "created": "2026-04-11T11:13:24Z",
+        "is_deleted": false,
+        "is_developer_reply": false,
+        "is_latest": true,
+        "previous_count": 0,
+        "user": {
+          "id": 19840731,
+          "name": "Firefox user 19840731",
+          "url": "https://addons.mozilla.org/en-US/firefox/user/19840731/",
+          "username": "anonymous-11f742de4c3cb87d30052298f522941e"
+        },
+        "score": 5,
+        "reply": null,
+        "version": {
+          "id": 6143069,
+          "version": "1.81.1"
+        }
+      },
+      {
+        "id": 2633353,
+        "addon": {
+          "id": 952959,
+          "slug": "read-aloud",
+          "name": {
+            "en-US": "Read Aloud: A Text to Speech Voice Reader",
+            "es-ES": "Texto A Voz",
+            "it": "Read Aloud: Un Lettore Vocale da Testo a Voce",
+            "vi": "Đọc Cho Tôi Nghe",
+            "zh-CN": "Read Aloud: 文本语音朗读助理",
+            "zh-TW": "Read Aloud: 文字語音朗讀助理"
+          },
+          "icon_url": "https://addons.mozilla.org/user-media/addon_icons/952/952959-64.png?modified=cccc5f2c"
+        },
+        "body": null,
+        "created": "2026-04-05T20:33:24Z",
+        "is_deleted": false,
+        "is_developer_reply": false,
+        "is_latest": true,
+        "previous_count": 0,
+        "user": {
+          "id": 19830764,
+          "name": "Silas",
+          "url": "https://addons.mozilla.org/en-US/firefox/user/19830764/",
+          "username": "anonymous-b6bf183650d927180e3c6b2edfc678ea"
+        },
+        "score": 1,
+        "reply": null,
+        "version": {
+          "id": 6143069,
+          "version": "1.81.1"
+        }
+      },
+      {
+        "id": 2633274,
+        "addon": {
+          "id": 952959,
+          "slug": "read-aloud",
+          "name": {
+            "en-US": "Read Aloud: A Text to Speech Voice Reader",
+            "es-ES": "Texto A Voz",
+            "it": "Read Aloud: Un Lettore Vocale da Testo a Voce",
+            "vi": "Đọc Cho Tôi Nghe",
+            "zh-CN": "Read Aloud: 文本语音朗读助理",
+            "zh-TW": "Read Aloud: 文字語音朗讀助理"
+          },
+          "icon_url": "https://addons.mozilla.org/user-media/addon_icons/952/952959-64.png?modified=cccc5f2c"
+        },
+        "body": "does not work for marathi",
+        "created": "2026-04-05T12:03:37Z",
+        "is_deleted": false,
+        "is_developer_reply": false,
+        "is_latest": true,
+        "previous_count": 0,
+        "user": {
+          "id": 19233946,
+          "name": "Firefox user 19233946",
+          "url": "https://addons.mozilla.org/en-US/firefox/user/19233946/",
+          "username": "anonymous-23ad4f0c1db966325bdb1413e0fc7f09"
+        },
+        "score": 2,
+        "reply": null,
+        "version": {
+          "id": 6143069,
+          "version": "1.81.1"
+        }
+      },
+      {
+        "id": 2633264,
+        "addon": {
+          "id": 952959,
+          "slug": "read-aloud",
+          "name": {
+            "en-US": "Read Aloud: A Text to Speech Voice Reader",
+            "es-ES": "Texto A Voz",
+            "it": "Read Aloud: Un Lettore Vocale da Testo a Voce",
+            "vi": "Đọc Cho Tôi Nghe",
+            "zh-CN": "Read Aloud: 文本语音朗读助理",
+            "zh-TW": "Read Aloud: 文字語音朗讀助理"
+          },
+          "icon_url": "https://addons.mozilla.org/user-media/addon_icons/952/952959-64.png?modified=cccc5f2c"
+        },
+        "body": null,
+        "created": "2026-04-05T11:16:40Z",
+        "is_deleted": false,
+        "is_developer_reply": false,
+        "is_latest": true,
+        "previous_count": 0,
+        "user": {
+          "id": 11143430,
+          "name": "George",
+          "url": "https://addons.mozilla.org/en-US/firefox/user/11143430/",
+          "username": "georgeguitar"
+        },
+        "score": 5,
+        "reply": null,
+        "version": {
+          "id": 6143069,
+          "version": "1.81.1"
+        }
+      },
+      {
+        "id": 2629514,
+        "addon": {
+          "id": 952959,
+          "slug": "read-aloud",
+          "name": {
+            "en-US": "Read Aloud: A Text to Speech Voice Reader",
+            "es-ES": "Texto A Voz",
+            "it": "Read Aloud: Un Lettore Vocale da Testo a Voce",
+            "vi": "Đọc Cho Tôi Nghe",
+            "zh-CN": "Read Aloud: 文本语音朗读助理",
+            "zh-TW": "Read Aloud: 文字語音朗讀助理"
+          },
+          "icon_url": "https://addons.mozilla.org/user-media/addon_icons/952/952959-64.png?modified=cccc5f2c"
+        },
+        "body": null,
+        "created": "2026-04-04T07:06:31Z",
+        "is_deleted": false,
+        "is_developer_reply": false,
+        "is_latest": true,
+        "previous_count": 0,
+        "user": {
+          "id": 19788471,
+          "name": "Olga",
+          "url": "https://addons.mozilla.org/en-US/firefox/user/19788471/",
+          "username": "anonymous-3d04a8e899586b124c7c823dba8f0f74"
+        },
+        "score": 5,
+        "reply": null,
+        "version": {
+          "id": 6143069,
+          "version": "1.81.1"
+        }
+      },
+      {
+        "id": 2627194,
+        "addon": {
+          "id": 952959,
+          "slug": "read-aloud",
+          "name": {
+            "en-US": "Read Aloud: A Text to Speech Voice Reader",
+            "es-ES": "Texto A Voz",
+            "it": "Read Aloud: Un Lettore Vocale da Testo a Voce",
+            "vi": "Đọc Cho Tôi Nghe",
+            "zh-CN": "Read Aloud: 文本语音朗读助理",
+            "zh-TW": "Read Aloud: 文字語音朗讀助理"
+          },
+          "icon_url": "https://addons.mozilla.org/user-media/addon_icons/952/952959-64.png?modified=cccc5f2c"
+        },
+        "body": "Very good. Only problem when i try in normal page it very slow loading or sometimes doesnt load at all. To fix this i open extension options and click test button.When test sound plays(which is very fast) then extension becames responsive and i can play other page i want without waiting or problem.",
+        "created": "2026-04-03T19:29:45Z",
+        "is_deleted": false,
+        "is_developer_reply": false,
+        "is_latest": true,
+        "previous_count": 0,
+        "user": {
+          "id": 19810190,
+          "name": "Wizsensei",
+          "url": "https://addons.mozilla.org/en-US/firefox/user/19810190/",
+          "username": "anonymous-947f4f8f35884d00ebf77dde6826fd0b"
+        },
+        "score": 4,
+        "reply": null,
+        "version": {
+          "id": 6143069,
+          "version": "1.81.1"
+        }
+      },
+      {
+        "id": 2619450,
+        "addon": {
+          "id": 952959,
+          "slug": "read-aloud",
+          "name": {
+            "en-US": "Read Aloud: A Text to Speech Voice Reader",
+            "es-ES": "Texto A Voz",
+            "it": "Read Aloud: Un Lettore Vocale da Testo a Voce",
+            "vi": "Đọc Cho Tôi Nghe",
+            "zh-CN": "Read Aloud: 文本语音朗读助理",
+            "zh-TW": "Read Aloud: 文字語音朗讀助理"
+          },
+          "icon_url": "https://addons.mozilla.org/user-media/addon_icons/952/952959-64.png?modified=cccc5f2c"
+        },
+        "body": "The voice volume was so low I could not understand what it was reading.  It was so low because the voice sound was coming through my Mac Mini M4 built in speakers and I was about 15 feet distant.  There is no apparent means of choosing where the sound output goes.",
+        "created": "2026-04-01T21:55:21Z",
+        "is_deleted": false,
+        "is_developer_reply": false,
+        "is_latest": true,
+        "previous_count": 0,
+        "user": {
+          "id": 5357626,
+          "name": "Mel",
+          "url": "https://addons.mozilla.org/en-US/firefox/user/5357626/",
+          "username": "mellington"
+        },
+        "score": 1,
+        "reply": null,
+        "version": {
+          "id": 6143069,
+          "version": "1.81.1"
+        }
+      },
+      {
+        "id": 2617022,
+        "addon": {
+          "id": 952959,
+          "slug": "read-aloud",
+          "name": {
+            "en-US": "Read Aloud: A Text to Speech Voice Reader",
+            "es-ES": "Texto A Voz",
+            "it": "Read Aloud: Un Lettore Vocale da Testo a Voce",
+            "vi": "Đọc Cho Tôi Nghe",
+            "zh-CN": "Read Aloud: 文本语音朗读助理",
+            "zh-TW": "Read Aloud: 文字語音朗讀助理"
+          },
+          "icon_url": "https://addons.mozilla.org/user-media/addon_icons/952/952959-64.png?modified=cccc5f2c"
+        },
+        "body": "works for every 1 in 10,000 pdfs",
+        "created": "2026-03-31T20:33:48Z",
+        "is_deleted": false,
+        "is_developer_reply": false,
+        "is_latest": true,
+        "previous_count": 0,
+        "user": {
+          "id": 19676868,
+          "name": "Firefox user 19676868",
+          "url": "https://addons.mozilla.org/en-US/firefox/user/19676868/",
+          "username": "anonymous-da8eb63b5015ae3ef4c9a0fc88d0ac0a"
+        },
+        "score": 1,
+        "reply": null,
+        "version": {
+          "id": 6143069,
+          "version": "1.81.1"
+        }
+      },
+      {
+        "id": 2612406,
+        "addon": {
+          "id": 952959,
+          "slug": "read-aloud",
+          "name": {
+            "en-US": "Read Aloud: A Text to Speech Voice Reader",
+            "es-ES": "Texto A Voz",
+            "it": "Read Aloud: Un Lettore Vocale da Testo a Voce",
+            "vi": "Đọc Cho Tôi Nghe",
+            "zh-CN": "Read Aloud: 文本语音朗读助理",
+            "zh-TW": "Read Aloud: 文字語音朗讀助理"
+          },
+          "icon_url": "https://addons.mozilla.org/user-media/addon_icons/952/952959-64.png?modified=cccc5f2c"
+        },
+        "body": null,
+        "created": "2026-03-28T19:25:28Z",
+        "is_deleted": false,
+        "is_developer_reply": false,
+        "is_latest": true,
+        "previous_count": 0,
+        "user": {
+          "id": 19811132,
+          "name": "Armo",
+          "url": "https://addons.mozilla.org/en-US/firefox/user/19811132/",
+          "username": "anonymous-9111292ec320a1cb66c1df70732eaa1b"
+        },
+        "score": 5,
+        "reply": null,
+        "version": {
+          "id": 6143069,
+          "version": "1.81.1"
+        }
+      },
+      {
+        "id": 2610412,
+        "addon": {
+          "id": 952959,
+          "slug": "read-aloud",
+          "name": {
+            "en-US": "Read Aloud: A Text to Speech Voice Reader",
+            "es-ES": "Texto A Voz",
+            "it": "Read Aloud: Un Lettore Vocale da Testo a Voce",
+            "vi": "Đọc Cho Tôi Nghe",
+            "zh-CN": "Read Aloud: 文本语音朗读助理",
+            "zh-TW": "Read Aloud: 文字語音朗讀助理"
+          },
+          "icon_url": "https://addons.mozilla.org/user-media/addon_icons/952/952959-64.png?modified=cccc5f2c"
+        },
+        "body": null,
+        "created": "2026-03-24T23:38:45Z",
+        "is_deleted": false,
+        "is_developer_reply": false,
+        "is_latest": true,
+        "previous_count": 0,
+        "user": {
+          "id": 65299,
+          "name": "geewizzy",
+          "url": "https://addons.mozilla.org/en-US/firefox/user/65299/",
+          "username": "geewizzy"
+        },
+        "score": 5,
+        "reply": null,
+        "version": {
+          "id": 6143069,
+          "version": "1.81.1"
+        }
+      },
+      {
+        "id": 2609581,
+        "addon": {
+          "id": 952959,
+          "slug": "read-aloud",
+          "name": {
+            "en-US": "Read Aloud: A Text to Speech Voice Reader",
+            "es-ES": "Texto A Voz",
+            "it": "Read Aloud: Un Lettore Vocale da Testo a Voce",
+            "vi": "Đọc Cho Tôi Nghe",
+            "zh-CN": "Read Aloud: 文本语音朗读助理",
+            "zh-TW": "Read Aloud: 文字語音朗讀助理"
+          },
+          "icon_url": "https://addons.mozilla.org/user-media/addon_icons/952/952959-64.png?modified=cccc5f2c"
+        },
+        "body": null,
+        "created": "2026-03-22T06:16:34Z",
+        "is_deleted": false,
+        "is_developer_reply": false,
+        "is_latest": true,
+        "previous_count": 0,
+        "user": {
+          "id": 18899598,
+          "name": "Firefox user 18899598",
+          "url": "https://addons.mozilla.org/en-US/firefox/user/18899598/",
+          "username": "anonymous-cbfb3380f49f8a569b5bbcdfdcd54138"
+        },
+        "score": 5,
+        "reply": null,
+        "version": {
+          "id": 6143069,
+          "version": "1.81.1"
+        }
+      },
+      {
+        "id": 2608586,
+        "addon": {
+          "id": 952959,
+          "slug": "read-aloud",
+          "name": {
+            "en-US": "Read Aloud: A Text to Speech Voice Reader",
+            "es-ES": "Texto A Voz",
+            "it": "Read Aloud: Un Lettore Vocale da Testo a Voce",
+            "vi": "Đọc Cho Tôi Nghe",
+            "zh-CN": "Read Aloud: 文本语音朗读助理",
+            "zh-TW": "Read Aloud: 文字語音朗讀助理"
+          },
+          "icon_url": "https://addons.mozilla.org/user-media/addon_icons/952/952959-64.png?modified=cccc5f2c"
+        },
+        "body": null,
+        "created": "2026-03-18T02:52:46Z",
+        "is_deleted": false,
+        "is_developer_reply": false,
+        "is_latest": true,
+        "previous_count": 0,
+        "user": {
+          "id": 18285082,
+          "name": "Firefox user 18285082",
+          "url": "https://addons.mozilla.org/en-US/firefox/user/18285082/",
+          "username": "anonymous-29bc69c62e998abfd668363f9b7f0473"
+        },
+        "score": 5,
+        "reply": null,
+        "version": {
+          "id": 6143069,
+          "version": "1.81.1"
+        }
+      },
+      {
+        "id": 2608423,
+        "addon": {
+          "id": 952959,
+          "slug": "read-aloud",
+          "name": {
+            "en-US": "Read Aloud: A Text to Speech Voice Reader",
+            "es-ES": "Texto A Voz",
+            "it": "Read Aloud: Un Lettore Vocale da Testo a Voce",
+            "vi": "Đọc Cho Tôi Nghe",
+            "zh-CN": "Read Aloud: 文本语音朗读助理",
+            "zh-TW": "Read Aloud: 文字語音朗讀助理"
+          },
+          "icon_url": "https://addons.mozilla.org/user-media/addon_icons/952/952959-64.png?modified=cccc5f2c"
+        },
+        "body": "EXCELLENT! BEST WAY TO HAVE GOOD TTS ON THE OPEN-SOURCE PLATFORMS! THANK YOU!! <3",
+        "created": "2026-03-17T13:48:55Z",
+        "is_deleted": false,
+        "is_developer_reply": false,
+        "is_latest": true,
+        "previous_count": 0,
+        "user": {
+          "id": 19796130,
+          "name": "Firefox user 19796130",
+          "url": "https://addons.mozilla.org/en-US/firefox/user/19796130/",
+          "username": "anonymous-6aa2e654a6dfe924497d2ad307c5734d"
+        },
+        "score": 5,
+        "reply": null,
+        "version": {
+          "id": 6143069,
+          "version": "1.81.1"
+        }
+      },
+      {
+        "id": 2608246,
+        "addon": {
+          "id": 952959,
+          "slug": "read-aloud",
+          "name": {
+            "en-US": "Read Aloud: A Text to Speech Voice Reader",
+            "es-ES": "Texto A Voz",
+            "it": "Read Aloud: Un Lettore Vocale da Testo a Voce",
+            "vi": "Đọc Cho Tôi Nghe",
+            "zh-CN": "Read Aloud: 文本语音朗读助理",
+            "zh-TW": "Read Aloud: 文字語音朗讀助理"
+          },
+          "icon_url": "https://addons.mozilla.org/user-media/addon_icons/952/952959-64.png?modified=cccc5f2c"
+        },
+        "body": null,
+        "created": "2026-03-16T19:27:17Z",
+        "is_deleted": false,
+        "is_developer_reply": false,
+        "is_latest": true,
+        "previous_count": 0,
+        "user": {
+          "id": 12695142,
+          "name": "Laércio",
+          "url": "https://addons.mozilla.org/en-US/firefox/user/12695142/",
+          "username": "LHS_2236"
+        },
+        "score": 5,
+        "reply": null,
+        "version": {
+          "id": 6143069,
+          "version": "1.81.1"
+        }
+      },
+      {
+        "id": 2608068,
+        "addon": {
+          "id": 952959,
+          "slug": "read-aloud",
+          "name": {
+            "en-US": "Read Aloud: A Text to Speech Voice Reader",
+            "es-ES": "Texto A Voz",
+            "it": "Read Aloud: Un Lettore Vocale da Testo a Voce",
+            "vi": "Đọc Cho Tôi Nghe",
+            "zh-CN": "Read Aloud: 文本语音朗读助理",
+            "zh-TW": "Read Aloud: 文字語音朗讀助理"
+          },
+          "icon_url": "https://addons.mozilla.org/user-media/addon_icons/952/952959-64.png?modified=cccc5f2c"
+        },
+        "body": null,
+        "created": "2026-03-16T05:26:56Z",
+        "is_deleted": false,
+        "is_developer_reply": false,
+        "is_latest": true,
+        "previous_count": 0,
+        "user": {
+          "id": 18074515,
+          "name": "Aarón Reyes",
+          "url": "https://addons.mozilla.org/en-US/firefox/user/18074515/",
+          "username": "anonymous-9c58a74ec755d5fa178fbe2efabaf487"
+        },
+        "score": 1,
+        "reply": null,
+        "version": {
+          "id": 6143069,
+          "version": "1.81.1"
+        }
+      },
+      {
+        "id": 2607563,
+        "addon": {
+          "id": 952959,
+          "slug": "read-aloud",
+          "name": {
+            "en-US": "Read Aloud: A Text to Speech Voice Reader",
+            "es-ES": "Texto A Voz",
+            "it": "Read Aloud: Un Lettore Vocale da Testo a Voce",
+            "vi": "Đọc Cho Tôi Nghe",
+            "zh-CN": "Read Aloud: 文本语音朗读助理",
+            "zh-TW": "Read Aloud: 文字語音朗讀助理"
+          },
+          "icon_url": "https://addons.mozilla.org/user-media/addon_icons/952/952959-64.png?modified=cccc5f2c"
+        },
+        "body": null,
+        "created": "2026-03-14T03:07:16Z",
+        "is_deleted": false,
+        "is_developer_reply": false,
+        "is_latest": true,
+        "previous_count": 0,
+        "user": {
+          "id": 19790127,
+          "name": "jb",
+          "url": "https://addons.mozilla.org/en-US/firefox/user/19790127/",
+          "username": "anonymous-848c1775af2f06e826186636878e40db"
+        },
+        "score": 5,
+        "reply": null,
+        "version": {
+          "id": 6143069,
+          "version": "1.81.1"
+        }
+      },
+      {
+        "id": 2601063,
+        "addon": {
+          "id": 952959,
+          "slug": "read-aloud",
+          "name": {
+            "en-US": "Read Aloud: A Text to Speech Voice Reader",
+            "es-ES": "Texto A Voz",
+            "it": "Read Aloud: Un Lettore Vocale da Testo a Voce",
+            "vi": "Đọc Cho Tôi Nghe",
+            "zh-CN": "Read Aloud: 文本语音朗读助理",
+            "zh-TW": "Read Aloud: 文字語音朗讀助理"
+          },
+          "icon_url": "https://addons.mozilla.org/user-media/addon_icons/952/952959-64.png?modified=cccc5f2c"
+        },
+        "body": "useful for me when I forget to put on my glasses",
+        "created": "2026-03-02T08:08:38Z",
+        "is_deleted": false,
+        "is_developer_reply": false,
+        "is_latest": true,
+        "previous_count": 0,
+        "user": {
+          "id": 19760714,
+          "name": "Ynet",
+          "url": "https://addons.mozilla.org/en-US/firefox/user/19760714/",
+          "username": "anonymous-e370f136baf6d1c90dd5053f4bf355cd"
+        },
+        "score": 5,
+        "reply": null,
+        "version": {
+          "id": 6143069,
+          "version": "1.81.1"
+        }
+      },
+      {
+        "id": 2599277,
+        "addon": {
+          "id": 952959,
+          "slug": "read-aloud",
+          "name": {
+            "en-US": "Read Aloud: A Text to Speech Voice Reader",
+            "es-ES": "Texto A Voz",
+            "it": "Read Aloud: Un Lettore Vocale da Testo a Voce",
+            "vi": "Đọc Cho Tôi Nghe",
+            "zh-CN": "Read Aloud: 文本语音朗读助理",
+            "zh-TW": "Read Aloud: 文字語音朗讀助理"
+          },
+          "icon_url": "https://addons.mozilla.org/user-media/addon_icons/952/952959-64.png?modified=cccc5f2c"
+        },
+        "body": null,
+        "created": "2026-02-27T13:54:36Z",
+        "is_deleted": false,
+        "is_developer_reply": false,
+        "is_latest": true,
+        "previous_count": 0,
+        "user": {
+          "id": 19434419,
+          "name": "Firefox user 19434419",
+          "url": "https://addons.mozilla.org/en-US/firefox/user/19434419/",
+          "username": "anonymous-cf7ecee635bd807b402b45d7f2ea4690"
+        },
+        "score": 5,
+        "reply": null,
+        "version": {
+          "id": 6143069,
+          "version": "1.81.1"
+        }
+      },
+      {
+        "id": 2599267,
+        "addon": {
+          "id": 952959,
+          "slug": "read-aloud",
+          "name": {
+            "en-US": "Read Aloud: A Text to Speech Voice Reader",
+            "es-ES": "Texto A Voz",
+            "it": "Read Aloud: Un Lettore Vocale da Testo a Voce",
+            "vi": "Đọc Cho Tôi Nghe",
+            "zh-CN": "Read Aloud: 文本语音朗读助理",
+            "zh-TW": "Read Aloud: 文字語音朗讀助理"
+          },
+          "icon_url": "https://addons.mozilla.org/user-media/addon_icons/952/952959-64.png?modified=cccc5f2c"
+        },
+        "body": "Doesn't work",
+        "created": "2026-02-27T13:13:51Z",
+        "is_deleted": false,
+        "is_developer_reply": false,
+        "is_latest": true,
+        "previous_count": 0,
+        "user": {
+          "id": 17648425,
+          "name": "Harri",
+          "url": "https://addons.mozilla.org/en-US/firefox/user/17648425/",
+          "username": "anonymous-e4d741df298a941ca2fbe8d32727b75d"
+        },
+        "score": 1,
+        "reply": null,
+        "version": {
+          "id": 6143069,
+          "version": "1.81.1"
+        }
+      },
+      {
+        "id": 2599082,
+        "addon": {
+          "id": 952959,
+          "slug": "read-aloud",
+          "name": {
+            "en-US": "Read Aloud: A Text to Speech Voice Reader",
+            "es-ES": "Texto A Voz",
+            "it": "Read Aloud: Un Lettore Vocale da Testo a Voce",
+            "vi": "Đọc Cho Tôi Nghe",
+            "zh-CN": "Read Aloud: 文本语音朗读助理",
+            "zh-TW": "Read Aloud: 文字語音朗讀助理"
+          },
+          "icon_url": "https://addons.mozilla.org/user-media/addon_icons/952/952959-64.png?modified=cccc5f2c"
+        },
+        "body": null,
+        "created": "2026-02-26T21:07:27Z",
+        "is_deleted": false,
+        "is_developer_reply": false,
+        "is_latest": true,
+        "previous_count": 0,
+        "user": {
+          "id": 19763228,
+          "name": "Firefox user 19763228",
+          "url": "https://addons.mozilla.org/en-US/firefox/user/19763228/",
+          "username": "anonymous-264677356b0bea8561659825c75e6e94"
+        },
+        "score": 1,
+        "reply": null,
+        "version": {
+          "id": 6143069,
+          "version": "1.81.1"
+        }
+      },
+      {
+        "id": 2598818,
+        "addon": {
+          "id": 952959,
+          "slug": "read-aloud",
+          "name": {
+            "en-US": "Read Aloud: A Text to Speech Voice Reader",
+            "es-ES": "Texto A Voz",
+            "it": "Read Aloud: Un Lettore Vocale da Testo a Voce",
+            "vi": "Đọc Cho Tôi Nghe",
+            "zh-CN": "Read Aloud: 文本语音朗读助理",
+            "zh-TW": "Read Aloud: 文字語音朗讀助理"
+          },
+          "icon_url": "https://addons.mozilla.org/user-media/addon_icons/952/952959-64.png?modified=cccc5f2c"
+        },
+        "body": null,
+        "created": "2026-02-25T23:29:58Z",
+        "is_deleted": false,
+        "is_developer_reply": false,
+        "is_latest": true,
+        "previous_count": 0,
+        "user": {
+          "id": 19733765,
+          "name": "BaraGAx3",
+          "url": "https://addons.mozilla.org/en-US/firefox/user/19733765/",
+          "username": "anonymous-03f733a98a6f9c7b66e9ea8633ff801d"
+        },
+        "score": 1,
+        "reply": null,
+        "version": {
+          "id": 6143069,
+          "version": "1.81.1"
+        }
+      },
+      {
+        "id": 2598705,
+        "addon": {
+          "id": 952959,
+          "slug": "read-aloud",
+          "name": {
+            "en-US": "Read Aloud: A Text to Speech Voice Reader",
+            "es-ES": "Texto A Voz",
+            "it": "Read Aloud: Un Lettore Vocale da Testo a Voce",
+            "vi": "Đọc Cho Tôi Nghe",
+            "zh-CN": "Read Aloud: 文本语音朗读助理",
+            "zh-TW": "Read Aloud: 文字語音朗讀助理"
+          },
+          "icon_url": "https://addons.mozilla.org/user-media/addon_icons/952/952959-64.png?modified=cccc5f2c"
+        },
+        "body": null,
+        "created": "2026-02-25T16:10:02Z",
+        "is_deleted": false,
+        "is_developer_reply": false,
+        "is_latest": true,
+        "previous_count": 0,
+        "user": {
+          "id": 4867357,
+          "name": "Алекс,Аноним",
+          "url": "https://addons.mozilla.org/en-US/firefox/user/4867357/",
+          "username": "Aleks73"
+        },
+        "score": 5,
+        "reply": null,
+        "version": {
+          "id": 6143069,
+          "version": "1.81.1"
+        }
+      },
+      {
+        "id": 2597023,
+        "addon": {
+          "id": 952959,
+          "slug": "read-aloud",
+          "name": {
+            "en-US": "Read Aloud: A Text to Speech Voice Reader",
+            "es-ES": "Texto A Voz",
+            "it": "Read Aloud: Un Lettore Vocale da Testo a Voce",
+            "vi": "Đọc Cho Tôi Nghe",
+            "zh-CN": "Read Aloud: 文本语音朗读助理",
+            "zh-TW": "Read Aloud: 文字語音朗讀助理"
+          },
+          "icon_url": "https://addons.mozilla.org/user-media/addon_icons/952/952959-64.png?modified=cccc5f2c"
+        },
+        "body": "100% nonfunctional",
+        "created": "2026-02-21T03:08:56Z",
+        "is_deleted": false,
+        "is_developer_reply": false,
+        "is_latest": true,
+        "previous_count": 0,
+        "user": {
+          "id": 18782458,
+          "name": "Parkreiner",
+          "url": "https://addons.mozilla.org/en-US/firefox/user/18782458/",
+          "username": "anonymous-f204747bc5fa528b3724a94a909b6b61"
+        },
+        "score": 1,
+        "reply": null,
+        "version": {
+          "id": 6143069,
+          "version": "1.81.1"
+        }
+      }
+    ],
+    "1.77.0": [
+      {
+        "id": 2754718,
+        "addon": {
+          "id": 952959,
+          "slug": "read-aloud",
+          "name": {
+            "en-US": "Read Aloud: A Text to Speech Voice Reader",
+            "es-ES": "Texto A Voz",
+            "it": "Read Aloud: Un Lettore Vocale da Testo a Voce",
+            "vi": "Đọc Cho Tôi Nghe",
+            "zh-CN": "Read Aloud: 文本语音朗读助理",
+            "zh-TW": "Read Aloud: 文字語音朗讀助理"
+          },
+          "icon_url": "https://addons.mozilla.org/user-media/addon_icons/952/952959-64.png?modified=cccc5f2c"
+        },
+        "body": null,
+        "created": "2026-10-02T09:25:19Z",
+        "is_deleted": false,
+        "is_developer_reply": false,
+        "is_latest": true,
+        "previous_count": 0,
+        "user": {
+          "id": 20155761,
+          "name": "退出党团队远离中共邪教访问c88c.us",
+          "url": "https://addons.mozilla.org/en-US/firefox/user/20155761/",
+          "username": "anonymous-fdf9abdf3c479319ae061d0db492b726"
+        },
+        "score": 5,
+        "reply": null,
+        "version": {
+          "id": 5861961,
+          "version": "1.77.0"
+        }
+      }
+    ],
+    "1.81.0": [
+      {
+        "id": 2594547,
+        "addon": {
+          "id": 952959,
+          "slug": "read-aloud",
+          "name": {
+            "en-US": "Read Aloud: A Text to Speech Voice Reader",
+            "es-ES": "Texto A Voz",
+            "it": "Read Aloud: Un Lettore Vocale da Testo a Voce",
+            "vi": "Đọc Cho Tôi Nghe",
+            "zh-CN": "Read Aloud: 文本语音朗读助理",
+            "zh-TW": "Read Aloud: 文字語音朗讀助理"
+          },
+          "icon_url": "https://addons.mozilla.org/user-media/addon_icons/952/952959-64.png?modified=cccc5f2c"
+        },
+        "body": "Crashes halfway on almost every page, otherwise would be good",
+        "created": "2026-02-17T10:50:51Z",
+        "is_deleted": false,
+        "is_developer_reply": false,
+        "is_latest": true,
+        "previous_count": 0,
+        "user": {
+          "id": 19746412,
+          "name": "sc",
+          "url": "https://addons.mozilla.org/en-US/firefox/user/19746412/",
+          "username": "anonymous-4c22fc546229d14c44249f61b8f5ec01"
+        },
+        "score": 3,
+        "reply": null,
+        "version": {
+          "id": 6134510,
+          "version": "1.81.0"
+        }
+      }
+    ],
+    "1.80.0": [
+      {
+        "id": 2578731,
+        "addon": {
+          "id": 952959,
+          "slug": "read-aloud",
+          "name": {
+            "en-US": "Read Aloud: A Text to Speech Voice Reader",
+            "es-ES": "Texto A Voz",
+            "it": "Read Aloud: Un Lettore Vocale da Testo a Voce",
+            "vi": "Đọc Cho Tôi Nghe",
+            "zh-CN": "Read Aloud: 文本语音朗读助理",
+            "zh-TW": "Read Aloud: 文字語音朗讀助理"
+          },
+          "icon_url": "https://addons.mozilla.org/user-media/addon_icons/952/952959-64.png?modified=cccc5f2c"
+        },
+        "body": null,
+        "created": "2026-02-03T18:56:24Z",
+        "is_deleted": false,
+        "is_developer_reply": false,
+        "is_latest": true,
+        "previous_count": 0,
+        "user": {
+          "id": 14153470,
+          "name": "Firefox user 14153470",
+          "url": "https://addons.mozilla.org/en-US/firefox/user/14153470/",
+          "username": "anonymous-b42a105ee0444f703a8afec3884f0bdb"
+        },
+        "score": 5,
+        "reply": null,
+        "version": {
+          "id": 5979715,
+          "version": "1.80.0"
+        }
+      },
+      {
+        "id": 2575371,
+        "addon": {
+          "id": 952959,
+          "slug": "read-aloud",
+          "name": {
+            "en-US": "Read Aloud: A Text to Speech Voice Reader",
+            "es-ES": "Texto A Voz",
+            "it": "Read Aloud: Un Lettore Vocale da Testo a Voce",
+            "vi": "Đọc Cho Tôi Nghe",
+            "zh-CN": "Read Aloud: 文本语音朗读助理",
+            "zh-TW": "Read Aloud: 文字語音朗讀助理"
+          },
+          "icon_url": "https://addons.mozilla.org/user-media/addon_icons/952/952959-64.png?modified=cccc5f2c"
+        },
+        "body": "read aloud works (and way too loud), but volume control has zero effect; only when slid to the extreme left does the volume mute (to zero).\nReview added 2026-01-30 for Ubuntu 24.04.3 LTS ; snap info firefox = 147.0.2-1 latest/stable",
+        "created": "2026-01-30T08:18:10Z",
+        "is_deleted": false,
+        "is_developer_reply": false,
+        "is_latest": true,
+        "previous_count": 0,
+        "user": {
+          "id": 19266537,
+          "name": "Firefox user 19266537",
+          "url": "https://addons.mozilla.org/en-US/firefox/user/19266537/",
+          "username": "anonymous-38fac2d015415d4e3a261e85e735f64e"
+        },
+        "score": 2,
+        "reply": null,
+        "version": {
+          "id": 5979715,
+          "version": "1.80.0"
+        }
+      },
+      {
+        "id": 2574658,
+        "addon": {
+          "id": 952959,
+          "slug": "read-aloud",
+          "name": {
+            "en-US": "Read Aloud: A Text to Speech Voice Reader",
+            "es-ES": "Texto A Voz",
+            "it": "Read Aloud: Un Lettore Vocale da Testo a Voce",
+            "vi": "Đọc Cho Tôi Nghe",
+            "zh-CN": "Read Aloud: 文本语音朗读助理",
+            "zh-TW": "Read Aloud: 文字語音朗讀助理"
+          },
+          "icon_url": "https://addons.mozilla.org/user-media/addon_icons/952/952959-64.png?modified=cccc5f2c"
+        },
+        "body": "Routing you to the the Google TTS sales page and using the Demo box instead of hooking into the Google Cloud API is actually bananas. I can't believe that this thing still doesn't have proper voice fetching implementation after all these years.",
+        "created": "2026-01-28T00:04:06Z",
+        "is_deleted": false,
+        "is_developer_reply": false,
+        "is_latest": true,
+        "previous_count": 0,
+        "user": {
+          "id": 19710402,
+          "name": "WingedFox",
+          "url": "https://addons.mozilla.org/en-US/firefox/user/19710402/",
+          "username": "anonymous-904c0b27642efa143bb904b78badf9ad"
+        },
+        "score": 1,
+        "reply": null,
+        "version": {
+          "id": 5979715,
+          "version": "1.80.0"
+        }
+      },
+      {
+        "id": 2559165,
+        "addon": {
+          "id": 952959,
+          "slug": "read-aloud",
+          "name": {
+            "en-US": "Read Aloud: A Text to Speech Voice Reader",
+            "es-ES": "Texto A Voz",
+            "it": "Read Aloud: Un Lettore Vocale da Testo a Voce",
+            "vi": "Đọc Cho Tôi Nghe",
+            "zh-CN": "Read Aloud: 文本语音朗读助理",
+            "zh-TW": "Read Aloud: 文字語音朗讀助理"
+          },
+          "icon_url": "https://addons.mozilla.org/user-media/addon_icons/952/952959-64.png?modified=cccc5f2c"
+        },
+        "body": "Not the best. Agree with other users that Edge is better for reading than this. Also I don't like that it automatically sets your setting to allow this developer access to ALL your data unless you change it but even then it piggies back off of google.translate. Also doesn't even read my full text book page just the title and then the page number. I don't like the reading in the extra window either. Idk why its a recommended extension.",
+        "created": "2026-01-18T01:47:23Z",
+        "is_deleted": false,
+        "is_developer_reply": false,
+        "is_latest": true,
+        "previous_count": 0,
+        "user": {
+          "id": 19688759,
+          "name": "RescuePaws",
+          "url": "https://addons.mozilla.org/en-US/firefox/user/19688759/",
+          "username": "anonymous-ce0e02af8cc812651663c3838856689d"
+        },
+        "score": 1,
+        "reply": null,
+        "version": {
+          "id": 5979715,
+          "version": "1.80.0"
+        }
+      },
+      {
+        "id": 2546626,
+        "addon": {
+          "id": 952959,
+          "slug": "read-aloud",
+          "name": {
+            "en-US": "Read Aloud: A Text to Speech Voice Reader",
+            "es-ES": "Texto A Voz",
+            "it": "Read Aloud: Un Lettore Vocale da Testo a Voce",
+            "vi": "Đọc Cho Tôi Nghe",
+            "zh-CN": "Read Aloud: 文本语音朗读助理",
+            "zh-TW": "Read Aloud: 文字語音朗讀助理"
+          },
+          "icon_url": "https://addons.mozilla.org/user-media/addon_icons/952/952959-64.png?modified=cccc5f2c"
+        },
+        "body": null,
+        "created": "2025-12-27T17:44:58Z",
+        "is_deleted": false,
+        "is_developer_reply": false,
+        "is_latest": true,
+        "previous_count": 0,
+        "user": {
+          "id": 19430323,
+          "name": "C4",
+          "url": "https://addons.mozilla.org/en-US/firefox/user/19430323/",
+          "username": "anonymous-6b678cd4efcce3605a787e8cf0b9a196"
+        },
+        "score": 5,
+        "reply": null,
+        "version": {
+          "id": 5979715,
+          "version": "1.80.0"
+        }
+      },
+      {
+        "id": 2545165,
+        "addon": {
+          "id": 952959,
+          "slug": "read-aloud",
+          "name": {
+            "en-US": "Read Aloud: A Text to Speech Voice Reader",
+            "es-ES": "Texto A Voz",
+            "it": "Read Aloud: Un Lettore Vocale da Testo a Voce",
+            "vi": "Đọc Cho Tôi Nghe",
+            "zh-CN": "Read Aloud: 文本语音朗读助理",
+            "zh-TW": "Read Aloud: 文字語音朗讀助理"
+          },
+          "icon_url": "https://addons.mozilla.org/user-media/addon_icons/952/952959-64.png?modified=cccc5f2c"
+        },
+        "body": "Appears to use translate.google.com to provide the service, and the new one on me is that extensions apparently can't block other extensions' requests, since umatrix, ublock, etc can be set to block google, and Rethink still shows FF making attempts. So, it basically reports your browsing to Google...that makes it intentionally spyware in my book. FF's own builtin \"Read Aloud\" will have to suffice atm.",
+        "created": "2025-12-21T11:07:11Z",
+        "is_deleted": false,
+        "is_developer_reply": false,
+        "is_latest": true,
+        "previous_count": 0,
+        "user": {
+          "id": 19487242,
+          "name": "Joshua Weiss",
+          "url": "https://addons.mozilla.org/en-US/firefox/user/19487242/",
+          "username": "anonymous-0fbfb9b14b20e7c32af814e3f97999c2"
+        },
+        "score": 1,
+        "reply": null,
+        "version": {
+          "id": 5979715,
+          "version": "1.80.0"
+        }
+      },
+      {
+        "id": 2543239,
+        "addon": {
+          "id": 952959,
+          "slug": "read-aloud",
+          "name": {
+            "en-US": "Read Aloud: A Text to Speech Voice Reader",
+            "es-ES": "Texto A Voz",
+            "it": "Read Aloud: Un Lettore Vocale da Testo a Voce",
+            "vi": "Đọc Cho Tôi Nghe",
+            "zh-CN": "Read Aloud: 文本语音朗读助理",
+            "zh-TW": "Read Aloud: 文字語音朗讀助理"
+          },
+          "icon_url": "https://addons.mozilla.org/user-media/addon_icons/952/952959-64.png?modified=cccc5f2c"
+        },
+        "body": null,
+        "created": "2025-12-13T20:49:26Z",
+        "is_deleted": false,
+        "is_developer_reply": false,
+        "is_latest": true,
+        "previous_count": 0,
+        "user": {
+          "id": 16760035,
+          "name": "vanessachan97",
+          "url": "https://addons.mozilla.org/en-US/firefox/user/16760035/",
+          "username": "anonymous-e3fbfa282243791159f82dc698e7b1e8"
+        },
+        "score": 5,
+        "reply": null,
+        "version": {
+          "id": 5979715,
+          "version": "1.80.0"
+        }
+      },
+      {
+        "id": 2542739,
+        "addon": {
+          "id": 952959,
+          "slug": "read-aloud",
+          "name": {
+            "en-US": "Read Aloud: A Text to Speech Voice Reader",
+            "es-ES": "Texto A Voz",
+            "it": "Read Aloud: Un Lettore Vocale da Testo a Voce",
+            "vi": "Đọc Cho Tôi Nghe",
+            "zh-CN": "Read Aloud: 文本语音朗读助理",
+            "zh-TW": "Read Aloud: 文字語音朗讀助理"
+          },
+          "icon_url": "https://addons.mozilla.org/user-media/addon_icons/952/952959-64.png?modified=cccc5f2c"
+        },
+        "body": null,
+        "created": "2025-12-11T21:55:03Z",
+        "is_deleted": false,
+        "is_developer_reply": false,
+        "is_latest": true,
+        "previous_count": 0,
+        "user": {
+          "id": 19622933,
+          "name": "Firefox user 19622933",
+          "url": "https://addons.mozilla.org/en-US/firefox/user/19622933/",
+          "username": "anonymous-b742fa095e99ecf0c3932528f74688f4"
+        },
+        "score": 5,
+        "reply": null,
+        "version": {
+          "id": 5979715,
+          "version": "1.80.0"
+        }
+      },
+      {
+        "id": 2542366,
+        "addon": {
+          "id": 952959,
+          "slug": "read-aloud",
+          "name": {
+            "en-US": "Read Aloud: A Text to Speech Voice Reader",
+            "es-ES": "Texto A Voz",
+            "it": "Read Aloud: Un Lettore Vocale da Testo a Voce",
+            "vi": "Đọc Cho Tôi Nghe",
+            "zh-CN": "Read Aloud: 文本语音朗读助理",
+            "zh-TW": "Read Aloud: 文字語音朗讀助理"
+          },
+          "icon_url": "https://addons.mozilla.org/user-media/addon_icons/952/952959-64.png?modified=cccc5f2c"
+        },
+        "body": "you have to stay in the window to read, MS edge native reader is much more better",
+        "created": "2025-12-10T14:36:02Z",
+        "is_deleted": false,
+        "is_developer_reply": false,
+        "is_latest": true,
+        "previous_count": 0,
+        "user": {
+          "id": 19469953,
+          "name": "Ahmed",
+          "url": "https://addons.mozilla.org/en-US/firefox/user/19469953/",
+          "username": "anonymous-eea77ecf08278d76c1022998ff9e6515"
+        },
+        "score": 1,
+        "reply": null,
+        "version": {
+          "id": 5979715,
+          "version": "1.80.0"
+        }
+      },
+      {
+        "id": 2541280,
+        "addon": {
+          "id": 952959,
+          "slug": "read-aloud",
+          "name": {
+            "en-US": "Read Aloud: A Text to Speech Voice Reader",
+            "es-ES": "Texto A Voz",
+            "it": "Read Aloud: Un Lettore Vocale da Testo a Voce",
+            "vi": "Đọc Cho Tôi Nghe",
+            "zh-CN": "Read Aloud: 文本语音朗读助理",
+            "zh-TW": "Read Aloud: 文字語音朗讀助理"
+          },
+          "icon_url": "https://addons.mozilla.org/user-media/addon_icons/952/952959-64.png?modified=cccc5f2c"
+        },
+        "body": "ok",
+        "created": "2025-12-06T15:55:56Z",
+        "is_deleted": false,
+        "is_developer_reply": false,
+        "is_latest": true,
+        "previous_count": 0,
+        "user": {
+          "id": 15313674,
+          "name": "Firefox user 15313674",
+          "url": "https://addons.mozilla.org/en-US/firefox/user/15313674/",
+          "username": "anonymous-b559d332d4f790337c31d8e437b5a936"
+        },
+        "score": 5,
+        "reply": null,
+        "version": {
+          "id": 5979715,
+          "version": "1.80.0"
+        }
+      },
+      {
+        "id": 2540930,
+        "addon": {
+          "id": 952959,
+          "slug": "read-aloud",
+          "name": {
+            "en-US": "Read Aloud: A Text to Speech Voice Reader",
+            "es-ES": "Texto A Voz",
+            "it": "Read Aloud: Un Lettore Vocale da Testo a Voce",
+            "vi": "Đọc Cho Tôi Nghe",
+            "zh-CN": "Read Aloud: 文本语音朗读助理",
+            "zh-TW": "Read Aloud: 文字語音朗讀助理"
+          },
+          "icon_url": "https://addons.mozilla.org/user-media/addon_icons/952/952959-64.png?modified=cccc5f2c"
+        },
+        "body": "The robot voice is truly awful. There has to be a better way.",
+        "created": "2025-12-05T10:20:55Z",
+        "is_deleted": false,
+        "is_developer_reply": false,
+        "is_latest": true,
+        "previous_count": 0,
+        "user": {
+          "id": 19611894,
+          "name": "Firefox user 19611894",
+          "url": "https://addons.mozilla.org/en-US/firefox/user/19611894/",
+          "username": "anonymous-45e4f6139888777f595a7f56ccc423a4"
+        },
+        "score": 1,
+        "reply": null,
+        "version": {
+          "id": 5979715,
+          "version": "1.80.0"
+        }
+      },
+      {
+        "id": 2537734,
+        "addon": {
+          "id": 952959,
+          "slug": "read-aloud",
+          "name": {
+            "en-US": "Read Aloud: A Text to Speech Voice Reader",
+            "es-ES": "Texto A Voz",
+            "it": "Read Aloud: Un Lettore Vocale da Testo a Voce",
+            "vi": "Đọc Cho Tôi Nghe",
+            "zh-CN": "Read Aloud: 文本语音朗读助理",
+            "zh-TW": "Read Aloud: 文字語音朗讀助理"
+          },
+          "icon_url": "https://addons.mozilla.org/user-media/addon_icons/952/952959-64.png?modified=cccc5f2c"
+        },
+        "body": null,
+        "created": "2025-11-23T01:10:33Z",
+        "is_deleted": false,
+        "is_developer_reply": false,
+        "is_latest": true,
+        "previous_count": 0,
+        "user": {
+          "id": 19590662,
+          "name": "acg",
+          "url": "https://addons.mozilla.org/en-US/firefox/user/19590662/",
+          "username": "anonymous-535f6e7174ad5520c58aec0961cd6e61"
+        },
+        "score": 1,
+        "reply": null,
+        "version": {
+          "id": 5979715,
+          "version": "1.80.0"
+        }
+      },
+      {
+        "id": 2537322,
+        "addon": {
+          "id": 952959,
+          "slug": "read-aloud",
+          "name": {
+            "en-US": "Read Aloud: A Text to Speech Voice Reader",
+            "es-ES": "Texto A Voz",
+            "it": "Read Aloud: Un Lettore Vocale da Testo a Voce",
+            "vi": "Đọc Cho Tôi Nghe",
+            "zh-CN": "Read Aloud: 文本语音朗读助理",
+            "zh-TW": "Read Aloud: 文字語音朗讀助理"
+          },
+          "icon_url": "https://addons.mozilla.org/user-media/addon_icons/952/952959-64.png?modified=cccc5f2c"
+        },
+        "body": "Useful and Effective\n-This tool is by far the most useful add-on I have on my Firefox. It allows me to quickly listen to wiki pages and Comments on videos without having to look at the text. I also enjoy the feature to add languages. Allowing me to Listen to Dutch pages and stories as well. \n-I would suggest maybe a short tutorial video or a Q&A page on how to maximize the usefulness of this tool as many might have over looked features of this add-on. Such as Tutorial on alternate language support and adding voices as well as Tutorial on speed and pitch options.\n-Currently Working with Firefox 145.0 (64-bit). Win10 Pro. Version 22H2.",
+        "created": "2025-11-21T05:29:33Z",
+        "is_deleted": false,
+        "is_developer_reply": false,
+        "is_latest": true,
+        "previous_count": 0,
+        "user": {
+          "id": 19587655,
+          "name": "Ghosty 21",
+          "url": "https://addons.mozilla.org/en-US/firefox/user/19587655/",
+          "username": "anonymous-c309b90cbadb4a697f1dba9fe3218e28"
+        },
+        "score": 5,
+        "reply": null,
+        "version": {
+          "id": 5979715,
+          "version": "1.80.0"
+        }
+      },
+      {
+        "id": 2536591,
+        "addon": {
+          "id": 952959,
+          "slug": "read-aloud",
+          "name": {
+            "en-US": "Read Aloud: A Text to Speech Voice Reader",
+            "es-ES": "Texto A Voz",
+            "it": "Read Aloud: Un Lettore Vocale da Testo a Voce",
+            "vi": "Đọc Cho Tôi Nghe",
+            "zh-CN": "Read Aloud: 文本语音朗读助理",
+            "zh-TW": "Read Aloud: 文字語音朗讀助理"
+          },
+          "icon_url": "https://addons.mozilla.org/user-media/addon_icons/952/952959-64.png?modified=cccc5f2c"
+        },
+        "body": null,
+        "created": "2025-11-18T06:47:25Z",
+        "is_deleted": false,
+        "is_developer_reply": false,
+        "is_latest": true,
+        "previous_count": 0,
+        "user": {
+          "id": 19582396,
+          "name": "Firefox user 19582396",
+          "url": "https://addons.mozilla.org/en-US/firefox/user/19582396/",
+          "username": "anonymous-8868077d0104e394ccc0d1e705cab1ed"
+        },
+        "score": 5,
+        "reply": null,
+        "version": {
+          "id": 5979715,
+          "version": "1.80.0"
+        }
+      },
+      {
+        "id": 2535652,
+        "addon": {
+          "id": 952959,
+          "slug": "read-aloud",
+          "name": {
+            "en-US": "Read Aloud: A Text to Speech Voice Reader",
+            "es-ES": "Texto A Voz",
+            "it": "Read Aloud: Un Lettore Vocale da Testo a Voce",
+            "vi": "Đọc Cho Tôi Nghe",
+            "zh-CN": "Read Aloud: 文本语音朗读助理",
+            "zh-TW": "Read Aloud: 文字語音朗讀助理"
+          },
+          "icon_url": "https://addons.mozilla.org/user-media/addon_icons/952/952959-64.png?modified=cccc5f2c"
+        },
+        "body": null,
+        "created": "2025-11-15T11:36:52Z",
+        "is_deleted": false,
+        "is_developer_reply": false,
+        "is_latest": true,
+        "previous_count": 0,
+        "user": {
+          "id": 18530430,
+          "name": "MEGAmanLITE",
+          "url": "https://addons.mozilla.org/en-US/firefox/user/18530430/",
+          "username": "anonymous-8164aa99113c7317e2b2db89fc947f9f"
+        },
+        "score": 5,
+        "reply": null,
+        "version": {
+          "id": 5979715,
+          "version": "1.80.0"
+        }
+      },
+      {
+        "id": 2535224,
+        "addon": {
+          "id": 952959,
+          "slug": "read-aloud",
+          "name": {
+            "en-US": "Read Aloud: A Text to Speech Voice Reader",
+            "es-ES": "Texto A Voz",
+            "it": "Read Aloud: Un Lettore Vocale da Testo a Voce",
+            "vi": "Đọc Cho Tôi Nghe",
+            "zh-CN": "Read Aloud: 文本语音朗读助理",
+            "zh-TW": "Read Aloud: 文字語音朗讀助理"
+          },
+          "icon_url": "https://addons.mozilla.org/user-media/addon_icons/952/952959-64.png?modified=cccc5f2c"
+        },
+        "body": "works beautifully",
+        "created": "2025-11-13T21:25:36Z",
+        "is_deleted": false,
+        "is_developer_reply": false,
+        "is_latest": true,
+        "previous_count": 0,
+        "user": {
+          "id": 19574992,
+          "name": "Joe Steiner",
+          "url": "https://addons.mozilla.org/en-US/firefox/user/19574992/",
+          "username": "anonymous-0d1b39bb2daac2bca853276868c165ba"
+        },
+        "score": 5,
+        "reply": null,
+        "version": {
+          "id": 5979715,
+          "version": "1.80.0"
+        }
+      },
+      {
+        "id": 2534995,
+        "addon": {
+          "id": 952959,
+          "slug": "read-aloud",
+          "name": {
+            "en-US": "Read Aloud: A Text to Speech Voice Reader",
+            "es-ES": "Texto A Voz",
+            "it": "Read Aloud: Un Lettore Vocale da Testo a Voce",
+            "vi": "Đọc Cho Tôi Nghe",
+            "zh-CN": "Read Aloud: 文本语音朗读助理",
+            "zh-TW": "Read Aloud: 文字語音朗讀助理"
+          },
+          "icon_url": "https://addons.mozilla.org/user-media/addon_icons/952/952959-64.png?modified=cccc5f2c"
+        },
+        "body": "ชอบมาก็อยากให้เพื่มภาษาไทยได้จะสนุกมาก",
+        "created": "2025-11-12T21:15:52Z",
+        "is_deleted": false,
+        "is_developer_reply": false,
+        "is_latest": true,
+        "previous_count": 0,
+        "user": {
+          "id": 19514002,
+          "name": "Firefox user 19514002",
+          "url": "https://addons.mozilla.org/en-US/firefox/user/19514002/",
+          "username": "anonymous-dc51cd343691accccdac1c0216371cf2"
+        },
+        "score": 5,
+        "reply": null,
+        "version": {
+          "id": 5979715,
+          "version": "1.80.0"
+        }
+      },
+      {
+        "id": 2534787,
+        "addon": {
+          "id": 952959,
+          "slug": "read-aloud",
+          "name": {
+            "en-US": "Read Aloud: A Text to Speech Voice Reader",
+            "es-ES": "Texto A Voz",
+            "it": "Read Aloud: Un Lettore Vocale da Testo a Voce",
+            "vi": "Đọc Cho Tôi Nghe",
+            "zh-CN": "Read Aloud: 文本语音朗读助理",
+            "zh-TW": "Read Aloud: 文字語音朗讀助理"
+          },
+          "icon_url": "https://addons.mozilla.org/user-media/addon_icons/952/952959-64.png?modified=cccc5f2c"
+        },
+        "body": "This has been incredibly useful to me for reading long papers and helping with proof-reading. Thank you <3",
+        "created": "2025-11-12T01:21:55Z",
+        "is_deleted": false,
+        "is_developer_reply": false,
+        "is_latest": true,
+        "previous_count": 0,
+        "user": {
+          "id": 19571734,
+          "name": "Cyg",
+          "url": "https://addons.mozilla.org/en-US/firefox/user/19571734/",
+          "username": "anonymous-5f8282c7e223a9b3bcb7fb8bb3a02f7a"
+        },
+        "score": 5,
+        "reply": null,
+        "version": {
+          "id": 5979715,
+          "version": "1.80.0"
+        }
+      },
+      {
+        "id": 2534706,
+        "addon": {
+          "id": 952959,
+          "slug": "read-aloud",
+          "name": {
+            "en-US": "Read Aloud: A Text to Speech Voice Reader",
+            "es-ES": "Texto A Voz",
+            "it": "Read Aloud: Un Lettore Vocale da Testo a Voce",
+            "vi": "Đọc Cho Tôi Nghe",
+            "zh-CN": "Read Aloud: 文本语音朗读助理",
+            "zh-TW": "Read Aloud: 文字語音朗讀助理"
+          },
+          "icon_url": "https://addons.mozilla.org/user-media/addon_icons/952/952959-64.png?modified=cccc5f2c"
+        },
+        "body": "The best option currently since there's no annoying ads and extremely light. Would be great if it had a pop-out functionality. Keyboard shortcuts are sufficient though.",
+        "created": "2025-11-11T17:34:35Z",
+        "is_deleted": false,
+        "is_developer_reply": false,
+        "is_latest": true,
+        "previous_count": 0,
+        "user": {
+          "id": 11521,
+          "name": " Ahmed",
+          "url": "https://addons.mozilla.org/en-US/firefox/user/11521/",
+          "username": "ahmed"
+        },
+        "score": 5,
+        "reply": null,
+        "version": {
+          "id": 5979715,
+          "version": "1.80.0"
+        }
+      },
+      {
+        "id": 2534621,
+        "addon": {
+          "id": 952959,
+          "slug": "read-aloud",
+          "name": {
+            "en-US": "Read Aloud: A Text to Speech Voice Reader",
+            "es-ES": "Texto A Voz",
+            "it": "Read Aloud: Un Lettore Vocale da Testo a Voce",
+            "vi": "Đọc Cho Tôi Nghe",
+            "zh-CN": "Read Aloud: 文本语音朗读助理",
+            "zh-TW": "Read Aloud: 文字語音朗讀助理"
+          },
+          "icon_url": "https://addons.mozilla.org/user-media/addon_icons/952/952959-64.png?modified=cccc5f2c"
+        },
+        "body": "Not work on debian 13 xfce",
+        "created": "2025-11-11T10:24:07Z",
+        "is_deleted": false,
+        "is_developer_reply": false,
+        "is_latest": true,
+        "previous_count": 0,
+        "user": {
+          "id": 19570525,
+          "name": "fxk",
+          "url": "https://addons.mozilla.org/en-US/firefox/user/19570525/",
+          "username": "anonymous-c990ea986d9217e213390c3a34a3bd54"
+        },
+        "score": 1,
+        "reply": null,
+        "version": {
+          "id": 5979715,
+          "version": "1.80.0"
+        }
+      },
+      {
+        "id": 2534422,
+        "addon": {
+          "id": 952959,
+          "slug": "read-aloud",
+          "name": {
+            "en-US": "Read Aloud: A Text to Speech Voice Reader",
+            "es-ES": "Texto A Voz",
+            "it": "Read Aloud: Un Lettore Vocale da Testo a Voce",
+            "vi": "Đọc Cho Tôi Nghe",
+            "zh-CN": "Read Aloud: 文本语音朗读助理",
+            "zh-TW": "Read Aloud: 文字語音朗讀助理"
+          },
+          "icon_url": "https://addons.mozilla.org/user-media/addon_icons/952/952959-64.png?modified=cccc5f2c"
+        },
+        "body": null,
+        "created": "2025-11-10T14:33:08Z",
+        "is_deleted": false,
+        "is_developer_reply": false,
+        "is_latest": true,
+        "previous_count": 0,
+        "user": {
+          "id": 19569210,
+          "name": "Alex",
+          "url": "https://addons.mozilla.org/en-US/firefox/user/19569210/",
+          "username": "anonymous-c9878a295fedbfe6ff67affc4ddff85a"
+        },
+        "score": 5,
+        "reply": null,
+        "version": {
+          "id": 5979715,
+          "version": "1.80.0"
+        }
+      },
+      {
+        "id": 2533651,
+        "addon": {
+          "id": 952959,
+          "slug": "read-aloud",
+          "name": {
+            "en-US": "Read Aloud: A Text to Speech Voice Reader",
+            "es-ES": "Texto A Voz",
+            "it": "Read Aloud: Un Lettore Vocale da Testo a Voce",
+            "vi": "Đọc Cho Tôi Nghe",
+            "zh-CN": "Read Aloud: 文本语音朗读助理",
+            "zh-TW": "Read Aloud: 文字語音朗讀助理"
+          },
+          "icon_url": "https://addons.mozilla.org/user-media/addon_icons/952/952959-64.png?modified=cccc5f2c"
+        },
+        "body": null,
+        "created": "2025-11-07T08:32:58Z",
+        "is_deleted": false,
+        "is_developer_reply": false,
+        "is_latest": true,
+        "previous_count": 0,
+        "user": {
+          "id": 12723976,
+          "name": "no dice",
+          "url": "https://addons.mozilla.org/en-US/firefox/user/12723976/",
+          "username": "kid42o"
+        },
+        "score": 5,
+        "reply": null,
+        "version": {
+          "id": 5979715,
+          "version": "1.80.0"
+        }
+      },
+      {
+        "id": 2533428,
+        "addon": {
+          "id": 952959,
+          "slug": "read-aloud",
+          "name": {
+            "en-US": "Read Aloud: A Text to Speech Voice Reader",
+            "es-ES": "Texto A Voz",
+            "it": "Read Aloud: Un Lettore Vocale da Testo a Voce",
+            "vi": "Đọc Cho Tôi Nghe",
+            "zh-CN": "Read Aloud: 文本语音朗读助理",
+            "zh-TW": "Read Aloud: 文字語音朗讀助理"
+          },
+          "icon_url": "https://addons.mozilla.org/user-media/addon_icons/952/952959-64.png?modified=cccc5f2c"
+        },
+        "body": "논문pdf 읽을때 사용하고 있음. 도움 많이되고 있고, edge 의 소리내어읽기보다 사용하기 편하다고 생각함. 발음이 너무 tts 스럽지만 무료인거 고려하면 충분하다고 봄.",
+        "created": "2025-11-06T06:03:45Z",
+        "is_deleted": false,
+        "is_developer_reply": false,
+        "is_latest": true,
+        "previous_count": 0,
+        "user": {
+          "id": 14494956,
+          "name": "Freakscum",
+          "url": "https://addons.mozilla.org/en-US/firefox/user/14494956/",
+          "username": "anonymous-61091ce89b5f4e4831b89446e1b77df2"
+        },
+        "score": 5,
+        "reply": null,
+        "version": {
+          "id": 5979715,
+          "version": "1.80.0"
+        }
+      },
+      {
+        "id": 2533288,
+        "addon": {
+          "id": 952959,
+          "slug": "read-aloud",
+          "name": {
+            "en-US": "Read Aloud: A Text to Speech Voice Reader",
+            "es-ES": "Texto A Voz",
+            "it": "Read Aloud: Un Lettore Vocale da Testo a Voce",
+            "vi": "Đọc Cho Tôi Nghe",
+            "zh-CN": "Read Aloud: 文本语音朗读助理",
+            "zh-TW": "Read Aloud: 文字語音朗讀助理"
+          },
+          "icon_url": "https://addons.mozilla.org/user-media/addon_icons/952/952959-64.png?modified=cccc5f2c"
+        },
+        "body": null,
+        "created": "2025-11-05T17:30:37Z",
+        "is_deleted": false,
+        "is_developer_reply": false,
+        "is_latest": true,
+        "previous_count": 0,
+        "user": {
+          "id": 19213059,
+          "name": "varun",
+          "url": "https://addons.mozilla.org/en-US/firefox/user/19213059/",
+          "username": "anonymous-2741cb8f6ee7fe2ad9aa11e159787937"
+        },
+        "score": 1,
+        "reply": null,
+        "version": {
+          "id": 5979715,
+          "version": "1.80.0"
+        }
+      },
+      {
+        "id": 2532497,
+        "addon": {
+          "id": 952959,
+          "slug": "read-aloud",
+          "name": {
+            "en-US": "Read Aloud: A Text to Speech Voice Reader",
+            "es-ES": "Texto A Voz",
+            "it": "Read Aloud: Un Lettore Vocale da Testo a Voce",
+            "vi": "Đọc Cho Tôi Nghe",
+            "zh-CN": "Read Aloud: 文本语音朗读助理",
+            "zh-TW": "Read Aloud: 文字語音朗讀助理"
+          },
+          "icon_url": "https://addons.mozilla.org/user-media/addon_icons/952/952959-64.png?modified=cccc5f2c"
+        },
+        "body": null,
+        "created": "2025-11-03T02:57:44Z",
+        "is_deleted": false,
+        "is_developer_reply": false,
+        "is_latest": true,
+        "previous_count": 0,
+        "user": {
+          "id": 19537642,
+          "name": "ADKFZ8O",
+          "url": "https://addons.mozilla.org/en-US/firefox/user/19537642/",
+          "username": "anonymous-8ff793b08f56f2da932df9c7f3755688"
+        },
+        "score": 5,
+        "reply": null,
+        "version": {
+          "id": 5979715,
+          "version": "1.80.0"
+        }
+      },
+      {
+        "id": 2531689,
+        "addon": {
+          "id": 952959,
+          "slug": "read-aloud",
+          "name": {
+            "en-US": "Read Aloud: A Text to Speech Voice Reader",
+            "es-ES": "Texto A Voz",
+            "it": "Read Aloud: Un Lettore Vocale da Testo a Voce",
+            "vi": "Đọc Cho Tôi Nghe",
+            "zh-CN": "Read Aloud: 文本语音朗读助理",
+            "zh-TW": "Read Aloud: 文字語音朗讀助理"
+          },
+          "icon_url": "https://addons.mozilla.org/user-media/addon_icons/952/952959-64.png?modified=cccc5f2c"
+        },
+        "body": "It's a quite good tool. It allows to listen article or web. Is is especially good when walking or have something other to do (like dish, laundry...). The voice synthesis is sometimes weird which is rather an issue of selected TTS engine than extension itself.\nThe most annoying flaw is loosing position in a long text when paused or internet signal lost. This mean manually locate part of text where to continue. Any search function or automatic bookmark insertion would be very useful.",
+        "created": "2025-10-31T09:37:14Z",
+        "is_deleted": false,
+        "is_developer_reply": false,
+        "is_latest": true,
+        "previous_count": 0,
+        "user": {
+          "id": 13745569,
+          "name": "Peca",
+          "url": "https://addons.mozilla.org/en-US/firefox/user/13745569/",
+          "username": "anonymous-31007ae02d811b407458918266e125a1"
+        },
+        "score": 4,
+        "reply": null,
+        "version": {
+          "id": 5979715,
+          "version": "1.80.0"
+        }
+      },
+      {
+        "id": 2531543,
+        "addon": {
+          "id": 952959,
+          "slug": "read-aloud",
+          "name": {
+            "en-US": "Read Aloud: A Text to Speech Voice Reader",
+            "es-ES": "Texto A Voz",
+            "it": "Read Aloud: Un Lettore Vocale da Testo a Voce",
+            "vi": "Đọc Cho Tôi Nghe",
+            "zh-CN": "Read Aloud: 文本语音朗读助理",
+            "zh-TW": "Read Aloud: 文字語音朗讀助理"
+          },
+          "icon_url": "https://addons.mozilla.org/user-media/addon_icons/952/952959-64.png?modified=cccc5f2c"
+        },
+        "body": null,
+        "created": "2025-10-30T16:06:48Z",
+        "is_deleted": false,
+        "is_developer_reply": false,
+        "is_latest": true,
+        "previous_count": 0,
+        "user": {
+          "id": 19526618,
+          "name": "Seän \"frostbyte\" Shepherd",
+          "url": "https://addons.mozilla.org/en-US/firefox/user/19526618/",
+          "username": "anonymous-b44a4b79f0ef3ae9d090fdfef6cdeec3"
+        },
+        "score": 5,
+        "reply": null,
+        "version": {
+          "id": 5979715,
+          "version": "1.80.0"
+        }
+      },
+      {
+        "id": 2531043,
+        "addon": {
+          "id": 952959,
+          "slug": "read-aloud",
+          "name": {
+            "en-US": "Read Aloud: A Text to Speech Voice Reader",
+            "es-ES": "Texto A Voz",
+            "it": "Read Aloud: Un Lettore Vocale da Testo a Voce",
+            "vi": "Đọc Cho Tôi Nghe",
+            "zh-CN": "Read Aloud: 文本语音朗读助理",
+            "zh-TW": "Read Aloud: 文字語音朗讀助理"
+          },
+          "icon_url": "https://addons.mozilla.org/user-media/addon_icons/952/952959-64.png?modified=cccc5f2c"
+        },
+        "body": null,
+        "created": "2025-10-28T18:57:12Z",
+        "is_deleted": false,
+        "is_developer_reply": false,
+        "is_latest": true,
+        "previous_count": 0,
+        "user": {
+          "id": 19548137,
+          "name": "kushbreth",
+          "url": "https://addons.mozilla.org/en-US/firefox/user/19548137/",
+          "username": "anonymous-9f65707c7d5e492e3ecef962a0ebdd62"
+        },
+        "score": 1,
+        "reply": null,
+        "version": {
+          "id": 5979715,
+          "version": "1.80.0"
+        }
+      },
+      {
+        "id": 2530894,
+        "addon": {
+          "id": 952959,
+          "slug": "read-aloud",
+          "name": {
+            "en-US": "Read Aloud: A Text to Speech Voice Reader",
+            "es-ES": "Texto A Voz",
+            "it": "Read Aloud: Un Lettore Vocale da Testo a Voce",
+            "vi": "Đọc Cho Tôi Nghe",
+            "zh-CN": "Read Aloud: 文本语音朗读助理",
+            "zh-TW": "Read Aloud: 文字語音朗讀助理"
+          },
+          "icon_url": "https://addons.mozilla.org/user-media/addon_icons/952/952959-64.png?modified=cccc5f2c"
+        },
+        "body": "read aloud is a good extension but the robotic voice sucks",
+        "created": "2025-10-28T10:31:50Z",
+        "is_deleted": false,
+        "is_developer_reply": false,
+        "is_latest": true,
+        "previous_count": 0,
+        "user": {
+          "id": 19547375,
+          "name": "Dilesh Fernando",
+          "url": "https://addons.mozilla.org/en-US/firefox/user/19547375/",
+          "username": "anonymous-7d8e71e7301ec9da9660435f4addce5e"
+        },
+        "score": 2,
+        "reply": null,
+        "version": {
+          "id": 5979715,
+          "version": "1.80.0"
+        }
+      },
+      {
+        "id": 2529477,
+        "addon": {
+          "id": 952959,
+          "slug": "read-aloud",
+          "name": {
+            "en-US": "Read Aloud: A Text to Speech Voice Reader",
+            "es-ES": "Texto A Voz",
+            "it": "Read Aloud: Un Lettore Vocale da Testo a Voce",
+            "vi": "Đọc Cho Tôi Nghe",
+            "zh-CN": "Read Aloud: 文本语音朗读助理",
+            "zh-TW": "Read Aloud: 文字語音朗讀助理"
+          },
+          "icon_url": "https://addons.mozilla.org/user-media/addon_icons/952/952959-64.png?modified=cccc5f2c"
+        },
+        "body": "Read Aloud has been great, but recently (about 20/10/25) the usual English options all got replaced by a lower quality robotic voice. And while Piper is an option and was recommended, none of the options were suitable for me now matched the higher quality reading of the voice I was familiar with. Please can this be undone? This extension is near unusable for me. I just wish to give my user experience on these voices",
+        "created": "2025-10-22T23:48:36Z",
+        "is_deleted": false,
+        "is_developer_reply": false,
+        "is_latest": true,
+        "previous_count": 0,
+        "user": {
+          "id": 19538464,
+          "name": "Buzzcut",
+          "url": "https://addons.mozilla.org/en-US/firefox/user/19538464/",
+          "username": "anonymous-34b6c0ed516bd6adbe812c19e446b611"
+        },
+        "score": 3,
+        "reply": null,
+        "version": {
+          "id": 5979715,
+          "version": "1.80.0"
+        }
+      },
+      {
+        "id": 2529152,
+        "addon": {
+          "id": 952959,
+          "slug": "read-aloud",
+          "name": {
+            "en-US": "Read Aloud: A Text to Speech Voice Reader",
+            "es-ES": "Texto A Voz",
+            "it": "Read Aloud: Un Lettore Vocale da Testo a Voce",
+            "vi": "Đọc Cho Tôi Nghe",
+            "zh-CN": "Read Aloud: 文本语音朗读助理",
+            "zh-TW": "Read Aloud: 文字語音朗讀助理"
+          },
+          "icon_url": "https://addons.mozilla.org/user-media/addon_icons/952/952959-64.png?modified=cccc5f2c"
+        },
+        "body": null,
+        "created": "2025-10-21T18:53:45Z",
+        "is_deleted": false,
+        "is_developer_reply": false,
+        "is_latest": true,
+        "previous_count": 0,
+        "user": {
+          "id": 13035213,
+          "name": "Commanden",
+          "url": "https://addons.mozilla.org/en-US/firefox/user/13035213/",
+          "username": "Commanden"
+        },
+        "score": 5,
+        "reply": null,
+        "version": {
+          "id": 5979715,
+          "version": "1.80.0"
+        }
+      },
+      {
+        "id": 2523142,
+        "addon": {
+          "id": 952959,
+          "slug": "read-aloud",
+          "name": {
+            "en-US": "Read Aloud: A Text to Speech Voice Reader",
+            "es-ES": "Texto A Voz",
+            "it": "Read Aloud: Un Lettore Vocale da Testo a Voce",
+            "vi": "Đọc Cho Tôi Nghe",
+            "zh-CN": "Read Aloud: 文本语音朗读助理",
+            "zh-TW": "Read Aloud: 文字語音朗讀助理"
+          },
+          "icon_url": "https://addons.mozilla.org/user-media/addon_icons/952/952959-64.png?modified=cccc5f2c"
+        },
+        "body": null,
+        "created": "2025-10-10T17:14:00Z",
+        "is_deleted": false,
+        "is_developer_reply": false,
+        "is_latest": true,
+        "previous_count": 0,
+        "user": {
+          "id": 19514864,
+          "name": "zari",
+          "url": "https://addons.mozilla.org/en-US/firefox/user/19514864/",
+          "username": "anonymous-6644301add3eeb7d08ed5034e425aacd"
+        },
+        "score": 4,
+        "reply": null,
+        "version": {
+          "id": 5979715,
+          "version": "1.80.0"
+        }
+      },
+      {
+        "id": 2522605,
+        "addon": {
+          "id": 952959,
+          "slug": "read-aloud",
+          "name": {
+            "en-US": "Read Aloud: A Text to Speech Voice Reader",
+            "es-ES": "Texto A Voz",
+            "it": "Read Aloud: Un Lettore Vocale da Testo a Voce",
+            "vi": "Đọc Cho Tôi Nghe",
+            "zh-CN": "Read Aloud: 文本语音朗读助理",
+            "zh-TW": "Read Aloud: 文字語音朗讀助理"
+          },
+          "icon_url": "https://addons.mozilla.org/user-media/addon_icons/952/952959-64.png?modified=cccc5f2c"
+        },
+        "body": "I really like it on Firefox, but it really fails on Thunderbird, I hope you can update the Thunderbird version and get it working as well as the Firefox version.",
+        "created": "2025-10-08T04:35:25Z",
+        "is_deleted": false,
+        "is_developer_reply": false,
+        "is_latest": true,
+        "previous_count": 0,
+        "user": {
+          "id": 17725017,
+          "name": "That One Guy",
+          "url": "https://addons.mozilla.org/en-US/firefox/user/17725017/",
+          "username": "anonymous-45650f9a6561a14d0b19d5032c959734"
+        },
+        "score": 2,
+        "reply": null,
+        "version": {
+          "id": 5979715,
+          "version": "1.80.0"
+        }
+      },
+      {
+        "id": 2522463,
+        "addon": {
+          "id": 952959,
+          "slug": "read-aloud",
+          "name": {
+            "en-US": "Read Aloud: A Text to Speech Voice Reader",
+            "es-ES": "Texto A Voz",
+            "it": "Read Aloud: Un Lettore Vocale da Testo a Voce",
+            "vi": "Đọc Cho Tôi Nghe",
+            "zh-CN": "Read Aloud: 文本语音朗读助理",
+            "zh-TW": "Read Aloud: 文字語音朗讀助理"
+          },
+          "icon_url": "https://addons.mozilla.org/user-media/addon_icons/952/952959-64.png?modified=cccc5f2c"
+        },
+        "body": "Não lê um monte de tipo de página, todas que precisei no máximo lia o titulo.",
+        "created": "2025-10-07T14:01:44Z",
+        "is_deleted": false,
+        "is_developer_reply": false,
+        "is_latest": true,
+        "previous_count": 0,
+        "user": {
+          "id": 19509732,
+          "name": "Caroline",
+          "url": "https://addons.mozilla.org/en-US/firefox/user/19509732/",
+          "username": "anonymous-b75ac6bc61266cca5320efe7329acebb"
+        },
+        "score": 1,
+        "reply": null,
+        "version": {
+          "id": 5979715,
+          "version": "1.80.0"
+        }
+      },
+      {
+        "id": 2521992,
+        "addon": {
+          "id": 952959,
+          "slug": "read-aloud",
+          "name": {
+            "en-US": "Read Aloud: A Text to Speech Voice Reader",
+            "es-ES": "Texto A Voz",
+            "it": "Read Aloud: Un Lettore Vocale da Testo a Voce",
+            "vi": "Đọc Cho Tôi Nghe",
+            "zh-CN": "Read Aloud: 文本语音朗读助理",
+            "zh-TW": "Read Aloud: 文字語音朗讀助理"
+          },
+          "icon_url": "https://addons.mozilla.org/user-media/addon_icons/952/952959-64.png?modified=cccc5f2c"
+        },
+        "body": "32-bit SAPI5 offline voices not available?",
+        "created": "2025-10-05T13:55:54Z",
+        "is_deleted": false,
+        "is_developer_reply": false,
+        "is_latest": true,
+        "previous_count": 0,
+        "user": {
+          "id": 19506545,
+          "name": "Dāvis",
+          "url": "https://addons.mozilla.org/en-US/firefox/user/19506545/",
+          "username": "anonymous-4bf8ea81761f9d6d320ba5c97d4f3b49"
+        },
+        "score": 3,
+        "reply": null,
+        "version": {
+          "id": 5979715,
+          "version": "1.80.0"
+        }
+      },
+      {
+        "id": 2521559,
+        "addon": {
+          "id": 952959,
+          "slug": "read-aloud",
+          "name": {
+            "en-US": "Read Aloud: A Text to Speech Voice Reader",
+            "es-ES": "Texto A Voz",
+            "it": "Read Aloud: Un Lettore Vocale da Testo a Voce",
+            "vi": "Đọc Cho Tôi Nghe",
+            "zh-CN": "Read Aloud: 文本语音朗读助理",
+            "zh-TW": "Read Aloud: 文字語音朗讀助理"
+          },
+          "icon_url": "https://addons.mozilla.org/user-media/addon_icons/952/952959-64.png?modified=cccc5f2c"
+        },
+        "body": "換到Lubuntu後，這是唯一臺灣語音發音正常的，多謝。",
+        "created": "2025-10-03T13:07:22Z",
+        "is_deleted": false,
+        "is_developer_reply": false,
+        "is_latest": true,
+        "previous_count": 0,
+        "user": {
+          "id": 12543579,
+          "name": "Gail",
+          "url": "https://addons.mozilla.org/en-US/firefox/user/12543579/",
+          "username": "Gail-Lin"
+        },
+        "score": 5,
+        "reply": null,
+        "version": {
+          "id": 5979715,
+          "version": "1.80.0"
+        }
+      },
+      {
+        "id": 2520597,
+        "addon": {
+          "id": 952959,
+          "slug": "read-aloud",
+          "name": {
+            "en-US": "Read Aloud: A Text to Speech Voice Reader",
+            "es-ES": "Texto A Voz",
+            "it": "Read Aloud: Un Lettore Vocale da Testo a Voce",
+            "vi": "Đọc Cho Tôi Nghe",
+            "zh-CN": "Read Aloud: 文本语音朗读助理",
+            "zh-TW": "Read Aloud: 文字語音朗讀助理"
+          },
+          "icon_url": "https://addons.mozilla.org/user-media/addon_icons/952/952959-64.png?modified=cccc5f2c"
+        },
+        "body": null,
+        "created": "2025-09-29T06:50:18Z",
+        "is_deleted": false,
+        "is_developer_reply": false,
+        "is_latest": true,
+        "previous_count": 0,
+        "user": {
+          "id": 17553385,
+          "name": "Ovolya",
+          "url": "https://addons.mozilla.org/en-US/firefox/user/17553385/",
+          "username": "anonymous-64caaea3f58b4073ac0ba5356979a5f1"
+        },
+        "score": 1,
+        "reply": null,
+        "version": {
+          "id": 5979715,
+          "version": "1.80.0"
+        }
+      },
+      {
+        "id": 2520572,
+        "addon": {
+          "id": 952959,
+          "slug": "read-aloud",
+          "name": {
+            "en-US": "Read Aloud: A Text to Speech Voice Reader",
+            "es-ES": "Texto A Voz",
+            "it": "Read Aloud: Un Lettore Vocale da Testo a Voce",
+            "vi": "Đọc Cho Tôi Nghe",
+            "zh-CN": "Read Aloud: 文本语音朗读助理",
+            "zh-TW": "Read Aloud: 文字語音朗讀助理"
+          },
+          "icon_url": "https://addons.mozilla.org/user-media/addon_icons/952/952959-64.png?modified=cccc5f2c"
+        },
+        "body": null,
+        "created": "2025-09-29T02:57:56Z",
+        "is_deleted": false,
+        "is_developer_reply": false,
+        "is_latest": true,
+        "previous_count": 0,
+        "user": {
+          "id": 15989400,
+          "name": "William Nettles",
+          "url": "https://addons.mozilla.org/en-US/firefox/user/15989400/",
+          "username": "anonymous-944402614ea67c1c9283d6fc75371798"
+        },
+        "score": 2,
+        "reply": null,
+        "version": {
+          "id": 5979715,
+          "version": "1.80.0"
+        }
+      },
+      {
+        "id": 2518139,
+        "addon": {
+          "id": 952959,
+          "slug": "read-aloud",
+          "name": {
+            "en-US": "Read Aloud: A Text to Speech Voice Reader",
+            "es-ES": "Texto A Voz",
+            "it": "Read Aloud: Un Lettore Vocale da Testo a Voce",
+            "vi": "Đọc Cho Tôi Nghe",
+            "zh-CN": "Read Aloud: 文本语音朗读助理",
+            "zh-TW": "Read Aloud: 文字語音朗讀助理"
+          },
+          "icon_url": "https://addons.mozilla.org/user-media/addon_icons/952/952959-64.png?modified=cccc5f2c"
+        },
+        "body": null,
+        "created": "2025-09-17T08:33:23Z",
+        "is_deleted": false,
+        "is_developer_reply": false,
+        "is_latest": true,
+        "previous_count": 0,
+        "user": {
+          "id": 17831851,
+          "name": "Enno",
+          "url": "https://addons.mozilla.org/en-US/firefox/user/17831851/",
+          "username": "anonymous-4c4b07f8d4a066d951b743cfb522e4e9"
+        },
+        "score": 5,
+        "reply": null,
+        "version": {
+          "id": 5979715,
+          "version": "1.80.0"
+        }
+      },
+      {
+        "id": 2518055,
+        "addon": {
+          "id": 952959,
+          "slug": "read-aloud",
+          "name": {
+            "en-US": "Read Aloud: A Text to Speech Voice Reader",
+            "es-ES": "Texto A Voz",
+            "it": "Read Aloud: Un Lettore Vocale da Testo a Voce",
+            "vi": "Đọc Cho Tôi Nghe",
+            "zh-CN": "Read Aloud: 文本语音朗读助理",
+            "zh-TW": "Read Aloud: 文字語音朗讀助理"
+          },
+          "icon_url": "https://addons.mozilla.org/user-media/addon_icons/952/952959-64.png?modified=cccc5f2c"
+        },
+        "body": "Signing in becomes a hassle",
+        "created": "2025-09-16T20:54:15Z",
+        "is_deleted": false,
+        "is_developer_reply": false,
+        "is_latest": true,
+        "previous_count": 0,
+        "user": {
+          "id": 13704385,
+          "name": "Firefox user 13704385",
+          "url": "https://addons.mozilla.org/en-US/firefox/user/13704385/",
+          "username": "anonymous-c2fcdb1a8f29143b0e51b0449da600aa"
+        },
+        "score": 2,
+        "reply": null,
+        "version": {
+          "id": 5979715,
+          "version": "1.80.0"
+        }
+      },
+      {
+        "id": 2516083,
+        "addon": {
+          "id": 952959,
+          "slug": "read-aloud",
+          "name": {
+            "en-US": "Read Aloud: A Text to Speech Voice Reader",
+            "es-ES": "Texto A Voz",
+            "it": "Read Aloud: Un Lettore Vocale da Testo a Voce",
+            "vi": "Đọc Cho Tôi Nghe",
+            "zh-CN": "Read Aloud: 文本语音朗读助理",
+            "zh-TW": "Read Aloud: 文字語音朗讀助理"
+          },
+          "icon_url": "https://addons.mozilla.org/user-media/addon_icons/952/952959-64.png?modified=cccc5f2c"
+        },
+        "body": "This is the same technology as existed in win XP.",
+        "created": "2025-09-13T11:50:10Z",
+        "is_deleted": false,
+        "is_developer_reply": false,
+        "is_latest": true,
+        "previous_count": 0,
+        "user": {
+          "id": 19294083,
+          "name": "Firefox user 19294083",
+          "url": "https://addons.mozilla.org/en-US/firefox/user/19294083/",
+          "username": "anonymous-0185bf7a42fa13941f71d6d22f6e4d16"
+        },
+        "score": 1,
+        "reply": null,
+        "version": {
+          "id": 5979715,
+          "version": "1.80.0"
+        }
+      },
+      {
+        "id": 2515601,
+        "addon": {
+          "id": 952959,
+          "slug": "read-aloud",
+          "name": {
+            "en-US": "Read Aloud: A Text to Speech Voice Reader",
+            "es-ES": "Texto A Voz",
+            "it": "Read Aloud: Un Lettore Vocale da Testo a Voce",
+            "vi": "Đọc Cho Tôi Nghe",
+            "zh-CN": "Read Aloud: 文本语音朗读助理",
+            "zh-TW": "Read Aloud: 文字語音朗讀助理"
+          },
+          "icon_url": "https://addons.mozilla.org/user-media/addon_icons/952/952959-64.png?modified=cccc5f2c"
+        },
+        "body": "since they introduced the piper voices it got a lot better. it's not perfect, but it's WAY better with the piper voices now.",
+        "created": "2025-09-11T03:24:50Z",
+        "is_deleted": false,
+        "is_developer_reply": false,
+        "is_latest": true,
+        "previous_count": 0,
+        "user": {
+          "id": 19466865,
+          "name": "ndb",
+          "url": "https://addons.mozilla.org/en-US/firefox/user/19466865/",
+          "username": "anonymous-f18d97f9b8f5c0090888da3d2772070e"
+        },
+        "score": 5,
+        "reply": null,
+        "version": {
+          "id": 5979715,
+          "version": "1.80.0"
+        }
+      },
+      {
+        "id": 2498061,
+        "addon": {
+          "id": 952959,
+          "slug": "read-aloud",
+          "name": {
+            "en-US": "Read Aloud: A Text to Speech Voice Reader",
+            "es-ES": "Texto A Voz",
+            "it": "Read Aloud: Un Lettore Vocale da Testo a Voce",
+            "vi": "Đọc Cho Tôi Nghe",
+            "zh-CN": "Read Aloud: 文本语音朗读助理",
+            "zh-TW": "Read Aloud: 文字語音朗讀助理"
+          },
+          "icon_url": "https://addons.mozilla.org/user-media/addon_icons/952/952959-64.png?modified=cccc5f2c"
+        },
+        "body": "Tried to use it in Firefox on Mint: The voices are straight out of a horror movie. Not close to reality a bit and horrifying at the same time. There is one called female whisper, and it sounds like a witch whispering to you in a dark forest in a dead of night while you are sleeping.",
+        "created": "2025-09-07T09:29:00Z",
+        "is_deleted": false,
+        "is_developer_reply": false,
+        "is_latest": true,
+        "previous_count": 0,
+        "user": {
+          "id": 17317368,
+          "name": "Firefox user 17317368",
+          "url": "https://addons.mozilla.org/en-US/firefox/user/17317368/",
+          "username": "anonymous-e8f99abc54b191c74c3f543df4d3bc9c"
+        },
+        "score": 2,
+        "reply": null,
+        "version": {
+          "id": 5979715,
+          "version": "1.80.0"
+        }
+      },
+      {
+        "id": 2497313,
+        "addon": {
+          "id": 952959,
+          "slug": "read-aloud",
+          "name": {
+            "en-US": "Read Aloud: A Text to Speech Voice Reader",
+            "es-ES": "Texto A Voz",
+            "it": "Read Aloud: Un Lettore Vocale da Testo a Voce",
+            "vi": "Đọc Cho Tôi Nghe",
+            "zh-CN": "Read Aloud: 文本语音朗读助理",
+            "zh-TW": "Read Aloud: 文字語音朗讀助理"
+          },
+          "icon_url": "https://addons.mozilla.org/user-media/addon_icons/952/952959-64.png?modified=cccc5f2c"
+        },
+        "body": "needs to have the ability for custom endpoints",
+        "created": "2025-09-07T06:59:42Z",
+        "is_deleted": false,
+        "is_developer_reply": false,
+        "is_latest": true,
+        "previous_count": 0,
+        "user": {
+          "id": 16494825,
+          "name": "kkslidermight",
+          "url": "https://addons.mozilla.org/en-US/firefox/user/16494825/",
+          "username": "anonymous-ffe504a71fab71284048d109f34b5a8f"
+        },
+        "score": 2,
+        "reply": null,
+        "version": {
+          "id": 5979715,
+          "version": "1.80.0"
+        }
+      },
+      {
+        "id": 2491725,
+        "addon": {
+          "id": 952959,
+          "slug": "read-aloud",
+          "name": {
+            "en-US": "Read Aloud: A Text to Speech Voice Reader",
+            "es-ES": "Texto A Voz",
+            "it": "Read Aloud: Un Lettore Vocale da Testo a Voce",
+            "vi": "Đọc Cho Tôi Nghe",
+            "zh-CN": "Read Aloud: 文本语音朗读助理",
+            "zh-TW": "Read Aloud: 文字語音朗讀助理"
+          },
+          "icon_url": "https://addons.mozilla.org/user-media/addon_icons/952/952959-64.png?modified=cccc5f2c"
+        },
+        "body": "Doesnt load on pages i NEED read aloud.",
+        "created": "2025-09-05T00:07:25Z",
+        "is_deleted": false,
+        "is_developer_reply": false,
+        "is_latest": true,
+        "previous_count": 0,
+        "user": {
+          "id": 19438851,
+          "name": "egg",
+          "url": "https://addons.mozilla.org/en-US/firefox/user/19438851/",
+          "username": "anonymous-ef43e1725f7be6bb88b6181d3a131c7d"
+        },
+        "score": 1,
+        "reply": null,
+        "version": {
+          "id": 5979715,
+          "version": "1.80.0"
+        }
+      },
+      {
+        "id": 2491666,
+        "addon": {
+          "id": 952959,
+          "slug": "read-aloud",
+          "name": {
+            "en-US": "Read Aloud: A Text to Speech Voice Reader",
+            "es-ES": "Texto A Voz",
+            "it": "Read Aloud: Un Lettore Vocale da Testo a Voce",
+            "vi": "Đọc Cho Tôi Nghe",
+            "zh-CN": "Read Aloud: 文本语音朗读助理",
+            "zh-TW": "Read Aloud: 文字語音朗讀助理"
+          },
+          "icon_url": "https://addons.mozilla.org/user-media/addon_icons/952/952959-64.png?modified=cccc5f2c"
+        },
+        "body": "Excellent extension. It would be great if it could omit pronouncing the citations at the end of sentences as well as being able to pause after a period in the sentence. Also, if it could avoid reading hyperlinks, that would be cool too. Otherwise, its 5 stars",
+        "created": "2025-09-04T17:23:53Z",
+        "is_deleted": false,
+        "is_developer_reply": false,
+        "is_latest": true,
+        "previous_count": 0,
+        "user": {
+          "id": 13670712,
+          "name": "Smeagols_Ring",
+          "url": "https://addons.mozilla.org/en-US/firefox/user/13670712/",
+          "username": "anonymous-c9679c5427f1f48d6d9d74f96907ac38"
+        },
+        "score": 4,
+        "reply": null,
+        "version": {
+          "id": 5979715,
+          "version": "1.80.0"
+        }
+      },
+      {
+        "id": 2491616,
+        "addon": {
+          "id": 952959,
+          "slug": "read-aloud",
+          "name": {
+            "en-US": "Read Aloud: A Text to Speech Voice Reader",
+            "es-ES": "Texto A Voz",
+            "it": "Read Aloud: Un Lettore Vocale da Testo a Voce",
+            "vi": "Đọc Cho Tôi Nghe",
+            "zh-CN": "Read Aloud: 文本语音朗读助理",
+            "zh-TW": "Read Aloud: 文字語音朗讀助理"
+          },
+          "icon_url": "https://addons.mozilla.org/user-media/addon_icons/952/952959-64.png?modified=cccc5f2c"
+        },
+        "body": null,
+        "created": "2025-09-04T12:45:24Z",
+        "is_deleted": false,
+        "is_developer_reply": false,
+        "is_latest": true,
+        "previous_count": 0,
+        "user": {
+          "id": 17902605,
+          "name": "Firefox user 17902605",
+          "url": "https://addons.mozilla.org/en-US/firefox/user/17902605/",
+          "username": "anonymous-08cdc0f65213ff4360ff65bb1a62148f"
+        },
+        "score": 1,
+        "reply": null,
+        "version": {
+          "id": 5979715,
+          "version": "1.80.0"
+        }
+      },
+      {
+        "id": 2491052,
+        "addon": {
+          "id": 952959,
+          "slug": "read-aloud",
+          "name": {
+            "en-US": "Read Aloud: A Text to Speech Voice Reader",
+            "es-ES": "Texto A Voz",
+            "it": "Read Aloud: Un Lettore Vocale da Testo a Voce",
+            "vi": "Đọc Cho Tôi Nghe",
+            "zh-CN": "Read Aloud: 文本语音朗读助理",
+            "zh-TW": "Read Aloud: 文字語音朗讀助理"
+          },
+          "icon_url": "https://addons.mozilla.org/user-media/addon_icons/952/952959-64.png?modified=cccc5f2c"
+        },
+        "body": null,
+        "created": "2025-09-03T22:33:17Z",
+        "is_deleted": false,
+        "is_developer_reply": false,
+        "is_latest": true,
+        "previous_count": 0,
+        "user": {
+          "id": 15037318,
+          "name": "Firefox user 15037318",
+          "url": "https://addons.mozilla.org/en-US/firefox/user/15037318/",
+          "username": "anonymous-449ed0179208fc7a9e725abcde23c53a"
+        },
+        "score": 5,
+        "reply": null,
+        "version": {
+          "id": 5979715,
+          "version": "1.80.0"
+        }
+      },
+      {
+        "id": 2489707,
+        "addon": {
+          "id": 952959,
+          "slug": "read-aloud",
+          "name": {
+            "en-US": "Read Aloud: A Text to Speech Voice Reader",
+            "es-ES": "Texto A Voz",
+            "it": "Read Aloud: Un Lettore Vocale da Testo a Voce",
+            "vi": "Đọc Cho Tôi Nghe",
+            "zh-CN": "Read Aloud: 文本语音朗读助理",
+            "zh-TW": "Read Aloud: 文字語音朗讀助理"
+          },
+          "icon_url": "https://addons.mozilla.org/user-media/addon_icons/952/952959-64.png?modified=cccc5f2c"
+        },
+        "body": "you have to use the piper voices extension/expansion thing but this extension has saved my grades",
+        "created": "2025-09-02T20:44:41Z",
+        "is_deleted": false,
+        "is_developer_reply": false,
+        "is_latest": true,
+        "previous_count": 0,
+        "user": {
+          "id": 19433763,
+          "name": "Cassidy",
+          "url": "https://addons.mozilla.org/en-US/firefox/user/19433763/",
+          "username": "anonymous-46e23e184415b218affe37fbb1cafd42"
+        },
+        "score": 5,
+        "reply": null,
+        "version": {
+          "id": 5979715,
+          "version": "1.80.0"
+        }
+      },
+      {
+        "id": 2489406,
+        "addon": {
+          "id": 952959,
+          "slug": "read-aloud",
+          "name": {
+            "en-US": "Read Aloud: A Text to Speech Voice Reader",
+            "es-ES": "Texto A Voz",
+            "it": "Read Aloud: Un Lettore Vocale da Testo a Voce",
+            "vi": "Đọc Cho Tôi Nghe",
+            "zh-CN": "Read Aloud: 文本语音朗读助理",
+            "zh-TW": "Read Aloud: 文字語音朗讀助理"
+          },
+          "icon_url": "https://addons.mozilla.org/user-media/addon_icons/952/952959-64.png?modified=cccc5f2c"
+        },
+        "body": null,
+        "created": "2025-09-01T18:32:38Z",
+        "is_deleted": false,
+        "is_developer_reply": false,
+        "is_latest": true,
+        "previous_count": 0,
+        "user": {
+          "id": 14664315,
+          "name": "Firefox user 14664315",
+          "url": "https://addons.mozilla.org/en-US/firefox/user/14664315/",
+          "username": "anonymous-8c2e790d957d12c907ff3ccdb3eaa3d6"
+        },
+        "score": 3,
+        "reply": null,
+        "version": {
+          "id": 5979715,
+          "version": "1.80.0"
+        }
+      },
+      {
+        "id": 2489237,
+        "addon": {
+          "id": 952959,
+          "slug": "read-aloud",
+          "name": {
+            "en-US": "Read Aloud: A Text to Speech Voice Reader",
+            "es-ES": "Texto A Voz",
+            "it": "Read Aloud: Un Lettore Vocale da Testo a Voce",
+            "vi": "Đọc Cho Tôi Nghe",
+            "zh-CN": "Read Aloud: 文本语音朗读助理",
+            "zh-TW": "Read Aloud: 文字語音朗讀助理"
+          },
+          "icon_url": "https://addons.mozilla.org/user-media/addon_icons/952/952959-64.png?modified=cccc5f2c"
+        },
+        "body": "If you get the addon on mobile it severely limits the voices you can use, you can't even login to your account to access the premium voices or what you paid for. It's obvious that this was made with desktop and laptop use only.",
+        "created": "2025-09-01T00:20:20Z",
+        "is_deleted": false,
+        "is_developer_reply": false,
+        "is_latest": true,
+        "previous_count": 0,
+        "user": {
+          "id": 19005157,
+          "name": "Firefox user 19005157",
+          "url": "https://addons.mozilla.org/en-US/firefox/user/19005157/",
+          "username": "anonymous-84e1468949230ce5a889e11165e7f32c"
+        },
+        "score": 2,
+        "reply": null,
+        "version": {
+          "id": 5979715,
+          "version": "1.80.0"
+        }
+      },
+      {
+        "id": 2486919,
+        "addon": {
+          "id": 952959,
+          "slug": "read-aloud",
+          "name": {
+            "en-US": "Read Aloud: A Text to Speech Voice Reader",
+            "es-ES": "Texto A Voz",
+            "it": "Read Aloud: Un Lettore Vocale da Testo a Voce",
+            "vi": "Đọc Cho Tôi Nghe",
+            "zh-CN": "Read Aloud: 文本语音朗读助理",
+            "zh-TW": "Read Aloud: 文字語音朗讀助理"
+          },
+          "icon_url": "https://addons.mozilla.org/user-media/addon_icons/952/952959-64.png?modified=cccc5f2c"
+        },
+        "body": "it can read swear words",
+        "created": "2025-08-29T02:29:09Z",
+        "is_deleted": false,
+        "is_developer_reply": false,
+        "is_latest": true,
+        "previous_count": 0,
+        "user": {
+          "id": 16238663,
+          "name": "Fordring",
+          "url": "https://addons.mozilla.org/en-US/firefox/user/16238663/",
+          "username": "anonymous-507cb385d0b0144b952190f1d8e59a42"
+        },
+        "score": 5,
+        "reply": null,
+        "version": {
+          "id": 5979715,
+          "version": "1.80.0"
+        }
+      },
+      {
+        "id": 2485302,
+        "addon": {
+          "id": 952959,
+          "slug": "read-aloud",
+          "name": {
+            "en-US": "Read Aloud: A Text to Speech Voice Reader",
+            "es-ES": "Texto A Voz",
+            "it": "Read Aloud: Un Lettore Vocale da Testo a Voce",
+            "vi": "Đọc Cho Tôi Nghe",
+            "zh-CN": "Read Aloud: 文本语音朗读助理",
+            "zh-TW": "Read Aloud: 文字語音朗讀助理"
+          },
+          "icon_url": "https://addons.mozilla.org/user-media/addon_icons/952/952959-64.png?modified=cccc5f2c"
+        },
+        "body": "all of them sound like they are in pain. i love it",
+        "created": "2025-08-28T03:55:57Z",
+        "is_deleted": false,
+        "is_developer_reply": false,
+        "is_latest": true,
+        "previous_count": 0,
+        "user": {
+          "id": 19419869,
+          "name": "evilphones",
+          "url": "https://addons.mozilla.org/en-US/firefox/user/19419869/",
+          "username": "anonymous-6cd26d75edf3d3f893113dbe139ee8ae"
+        },
+        "score": 5,
+        "reply": null,
+        "version": {
+          "id": 5979715,
+          "version": "1.80.0"
+        }
+      },
+      {
+        "id": 2482354,
+        "addon": {
+          "id": 952959,
+          "slug": "read-aloud",
+          "name": {
+            "en-US": "Read Aloud: A Text to Speech Voice Reader",
+            "es-ES": "Texto A Voz",
+            "it": "Read Aloud: Un Lettore Vocale da Testo a Voce",
+            "vi": "Đọc Cho Tôi Nghe",
+            "zh-CN": "Read Aloud: 文本语音朗读助理",
+            "zh-TW": "Read Aloud: 文字語音朗讀助理"
+          },
+          "icon_url": "https://addons.mozilla.org/user-media/addon_icons/952/952959-64.png?modified=cccc5f2c"
+        },
+        "body": "2 star for the voices which sounds like mechanical rather human. except that every thing is fine",
+        "created": "2025-08-24T09:13:33Z",
+        "is_deleted": false,
+        "is_developer_reply": false,
+        "is_latest": true,
+        "previous_count": 0,
+        "user": {
+          "id": 19411070,
+          "name": "aditya A",
+          "url": "https://addons.mozilla.org/en-US/firefox/user/19411070/",
+          "username": "anonymous-8a213c4801b4b0b114f62717100b45af"
+        },
+        "score": 2,
+        "reply": null,
+        "version": {
+          "id": 5979715,
+          "version": "1.80.0"
+        }
+      },
+      {
+        "id": 2480891,
+        "addon": {
+          "id": 952959,
+          "slug": "read-aloud",
+          "name": {
+            "en-US": "Read Aloud: A Text to Speech Voice Reader",
+            "es-ES": "Texto A Voz",
+            "it": "Read Aloud: Un Lettore Vocale da Testo a Voce",
+            "vi": "Đọc Cho Tôi Nghe",
+            "zh-CN": "Read Aloud: 文本语音朗读助理",
+            "zh-TW": "Read Aloud: 文字語音朗讀助理"
+          },
+          "icon_url": "https://addons.mozilla.org/user-media/addon_icons/952/952959-64.png?modified=cccc5f2c"
+        },
+        "body": "Nice one. Thanks for your work",
+        "created": "2025-08-24T06:33:16Z",
+        "is_deleted": false,
+        "is_developer_reply": false,
+        "is_latest": true,
+        "previous_count": 0,
+        "user": {
+          "id": 14553844,
+          "name": "Serhii",
+          "url": "https://addons.mozilla.org/en-US/firefox/user/14553844/",
+          "username": "anonymous-97f6432221cdb49f1a452378681b8359"
+        },
+        "score": 5,
+        "reply": null,
+        "version": {
+          "id": 5979715,
+          "version": "1.80.0"
+        }
+      },
+      {
+        "id": 2472814,
+        "addon": {
+          "id": 952959,
+          "slug": "read-aloud",
+          "name": {
+            "en-US": "Read Aloud: A Text to Speech Voice Reader",
+            "es-ES": "Texto A Voz",
+            "it": "Read Aloud: Un Lettore Vocale da Testo a Voce",
+            "vi": "Đọc Cho Tôi Nghe",
+            "zh-CN": "Read Aloud: 文本语音朗读助理",
+            "zh-TW": "Read Aloud: 文字語音朗讀助理"
+          },
+          "icon_url": "https://addons.mozilla.org/user-media/addon_icons/952/952959-64.png?modified=cccc5f2c"
+        },
+        "body": null,
+        "created": "2025-08-23T21:29:37Z",
+        "is_deleted": false,
+        "is_developer_reply": false,
+        "is_latest": true,
+        "previous_count": 0,
+        "user": {
+          "id": 18960744,
+          "name": "Firefox user 18960744",
+          "url": "https://addons.mozilla.org/en-US/firefox/user/18960744/",
+          "username": "anonymous-1c55d6f4504cc22ef072a2c471b4b610"
+        },
+        "score": 5,
+        "reply": null,
+        "version": {
+          "id": 5979715,
+          "version": "1.80.0"
+        }
+      },
+      {
+        "id": 2459140,
+        "addon": {
+          "id": 952959,
+          "slug": "read-aloud",
+          "name": {
+            "en-US": "Read Aloud: A Text to Speech Voice Reader",
+            "es-ES": "Texto A Voz",
+            "it": "Read Aloud: Un Lettore Vocale da Testo a Voce",
+            "vi": "Đọc Cho Tôi Nghe",
+            "zh-CN": "Read Aloud: 文本语音朗读助理",
+            "zh-TW": "Read Aloud: 文字語音朗讀助理"
+          },
+          "icon_url": "https://addons.mozilla.org/user-media/addon_icons/952/952959-64.png?modified=cccc5f2c"
+        },
+        "body": "\" Supports 40+ languages.\" and it's mostly different versions of English.",
+        "created": "2025-08-23T06:00:13Z",
+        "is_deleted": false,
+        "is_developer_reply": false,
+        "is_latest": true,
+        "previous_count": 0,
+        "user": {
+          "id": 18854683,
+          "name": "Elfirya",
+          "url": "https://addons.mozilla.org/en-US/firefox/user/18854683/",
+          "username": "anonymous-2403ca60d6980d36c11284496fd3d582"
+        },
+        "score": 1,
+        "reply": null,
+        "version": {
+          "id": 5979715,
+          "version": "1.80.0"
+        }
+      },
+      {
+        "id": 2414468,
+        "addon": {
+          "id": 952959,
+          "slug": "read-aloud",
+          "name": {
+            "en-US": "Read Aloud: A Text to Speech Voice Reader",
+            "es-ES": "Texto A Voz",
+            "it": "Read Aloud: Un Lettore Vocale da Testo a Voce",
+            "vi": "Đọc Cho Tôi Nghe",
+            "zh-CN": "Read Aloud: 文本语音朗读助理",
+            "zh-TW": "Read Aloud: 文字語音朗讀助理"
+          },
+          "icon_url": "https://addons.mozilla.org/user-media/addon_icons/952/952959-64.png?modified=cccc5f2c"
+        },
+        "body": "Interesting",
+        "created": "2025-08-19T21:32:34Z",
+        "is_deleted": false,
+        "is_developer_reply": false,
+        "is_latest": true,
+        "previous_count": 0,
+        "user": {
+          "id": 19312266,
+          "name": "Firefox user 19312266",
+          "url": "https://addons.mozilla.org/en-US/firefox/user/19312266/",
+          "username": "anonymous-883bc1130fd344d56c734c56cdc2009a"
+        },
+        "score": 5,
+        "reply": null,
+        "version": {
+          "id": 5979715,
+          "version": "1.80.0"
+        }
+      },
+      {
+        "id": 2411658,
+        "addon": {
+          "id": 952959,
+          "slug": "read-aloud",
+          "name": {
+            "en-US": "Read Aloud: A Text to Speech Voice Reader",
+            "es-ES": "Texto A Voz",
+            "it": "Read Aloud: Un Lettore Vocale da Testo a Voce",
+            "vi": "Đọc Cho Tôi Nghe",
+            "zh-CN": "Read Aloud: 文本语音朗读助理",
+            "zh-TW": "Read Aloud: 文字語音朗讀助理"
+          },
+          "icon_url": "https://addons.mozilla.org/user-media/addon_icons/952/952959-64.png?modified=cccc5f2c"
+        },
+        "body": "Means I can read and listen for study, nailed it guys, thanks",
+        "created": "2025-08-19T03:10:36Z",
+        "is_deleted": false,
+        "is_developer_reply": false,
+        "is_latest": true,
+        "previous_count": 0,
+        "user": {
+          "id": 19308201,
+          "name": "dunteh",
+          "url": "https://addons.mozilla.org/en-US/firefox/user/19308201/",
+          "username": "anonymous-976403944264c6ebb9dc6d1facb5dcee"
+        },
+        "score": 5,
+        "reply": null,
+        "version": {
+          "id": 5979715,
+          "version": "1.80.0"
+        }
+      },
+      {
+        "id": 2401213,
+        "addon": {
+          "id": 952959,
+          "slug": "read-aloud",
+          "name": {
+            "en-US": "Read Aloud: A Text to Speech Voice Reader",
+            "es-ES": "Texto A Voz",
+            "it": "Read Aloud: Un Lettore Vocale da Testo a Voce",
+            "vi": "Đọc Cho Tôi Nghe",
+            "zh-CN": "Read Aloud: 文本语音朗读助理",
+            "zh-TW": "Read Aloud: 文字語音朗讀助理"
+          },
+          "icon_url": "https://addons.mozilla.org/user-media/addon_icons/952/952959-64.png?modified=cccc5f2c"
+        },
+        "body": "The update from June 30, 2025, did not fix the error either. Whenever I want to listen to something on the Internet, the error message “Not allowed error” always appears. I use the Google Translate German voice. Now, I'm fed up. I'm definitely going to uninstall this extension now.",
+        "created": "2025-08-16T21:36:17Z",
+        "is_deleted": false,
+        "is_developer_reply": false,
+        "is_latest": true,
+        "previous_count": 0,
+        "user": {
+          "id": 11094652,
+          "name": "Marty",
+          "url": "https://addons.mozilla.org/en-US/firefox/user/11094652/",
+          "username": "Marty79"
+        },
+        "score": 1,
+        "reply": null,
+        "version": {
+          "id": 5979715,
+          "version": "1.80.0"
+        }
+      },
+      {
+        "id": 2371368,
+        "addon": {
+          "id": 952959,
+          "slug": "read-aloud",
+          "name": {
+            "en-US": "Read Aloud: A Text to Speech Voice Reader",
+            "es-ES": "Texto A Voz",
+            "it": "Read Aloud: Un Lettore Vocale da Testo a Voce",
+            "vi": "Đọc Cho Tôi Nghe",
+            "zh-CN": "Read Aloud: 文本语音朗读助理",
+            "zh-TW": "Read Aloud: 文字語音朗讀助理"
+          },
+          "icon_url": "https://addons.mozilla.org/user-media/addon_icons/952/952959-64.png?modified=cccc5f2c"
+        },
+        "body": null,
+        "created": "2025-08-12T08:34:30Z",
+        "is_deleted": false,
+        "is_developer_reply": false,
+        "is_latest": true,
+        "previous_count": 0,
+        "user": {
+          "id": 19257349,
+          "name": "Firefox user 19257349",
+          "url": "https://addons.mozilla.org/en-US/firefox/user/19257349/",
+          "username": "anonymous-1352301e2c7852bc7d76dbe14d66d678"
+        },
+        "score": 5,
+        "reply": null,
+        "version": {
+          "id": 5979715,
+          "version": "1.80.0"
+        }
+      },
+      {
+        "id": 2367002,
+        "addon": {
+          "id": 952959,
+          "slug": "read-aloud",
+          "name": {
+            "en-US": "Read Aloud: A Text to Speech Voice Reader",
+            "es-ES": "Texto A Voz",
+            "it": "Read Aloud: Un Lettore Vocale da Testo a Voce",
+            "vi": "Đọc Cho Tôi Nghe",
+            "zh-CN": "Read Aloud: 文本语音朗读助理",
+            "zh-TW": "Read Aloud: 文字語音朗讀助理"
+          },
+          "icon_url": "https://addons.mozilla.org/user-media/addon_icons/952/952959-64.png?modified=cccc5f2c"
+        },
+        "body": "pecka rychlé přečte cokoliv",
+        "created": "2025-08-10T13:15:45Z",
+        "is_deleted": false,
+        "is_developer_reply": false,
+        "is_latest": true,
+        "previous_count": 0,
+        "user": {
+          "id": 18104819,
+          "name": "Skorpion128",
+          "url": "https://addons.mozilla.org/en-US/firefox/user/18104819/",
+          "username": "anonymous-d6ec2ef4209fdd615031f80e99af272f"
+        },
+        "score": 5,
+        "reply": null,
+        "version": {
+          "id": 5979715,
+          "version": "1.80.0"
+        }
+      },
+      {
+        "id": 2363573,
+        "addon": {
+          "id": 952959,
+          "slug": "read-aloud",
+          "name": {
+            "en-US": "Read Aloud: A Text to Speech Voice Reader",
+            "es-ES": "Texto A Voz",
+            "it": "Read Aloud: Un Lettore Vocale da Testo a Voce",
+            "vi": "Đọc Cho Tôi Nghe",
+            "zh-CN": "Read Aloud: 文本语音朗读助理",
+            "zh-TW": "Read Aloud: 文字語音朗讀助理"
+          },
+          "icon_url": "https://addons.mozilla.org/user-media/addon_icons/952/952959-64.png?modified=cccc5f2c"
+        },
+        "body": null,
+        "created": "2025-08-08T15:56:00Z",
+        "is_deleted": false,
+        "is_developer_reply": false,
+        "is_latest": true,
+        "previous_count": 0,
+        "user": {
+          "id": 14200842,
+          "name": "Firefox user 14200842",
+          "url": "https://addons.mozilla.org/en-US/firefox/user/14200842/",
+          "username": "anonymous-f12a7f5f62a5999a9e8230f068d1fc17"
+        },
+        "score": 5,
+        "reply": null,
+        "version": {
+          "id": 5979715,
+          "version": "1.80.0"
+        }
+      },
+      {
+        "id": 2332677,
+        "addon": {
+          "id": 952959,
+          "slug": "read-aloud",
+          "name": {
+            "en-US": "Read Aloud: A Text to Speech Voice Reader",
+            "es-ES": "Texto A Voz",
+            "it": "Read Aloud: Un Lettore Vocale da Testo a Voce",
+            "vi": "Đọc Cho Tôi Nghe",
+            "zh-CN": "Read Aloud: 文本语音朗读助理",
+            "zh-TW": "Read Aloud: 文字語音朗讀助理"
+          },
+          "icon_url": "https://addons.mozilla.org/user-media/addon_icons/952/952959-64.png?modified=cccc5f2c"
+        },
+        "body": null,
+        "created": "2025-07-27T08:19:49Z",
+        "is_deleted": false,
+        "is_developer_reply": false,
+        "is_latest": true,
+        "previous_count": 0,
+        "user": {
+          "id": 15218163,
+          "name": "Firefox user 15218163",
+          "url": "https://addons.mozilla.org/en-US/firefox/user/15218163/",
+          "username": "anonymous-a96fd61a849c3e46918f6ac5bbf016e9"
+        },
+        "score": 5,
+        "reply": null,
+        "version": {
+          "id": 5979715,
+          "version": "1.80.0"
+        }
+      },
+      {
+        "id": 2328080,
+        "addon": {
+          "id": 952959,
+          "slug": "read-aloud",
+          "name": {
+            "en-US": "Read Aloud: A Text to Speech Voice Reader",
+            "es-ES": "Texto A Voz",
+            "it": "Read Aloud: Un Lettore Vocale da Testo a Voce",
+            "vi": "Đọc Cho Tôi Nghe",
+            "zh-CN": "Read Aloud: 文本语音朗读助理",
+            "zh-TW": "Read Aloud: 文字語音朗讀助理"
+          },
+          "icon_url": "https://addons.mozilla.org/user-media/addon_icons/952/952959-64.png?modified=cccc5f2c"
+        },
+        "body": "Noel Evangelista Esteban philippines NE",
+        "created": "2025-07-25T08:37:25Z",
+        "is_deleted": false,
+        "is_developer_reply": false,
+        "is_latest": true,
+        "previous_count": 0,
+        "user": {
+          "id": 19076334,
+          "name": "Noel Evangelista Esteban philippines",
+          "url": "https://addons.mozilla.org/en-US/firefox/user/19076334/",
+          "username": "anonymous-2185a6b2d4a47ae836ad0e7f2e899d7e"
+        },
+        "score": 5,
+        "reply": null,
+        "version": {
+          "id": 5979715,
+          "version": "1.80.0"
+        }
+      },
+      {
+        "id": 2323828,
+        "addon": {
+          "id": 952959,
+          "slug": "read-aloud",
+          "name": {
+            "en-US": "Read Aloud: A Text to Speech Voice Reader",
+            "es-ES": "Texto A Voz",
+            "it": "Read Aloud: Un Lettore Vocale da Testo a Voce",
+            "vi": "Đọc Cho Tôi Nghe",
+            "zh-CN": "Read Aloud: 文本语音朗读助理",
+            "zh-TW": "Read Aloud: 文字語音朗讀助理"
+          },
+          "icon_url": "https://addons.mozilla.org/user-media/addon_icons/952/952959-64.png?modified=cccc5f2c"
+        },
+        "body": "If you are Dawid Jasper using this extension will save your life.",
+        "created": "2025-07-23T23:24:03Z",
+        "is_deleted": false,
+        "is_developer_reply": false,
+        "is_latest": true,
+        "previous_count": 0,
+        "user": {
+          "id": 18553628,
+          "name": "Błażej",
+          "url": "https://addons.mozilla.org/en-US/firefox/user/18553628/",
+          "username": "anonymous-5ab5923edd101b4facd2034de1c3209e"
+        },
+        "score": 4,
+        "reply": null,
+        "version": {
+          "id": 5979715,
+          "version": "1.80.0"
+        }
+      },
+      {
+        "id": 2311354,
+        "addon": {
+          "id": 952959,
+          "slug": "read-aloud",
+          "name": {
+            "en-US": "Read Aloud: A Text to Speech Voice Reader",
+            "es-ES": "Texto A Voz",
+            "it": "Read Aloud: Un Lettore Vocale da Testo a Voce",
+            "vi": "Đọc Cho Tôi Nghe",
+            "zh-CN": "Read Aloud: 文本语音朗读助理",
+            "zh-TW": "Read Aloud: 文字語音朗讀助理"
+          },
+          "icon_url": "https://addons.mozilla.org/user-media/addon_icons/952/952959-64.png?modified=cccc5f2c"
+        },
+        "body": "Merhaba, daha önce kullanmıştım. Şimdi açık görünmesine rağmen uzantıyı bir türlü aktive edemiyorum. Forumda arama yaptım, ayarları kontrol ettim ama bir türlü sorunu tespit edemedim. Nasıl ilerlemeliyim? Destek ekibi veya kullanıcılara yardım amaçlı yazıyorum, teşekkürler.",
+        "created": "2025-07-21T11:15:47Z",
+        "is_deleted": false,
+        "is_developer_reply": false,
+        "is_latest": true,
+        "previous_count": 0,
+        "user": {
+          "id": 19169632,
+          "name": "Firefox user 19169632",
+          "url": "https://addons.mozilla.org/en-US/firefox/user/19169632/",
+          "username": "anonymous-f838f113f96007a385351978f72905df"
+        },
+        "score": 4,
+        "reply": null,
+        "version": {
+          "id": 5979715,
+          "version": "1.80.0"
+        }
+      },
+      {
+        "id": 2303016,
+        "addon": {
+          "id": 952959,
+          "slug": "read-aloud",
+          "name": {
+            "en-US": "Read Aloud: A Text to Speech Voice Reader",
+            "es-ES": "Texto A Voz",
+            "it": "Read Aloud: Un Lettore Vocale da Testo a Voce",
+            "vi": "Đọc Cho Tôi Nghe",
+            "zh-CN": "Read Aloud: 文本语音朗读助理",
+            "zh-TW": "Read Aloud: 文字語音朗讀助理"
+          },
+          "icon_url": "https://addons.mozilla.org/user-media/addon_icons/952/952959-64.png?modified=cccc5f2c"
+        },
+        "body": "It's really nice. But the volume is way too low. Can you increase volume much mire?",
+        "created": "2025-07-19T15:46:00Z",
+        "is_deleted": false,
+        "is_developer_reply": false,
+        "is_latest": true,
+        "previous_count": 0,
+        "user": {
+          "id": 14949460,
+          "name": "Firefox user 14949460",
+          "url": "https://addons.mozilla.org/en-US/firefox/user/14949460/",
+          "username": "anonymous-37782440e5c2ec0b95cb310b5965c201"
+        },
+        "score": 4,
+        "reply": null,
+        "version": {
+          "id": 5979715,
+          "version": "1.80.0"
+        }
+      }
+    ]
+  }
+}
