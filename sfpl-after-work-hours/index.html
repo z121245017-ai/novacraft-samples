@@ -1,0 +1,236 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>After-Work SFPL Finder · San Francisco Public Library Holiday &amp; Evening Hours</title>
+<style>
+:root{--bg:#f7f4ee;--card:#ffffff;--ink:#16191d;--muted:#58606b;--accent:#c23b22;--open:#146c43;--open-bg:#e7f5ee;--soon:#9a5b00;--soon-bg:#fff4dd;--closed:#6c757d;--closed-bg:#eef0f2;--border:#dcd6cb}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
+main{max-width:980px;margin:0 auto;padding:24px 16px 48px}
+header{border-bottom:3px solid var(--ink);padding-bottom:14px;margin-bottom:18px}
+.kicker{font:700 11px/1.2 ui-monospace,SFMono-Regular,Menlo,monospace;letter-spacing:.1em;text-transform:uppercase;color:var(--accent)}
+h1{font:700 clamp(26px,4.8vw,40px)/1.08 Georgia,serif;margin:6px 0 8px;letter-spacing:-.02em}
+.dek{margin:0;color:var(--muted);max-width:72ch;font-size:15.5px}
+.presets{display:flex;flex-wrap:wrap;gap:8px;margin:16px 0 12px}
+.preset{border:1px solid var(--border);background:var(--card);color:var(--ink);padding:7px 12px;border-radius:999px;font-size:13px;font-weight:600;cursor:pointer}
+.preset.active,.preset:hover{border-color:var(--ink);background:var(--ink);color:#fff}
+.controls{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:10px;background:var(--card);border:1px solid var(--border);border-radius:8px;padding:12px}
+.ctrl label{display:block;font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);margin-bottom:4px}
+.ctrl select,.ctrl input{width:100%;padding:8px 10px;border:1px solid #c9c3b8;border-radius:6px;font:inherit;background:#fff;color:var(--ink)}
+.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin:14px 0}
+.stat{background:var(--card);border:1px solid var(--border);border-radius:8px;padding:12px 14px}
+.stat .num{font:700 clamp(24px,4vw,34px)/1 Georgia,serif}
+.stat.open .num{color:var(--open)}
+.stat.soon .num{color:var(--soon)}
+.stat.closed .num{color:var(--closed)}
+.stat .lbl{font-size:12px;color:var(--muted);margin-top:4px}
+.alert{background:#fff7e6;border:1px solid #e7c580;border-left:4px solid var(--accent);border-radius:6px;padding:10px 14px;margin:12px 0;font-size:13.5px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(275px,1fr));gap:10px;margin-top:14px}
+.card{background:var(--card);border:1px solid var(--border);border-radius:8px;padding:12px 14px;display:flex;flex-direction:column;gap:6px}
+.card.is-closed{opacity:.72;background:#fbfaf7}
+.row-top{display:flex;justify-content:space-between;align-items:flex-start;gap:8px}
+.branch-name{font:700 16px/1.2 Georgia,serif}
+.pill{font-size:11.5px;font-weight:700;padding:3px 8px;border-radius:999px;white-space:nowrap}
+.pill.open{background:var(--open-bg);color:var(--open)}
+.pill.soon{background:var(--soon-bg);color:var(--soon)}
+.pill.closed{background:var(--closed-bg);color:var(--closed)}
+.hours{font:600 13px ui-monospace,SFMono-Regular,Menlo,monospace;color:var(--ink)}
+.note{font-size:12.5px;color:#8a3b12;background:#fff3e6;padding:4px 7px;border-radius:4px}
+.links{display:flex;gap:12px;margin-top:auto;padding-top:4px;font-size:13px}
+.links a{color:#164b8a;text-decoration:none;font-weight:600}
+.links a:hover{text-decoration:underline}
+.eves,.method{background:var(--card);border:1px solid var(--border);border-radius:8px;padding:14px 16px;margin-top:18px;font-size:13.5px}
+.eves h2,.method h2{font:700 15px/1.2 Georgia,serif;margin:0 0 8px}
+.eves ul,.method ul{margin:6px 0 0;padding-left:18px}
+.eves li,.method li{margin:4px 0}
+@media(max-width:560px){.stats{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <div class="kicker">SFPL Holiday &amp; Evening Hours Prototype · Week of Nov 22–28, 2026</div>
+    <h1>Which SF library is still open after work?</h1>
+    <p class="dek">Pick a day and the time you leave work to see which of San Francisco Public Library's 28 physical branches remain open, how much time is left before closing, and active holiday or temporary exceptions.</p>
+  </header>
+
+  <div class="presets" id="presets">
+    <button type="button" class="preset active" data-day="Tue" data-time="18:30">Tue Nov 24 · 6:30 PM (18 open)</button>
+    <button type="button" class="preset" data-day="Wed" data-time="18:30">Wed Nov 25 · 6:30 PM (0 open — 5 PM eve cutoff)</button>
+    <button type="button" class="preset" data-day="Thu" data-time="14:00">Thu Nov 26 · Thanksgiving (0 open)</button>
+    <button type="button" class="preset" data-day="Wed" data-time="16:15">Wed Nov 25 · 4:15 PM (last hour before eve close)</button>
+  </div>
+
+  <section class="controls" aria-label="Filter branches">
+    <div class="ctrl">
+      <label for="daySel">Day (Thanksgiving Week 2026)</label>
+      <select id="daySel">
+        <option value="Sun">Sun, Nov 22, 2026</option>
+        <option value="Mon">Mon, Nov 23, 2026</option>
+        <option value="Tue" selected>Tue, Nov 24, 2026</option>
+        <option value="Wed">Wed, Nov 25, 2026 (Thanksgiving Eve · 5 PM cutoff)</option>
+        <option value="Thu">Thu, Nov 26, 2026 (Thanksgiving · Closed)</option>
+        <option value="Fri">Fri, Nov 27, 2026 (Day after Thanksgiving · Closed)</option>
+        <option value="Sat">Sat, Nov 28, 2026</option>
+      </select>
+    </div>
+    <div class="ctrl">
+      <label for="timeSel">Arrival / Leave-Work Time (PT)</label>
+      <select id="timeSel"></select>
+    </div>
+    <div class="ctrl">
+      <label for="qInput">Filter Branch Name</label>
+      <input id="qInput" type="search" placeholder="e.g. Main, Mission, Bernal">
+    </div>
+  </section>
+
+  <section class="stats" aria-live="polite">
+    <div class="stat open"><div class="num" id="openCount">-</div><div class="lbl" id="openLbl">Open at selected time</div></div>
+    <div class="stat soon"><div class="num" id="soonCount">-</div><div class="lbl">Closing within 60 minutes</div></div>
+    <div class="stat closed"><div class="num" id="closedCount">-</div><div class="lbl">Closed at selected time</div></div>
+  </section>
+
+  <div class="alert" id="alertBox"></div>
+  <section class="grid" id="grid" aria-label="SFPL branch list"></section>
+
+  <section class="eves">
+    <h2>Year-round repeatable holiday-eve schedule (published on sfpl.org/about-us/days-closed)</h2>
+    <p style="margin:0 0 6px">SFPL's published holiday rule states that <strong>all library facilities close at 5:00 PM</strong> on three holiday eves each year, plus full-day closures across 15 posted 2026–2027 holiday dates:</p>
+    <ul id="eveList"></ul>
+  </section>
+
+  <section class="method">
+    <h2>Data scope, exceptions &amp; disclosure</h2>
+    <ul>
+      <li><strong>Sources:</strong> Published branch hours from <a href="https://sfpl.org/locations" target="_blank" rel="noopener">sfpl.org/locations</a> and holiday rules from <a href="https://sfpl.org/about-us/days-closed" target="_blank" rel="noopener">sfpl.org/about-us/days-closed</a> (checked Nov 25, 2026; Main, Bernal Heights, and Mission branch pages spot-checked live).</li>
+      <li><strong>28 physical branches vs. 33 directory entries:</strong> Excludes 5 non-branch directory entries (<span id="excludedList"></span>).</li>
+      <li><strong>Important caveats:</strong> This snapshot reflects advertised Thanksgiving week (Nov 22–28, 2026) hours; regular non-holiday weeks differ. Mission Branch currently posts a temporary 4:00 PM daily closing during emergency lighting system work. Online published hours only — no live occupancy or on-site field check.</li>
+      <li><strong>Build disclosure:</strong> Prototype prepared remotely under Fan Zhu's project direction (OpenAI Codex compiled the 28-branch SFPL JSON dataset; Google Gemini built this single-file prototype and ran live spot-checks on sfpl.org).</li>
+    </ul>
+  </section>
+</main>
+<script>
+'use strict';
+const DATA = {"source_page": "https://sfpl.org/locations", "holiday_source": "https://sfpl.org/about-us/days-closed", "timezone": "America/Los_Angeles", "week_sunday": "2026-11-22", "checked_at": "2026-11-25T04:18:19+08:00", "excluded": ["Bookmobiles / MOS", "Dogpatch kiosk", "Sunnydale kiosk", "Treasure Island", "Virtual Library"], "upcoming_eves": [{"date": "2026-11-25", "label": "Thanksgiving Eve (Wed Nov 25, 2026)", "rule": "All facilities close at 5:00 PM; closed Nov 26–27"}, {"date": "2026-12-24", "label": "Christmas Eve (Thu Dec 24, 2026)", "rule": "All facilities close at 5:00 PM; closed Dec 25"}, {"date": "2026-12-31", "label": "New Year's Eve (Thu Dec 31, 2026)", "rule": "All facilities close at 5:00 PM; closed Jan 1, 2027"}], "branches": [{"name": "Main", "detail": "https://sfpl.org/locations/main-library", "hours": {"Sun": "12 - 6", "Mon": "9 - 6", "Tue": "9 - 8", "Wed": "9 - 5", "Thu": "closed", "Fri": "closed", "Sat": "10 - 6"}, "address": "100 Larkin St, San Francisco, CA 94102", "note": "Spot-checked live on sfpl.org; closes 5 PM Wed Nov 25."}, {"name": "Anza", "detail": "https://sfpl.org/locations/anza", "hours": {"Sun": "1 - 5", "Mon": "10 - 6", "Tue": "10 - 8", "Wed": "1 - 5", "Thu": "closed", "Fri": "closed", "Sat": "10 - 6"}, "address": "", "note": ""}, {"name": "Bayview", "detail": "https://sfpl.org/locations/bayview", "hours": {"Sun": "1 - 5", "Mon": "10 - 6", "Tue": "10 - 8", "Wed": "10 - 5", "Thu": "closed", "Fri": "closed", "Sat": "10 - 6"}, "address": "", "note": ""}, {"name": "Bernal Heights", "detail": "https://sfpl.org/locations/bernal-heights", "hours": {"Sun": "1 - 5", "Mon": "10 - 6", "Tue": "10 - 7", "Wed": "12 - 5", "Thu": "closed", "Fri": "closed", "Sat": "10 - 6"}, "address": "500 Cortland Ave, San Francisco, CA 94110", "note": "Spot-checked live on sfpl.org; Tue open until 7 PM, Wed closes 5 PM."}, {"name": "Chinatown", "detail": "https://sfpl.org/locations/chinatown", "hours": {"Sun": "1 - 5", "Mon": "10 - 6", "Tue": "10 - 8", "Wed": "10 - 5", "Thu": "closed", "Fri": "closed", "Sat": "10 - 6"}, "address": "", "note": ""}, {"name": "Eureka Valley", "detail": "https://sfpl.org/locations/eureka-valley", "hours": {"Sun": "1 - 5", "Mon": "10 - 6", "Tue": "10 - 8", "Wed": "10 - 5", "Thu": "closed", "Fri": "closed", "Sat": "10 - 6"}, "address": "", "note": ""}, {"name": "Excelsior", "detail": "https://sfpl.org/locations/excelsior", "hours": {"Sun": "1 - 5", "Mon": "10 - 6", "Tue": "10 - 8", "Wed": "10 - 5", "Thu": "closed", "Fri": "closed", "Sat": "10 - 6"}, "address": "", "note": ""}, {"name": "Glen Park", "detail": "https://sfpl.org/locations/glen-park", "hours": {"Sun": "1 - 5", "Mon": "10 - 6", "Tue": "10 - 6", "Wed": "12 - 5", "Thu": "closed", "Fri": "closed", "Sat": "10 - 6"}, "address": "", "note": ""}, {"name": "Golden Gate Valley", "detail": "https://sfpl.org/locations/golden-gate-valley", "hours": {"Sun": "1 - 5", "Mon": "10 - 6", "Tue": "10 - 6", "Wed": "11 - 5", "Thu": "closed", "Fri": "closed", "Sat": "10 - 6"}, "address": "", "note": ""}, {"name": "Ingleside", "detail": "https://sfpl.org/locations/ingleside", "hours": {"Sun": "1 - 5", "Mon": "10 - 6", "Tue": "10 - 6", "Wed": "10 - 5", "Thu": "closed", "Fri": "closed", "Sat": "10 - 6"}, "address": "", "note": ""}, {"name": "Marina", "detail": "https://sfpl.org/locations/marina", "hours": {"Sun": "1 - 5", "Mon": "10 - 6", "Tue": "10 - 6", "Wed": "1 - 5", "Thu": "closed", "Fri": "closed", "Sat": "10 - 6"}, "address": "", "note": ""}, {"name": "Merced", "detail": "https://sfpl.org/locations/merced", "hours": {"Sun": "1 - 5", "Mon": "10 - 6", "Tue": "10 - 8", "Wed": "10 - 5", "Thu": "closed", "Fri": "closed", "Sat": "10 - 6"}, "address": "", "note": ""}, {"name": "Mission", "detail": "https://sfpl.org/locations/mission", "hours": {"Sun": "1 - 4", "Mon": "10 - 4", "Tue": "10 - 4", "Wed": "10 - 4", "Thu": "closed", "Fri": "closed", "Sat": "10 - 4"}, "address": "3359 24th St, San Francisco, CA 94110", "note": "ALERT: Closes at 4 PM daily during emergency lighting system work (verified live on sfpl.org/locations/mission)."}, {"name": "Mission Bay", "detail": "https://sfpl.org/locations/mission-bay", "hours": {"Sun": "1 - 5", "Mon": "10 - 6", "Tue": "10 - 6", "Wed": "11 - 5", "Thu": "closed", "Fri": "closed", "Sat": "10 - 6"}, "address": "", "note": ""}, {"name": "Noe Valley", "detail": "https://sfpl.org/locations/noe-valley", "hours": {"Sun": "1 - 5", "Mon": "11 - 6", "Tue": "10 - 8", "Wed": "12 - 5", "Thu": "closed", "Fri": "closed", "Sat": "10 - 6"}, "address": "", "note": ""}, {"name": "North Beach", "detail": "https://sfpl.org/locations/north-beach", "hours": {"Sun": "1 - 5", "Mon": "10 - 6", "Tue": "10 - 8", "Wed": "1 - 5", "Thu": "closed", "Fri": "closed", "Sat": "10 - 6"}, "address": "", "note": ""}, {"name": "Ocean View", "detail": "https://sfpl.org/locations/ocean-view", "hours": {"Sun": "1 - 5", "Mon": "10 - 6", "Tue": "10 - 6", "Wed": "12 - 5", "Thu": "closed", "Fri": "closed", "Sat": "10 - 6"}, "address": "", "note": ""}, {"name": "Ortega", "detail": "https://sfpl.org/locations/ortega", "hours": {"Sun": "1 - 5", "Mon": "10 - 6", "Tue": "10 - 6", "Wed": "12 - 5", "Thu": "closed", "Fri": "closed", "Sat": "10 - 6"}, "address": "", "note": ""}, {"name": "Park", "detail": "https://sfpl.org/locations/park", "hours": {"Sun": "1 - 5", "Mon": "11 - 6", "Tue": "10 - 8", "Wed": "12 - 5", "Thu": "closed", "Fri": "closed", "Sat": "10 - 6"}, "address": "", "note": ""}, {"name": "Parkside", "detail": "https://sfpl.org/locations/parkside", "hours": {"Sun": "1 - 5", "Mon": "1 - 6", "Tue": "10 - 8", "Wed": "10 - 5", "Thu": "closed", "Fri": "closed", "Sat": "10 - 6"}, "address": "", "note": ""}, {"name": "Portola", "detail": "https://sfpl.org/locations/portola", "hours": {"Sun": "1 - 5", "Mon": "10 - 6", "Tue": "10 - 6", "Wed": "12 - 5", "Thu": "closed", "Fri": "closed", "Sat": "10 - 6"}, "address": "", "note": ""}, {"name": "Potrero", "detail": "https://sfpl.org/locations/potrero", "hours": {"Sun": "1 - 5", "Mon": "1 - 6", "Tue": "10 - 8", "Wed": "12 - 5", "Thu": "closed", "Fri": "closed", "Sat": "10 - 6"}, "address": "", "note": ""}, {"name": "Presidio", "detail": "https://sfpl.org/locations/presidio", "hours": {"Sun": "1 - 5", "Mon": "1 - 6", "Tue": "10 - 8", "Wed": "10 - 5", "Thu": "closed", "Fri": "closed", "Sat": "10 - 6"}, "address": "", "note": ""}, {"name": "Richmond", "detail": "https://sfpl.org/locations/richmond", "hours": {"Sun": "1 - 5", "Mon": "10 - 6", "Tue": "10 - 8", "Wed": "10 - 5", "Thu": "closed", "Fri": "closed", "Sat": "10 - 6"}, "address": "", "note": ""}, {"name": "Sunset", "detail": "https://sfpl.org/locations/sunset", "hours": {"Sun": "1 - 5", "Mon": "10 - 6", "Tue": "10 - 8", "Wed": "10 - 5", "Thu": "closed", "Fri": "closed", "Sat": "10 - 6"}, "address": "", "note": ""}, {"name": "Visitacion Valley", "detail": "https://sfpl.org/locations/visitacion-valley", "hours": {"Sun": "1 - 5", "Mon": "10 - 6", "Tue": "10 - 8", "Wed": "10 - 5", "Thu": "closed", "Fri": "closed", "Sat": "10 - 6"}, "address": "", "note": ""}, {"name": "West Portal", "detail": "https://sfpl.org/locations/west-portal", "hours": {"Sun": "1 - 5", "Mon": "10 - 6", "Tue": "10 - 8", "Wed": "10 - 5", "Thu": "closed", "Fri": "closed", "Sat": "10 - 6"}, "address": "", "note": ""}, {"name": "Western Addition", "detail": "https://sfpl.org/locations/western-addition", "hours": {"Sun": "1 - 5", "Mon": "10 - 6", "Tue": "10 - 6", "Wed": "12 - 5", "Thu": "closed", "Fri": "closed", "Sat": "10 - 6"}, "address": "", "note": ""}]};
+
+const daySel = document.getElementById('daySel');
+const timeSel = document.getElementById('timeSel');
+const qInput = document.getElementById('qInput');
+const grid = document.getElementById('grid');
+const alertBox = document.getElementById('alertBox');
+
+function fmtMin(m) {
+  const h24 = Math.floor(m / 60), min = m % 60;
+  const ap = h24 >= 12 ? 'PM' : 'AM';
+  const h12 = h24 % 12 === 0 ? 12 : h24 % 12;
+  return h12 + ':' + String(min).padStart(2, '0') + ' ' + ap;
+}
+for (let m = 8 * 60; m <= 21 * 60; m += 15) {
+  const hh = String(Math.floor(m / 60)).padStart(2, '0');
+  const mm = String(m % 60).padStart(2, '0');
+  const opt = document.createElement('option');
+  opt.value = hh + ':' + mm;
+  opt.textContent = fmtMin(m);
+  if (opt.value === '18:30') opt.selected = true;
+  timeSel.appendChild(opt);
+}
+
+function parseRange(str) {
+  if (!str || str.toLowerCase() === 'closed') return null;
+  const parts = str.split('-').map(x => parseInt(x.trim(), 10));
+  const openH = parts[0] >= 8 ? parts[0] : parts[0] + 12;
+  const closeH = parts[1] >= 12 ? parts[1] : parts[1] + 12;
+  return [openH * 60, closeH * 60];
+}
+function fmtRange(rng) {
+  if (!rng) return 'Closed';
+  return fmtMin(rng[0]).replace(':00','') + ' – ' + fmtMin(rng[1]).replace(':00','');
+}
+function fmtDur(mins) {
+  const h = Math.floor(mins / 60), m = mins % 60;
+  return h > 0 ? (m > 0 ? h + 'h ' + m + 'm' : h + 'h') : (m + 'm');
+}
+
+function render() {
+  const day = daySel.value;
+  const [hh, mm] = timeSel.value.split(':').map(Number);
+  const nowMin = hh * 60 + mm;
+  const q = qInput.value.trim().toLowerCase();
+
+  let openC = 0, soonC = 0, closedC = 0;
+  const items = DATA.branches.map(b => {
+    const rng = parseRange(b.hours[day]);
+    const isOpen = Boolean(rng && rng[0] <= nowMin && nowMin < rng[1]);
+    const left = isOpen ? (rng[1] - nowMin) : 0;
+    const isSoon = isOpen && left <= 60;
+    if (isOpen) { openC++; if (isSoon) soonC++; } else { closedC++; }
+    return { ...b, rng, isOpen, isSoon, left };
+  });
+
+  document.getElementById('openCount').textContent = openC + ' / ' + DATA.branches.length;
+  document.getElementById('soonCount').textContent = String(soonC);
+  document.getElementById('closedCount').textContent = String(closedC);
+  document.getElementById('openLbl').textContent = 'Open on ' + day + ' at ' + fmtMin(nowMin);
+
+  if (day === 'Thu' || day === 'Fri') {
+    alertBox.innerHTML = '<strong>Holiday closure:</strong> All 28 SFPL physical branches are closed all day on Thursday &amp; Friday, Nov. 26–27 for Thanksgiving.';
+  } else if (day === 'Wed' && nowMin >= 17 * 60) {
+    alertBox.innerHTML = '<strong>Thanksgiving Eve 5:00 PM cutoff:</strong> Zero SFPL branches remain open after 5:00 PM on Wednesday, Nov. 25 (down from 18 open at 6:30 PM on Tuesday).';
+  } else if (day === 'Wed') {
+    alertBox.innerHTML = '<strong>Thanksgiving Eve early closing:</strong> All open branches close by 5:00 PM on Wednesday, Nov. 25 (Mission Branch closes at 4:00 PM for emergency lighting work).';
+  } else {
+    alertBox.innerHTML = '<strong>Active branch exception:</strong> Mission Branch (3359 24th St) currently closes at <strong>4:00 PM daily</strong> during emergency lighting system work — verify before heading over.';
+  }
+
+  const filtered = items
+    .filter(b => !q || b.name.toLowerCase().includes(q) || (b.address && b.address.toLowerCase().includes(q)))
+    .sort((a, b) => (b.isOpen - a.isOpen) || (b.left - a.left) || a.name.localeCompare(b.name));
+
+  grid.innerHTML = '';
+  filtered.forEach(b => {
+    const card = document.createElement('article');
+    card.className = 'card' + (b.isOpen ? '' : ' is-closed');
+    const pillCls = b.isOpen ? (b.isSoon ? 'soon' : 'open') : 'closed';
+    const pillTxt = b.isOpen ? ('Open · ' + fmtDur(b.left) + ' left') : 'Closed';
+    const mapDest = encodeURIComponent((b.address || (b.name + ' Branch San Francisco Public Library, San Francisco, CA')));
+    const mapUrl = 'https://www.google.com/maps/dir/?api=1&travelmode=walking&destination=' + mapDest;
+    card.innerHTML =
+      '<div class="row-top"><div class="branch-name">' + b.name + '</div><span class="pill ' + pillCls + '">' + pillTxt + '</span></div>' +
+      '<div class="hours">' + day + ': ' + fmtRange(b.rng) + '</div>' +
+      (b.note ? '<div class="note">' + b.note + '</div>' : '') +
+      '<div class="links">' +
+        '<a href="' + b.detail + '" target="_blank" rel="noopener">Official SFPL page &rarr;</a>' +
+        '<a href="' + mapUrl + '" target="_blank" rel="noopener">Walking route &nearr;</a>' +
+      '</div>';
+    grid.appendChild(card);
+  });
+}
+
+document.getElementById('excludedList').textContent = DATA.excluded.join(', ');
+const eveList = document.getElementById('eveList');
+DATA.upcoming_eves.forEach(e => {
+  const li = document.createElement('li');
+  li.innerHTML = '<strong>' + e.label + ':</strong> ' + e.rule;
+  eveList.appendChild(li);
+});
+
+document.querySelectorAll('.preset').forEach(btn => {
+  btn.addEventListener('click', () => {
+    document.querySelectorAll('.preset').forEach(x => x.classList.remove('active'));
+    btn.classList.add('active');
+    daySel.value = btn.dataset.day;
+    timeSel.value = btn.dataset.time;
+    render();
+  });
+});
+[daySel, timeSel].forEach(el => el.addEventListener('change', () => {
+  document.querySelectorAll('.preset').forEach(x => x.classList.remove('active'));
+  render();
+}));
+qInput.addEventListener('input', render);
+render();
+</script>
+</body>
+</html>
