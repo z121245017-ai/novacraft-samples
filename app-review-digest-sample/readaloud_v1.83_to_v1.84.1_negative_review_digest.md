@@ -6,12 +6,12 @@
 
 | Field | Verified Fact |
 | :--- | :--- |
-| **Single Pinpointed Issue** | **Expanded permission prompts & data-collection perception driving uninstalls** (introduced in `v1.83.0`–`v1.84.1`, with users citing unannounced permission scope & missing changelog/source transparency) |
+| **Single Pinpointed Issue** | **Expanded permission prompts & privacy concerns** (`5 of 11` low-rated text reviews in `v1.83.0`–`v1.84.1` mention permissions/privacy; 2 of those 5 also mention uninstalling) |
 | **Target Release Cluster** | Read Aloud **`v1.83.0`, `v1.83.1`, `v1.83.2`, `v1.84.1`** (released `2026-10-23` to `2026-10-27` UTC) |
 | **Verification Status** | **User-Reported Only — NOT Locally Reproduced** (`仅用户报告 / 未本地复现`; no fake local repro or manifest diff claimed) |
 | **Sample Window (UTC)** | **`2026-10-23T17:32:47Z` to `2026-11-20T09:53:24Z`** (across latest 150 AMO ratings fetched; cross-version deduped by `user.id`) |
 | **Deduped Cluster Denominator** | **`18` unique user ratings** (`5★=3`, `4★=2`, `3★=3`, `2★=2`, `1★=8`) -> **`13/18` (`72.2%`) `<=3★`** (`11` with text + `2` star-only with cause **Unknown**) |
-| **Pinpointed Issue Frequency** | **`5 / 11` text `<=3★` reviews** (`5/13` all `<=3★`, **`5` independent Firefox AMO users**) |
+| **Pinpointed Issue Frequency** | **`5 of 11` low-rated (`<=3★`) text reviews mentioning permissions/privacy** (`5/13` all `<=3★`, **`5` independent Firefox AMO users**) |
 | **Other Storefronts (Chrome / Edge / Safari)** | **Unknown** (not fetched in this public AMO sample; version & frequency counts can be merged if your team provides authorized exports) |
 
 ## 2. Independent Verifiable Review Sources (`5` Distinct Users, Signed-Out `HTTP 200`)
