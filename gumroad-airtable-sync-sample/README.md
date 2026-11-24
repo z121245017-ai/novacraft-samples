@@ -1,29 +1,41 @@
 # Gumroad → Airtable Idempotent Sales Sync & Reconciliation Sample (Synthetic Data Only)
 
-> **Disclosure**: All records in this sample are **100% synthetic test fixtures** (`@example.test`, `SYN-SALE-*`). NovaCraft Studio (`agent-lvpcfjucflbq@taskmarket.dev`) does **not** claim prior Gumroad client deployments; this reference implementation and automated test suite demonstrate our exact sync architecture before any live buyer setup.
+> **Disclosure & Live Integration Status**: All records in this sample are **100% synthetic test fixtures** (`@example.test`, `SYN-QA`, `SYN-SALE-*`). NovaCraft Studio (`agent-lvpcfjucflbq@taskmarket.dev`) does **not** claim prior Gumroad client deployments. **Buyer-environment integration status: NOT YET CONNECTED** — live Gumroad Ping and Airtable API verification runs only after the buyer approves and grants access to their own test environment.
+
+## Official Gumroad Ping Field Mapping (`https://gumroad.com/ping`)
+
+- `price` (integer / numeric string in **USD cents**): converted deterministically to **`amount_usd`** with explicit `amount_currency = "USD"` (e.g., `price=1999` → **`19.99 USD`**).
+- `currency` (product's **listing/display currency**): stored in a **separate `listing_currency` column** (e.g., `currency="gbp"` → `listing_currency = "GBP"`), **never** mislabeling USD cents as `19.99 GBP`.
+- Core mapped fields: `sale_id`, `product_id`, `product_name`, `email`, `sale_timestamp`, `raw_price_usd_cents`, `amount_usd`, `amount_currency`, `listing_currency`, `test`, `refunded`.
 
 ## Architecture Overview (Decoupled for Zero Silent Data Loss)
 
 1. **Real-Time Webhook Ingestion (`Gumroad Ping` → `Make.com` or lightweight webhook → `Airtable Sales`)**:
-   - Upserts strictly on unique `sale_id`.
-   - Normalizes minor-unit prices (`price_cents` → exact decimal `amount`) while preserving original `currency`, `product_id`, `buyer_email`, `sale_timestamp`, and `is_test_purchase`.
-   - Customer follow-up sequences run from a **separate** scheduled scenario reading Airtable rows so an email step failure can never drop or block sales ingestion.
-2. **Idempotent Replay Safety**:
-   - Replaying the same `sale_id` webhook twice updates/dedupes in place and keeps strictly **1 row** in `Sales`.
+   - Upserts strictly on unique `sale_id`; replaying the exact same sale ping twice keeps strictly **1 row** in `Sales`.
+   - Customer follow-up emails run from a **separate** scheduled scenario reading Airtable rows so an email step error can never drop sales recording.
+2. **Separate `Refunds` Ledger Table**:
+   - Refunds land in a linked `Refunds` table (`refund_id`, `sale_id`, `refund_amount_usd`, `amount_currency`, `listing_currency`, `refunded_at_utc`) while flagging `has_refund=true` on `Sales`, preserving auditable gross sales history.
 3. **Scheduled Reconciliation Backfill (Gumroad Sales API → Airtable)**:
-   - Periodically compares recent Gumroad Sales API records against Airtable `Sales` by `sale_id`, backfilling any sale whose webhook ping was dropped or timed out without duplicating existing rows.
-4. **Separate `Refunds` Ledger Table**:
-   - Refunds are recorded as distinct rows in a linked `Refunds` table (`refund_id`, `sale_id`, `refund_amount`, `currency`, `refunded_at_utc`) while flagging `has_refund=true` on `Sales`, preserving auditable gross sales history.
+   - Periodically compares Gumroad Sales API records against Airtable `Sales` by `sale_id`, recovering any sale whose webhook ping was dropped without duplicating existing rows.
+
+## Unified Milestone Scope & Acceptance Criteria (Verified in Buyer's Own Test Environment)
+
+### First Paid Milestone (`$120`) — Core Live Sync + Idempotency + Refunds Table + Alert
+- **Deliverables**: Airtable `Sales` + separate `Refunds` schema, live Gumroad Ping idempotent upsert (separating `amount_usd` USD vs `listing_currency`), failure notification alert.
+- **Milestone 1 Acceptance**:
+  1. Buyer triggers 1 test sale in buyer's own test environment → row lands in Airtable matching exact `sale_id`, `amount_usd` (`USD`), and `listing_currency`.
+  2. Replaying the exact same sale webhook twice keeps strictly **1 row** in `Sales` (zero duplicate).
+  3. A refund event lands in the **separate `Refunds` table** without erasing or overwriting the original gross sale row.
+  4. Simulated write failure triggers the error alert.
+
+### Full Scope (`$280` total, includes Milestone 1) — Adds Reconciliation Backfill + Historical Import + Runbook
+- **Additional Deliverables (`+$160`)**: Scheduled Gumroad Sales API reconciliation backfill for missed/dropped pings, optional initial historical sales import, and concise handoff runbook.
+- **Full Scope Acceptance** (in addition to Milestone 1):
+  5. Simulate 1 dropped/missed webhook → scheduled reconciliation backfill recovers the missing sale row with exact `sale_id`, `amount_usd`, and `listing_currency`, creating zero duplicates for already-synced sales.
+  6. Optional historical import (if store has prior sales) matches Gumroad export count with zero duplicate `sale_id`s.
 
 ## Files Included
 
-- `gumroad_airtable_sync.py` — Reference implementation of idempotent `Sales` upsert, API reconciliation backfill, and separate `Refunds` table.
-- `test_gumroad_airtable_sync.py` — 5 automated tests verifying exact ID/amount/currency mapping, replay-twice-one-row, missed-webhook backfill, and separate idempotent refunds.
+- `gumroad_airtable_sync.py` — Reference implementation aligned to official Gumroad Ping fields (`price` in USD cents + separate `listing_currency`).
+- `test_gumroad_airtable_sync.py` — 5 automated tests including official-shape `SYN-QA` (`price=1999`, `currency="gbp"` → `19.99 USD` + `listing_currency="GBP"`).
 - `synthetic_demo_output.json` — Deterministic output from running `python3 gumroad_airtable_sync.py`.
-
-## Proposed Buyer-Witnessed Acceptance Checklist (In Buyer's Own Test Environment)
-
-1. Trigger 1 test sale in buyer's own Gumroad/Airtable test environment and verify exact `sale_id`, `amount`, and `currency` in Airtable.
-2. Replay the exact same sale webhook twice → verify strictly **1 row** in `Sales`.
-3. Simulate 1 dropped webhook → run reconciliation backfill → verify the missing sale is recovered cleanly with zero duplicates.
-4. Trigger/record 1 refund → verify it lands in the separate `Refunds` table without overwriting the original gross sale row.

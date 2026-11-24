@@ -49,10 +49,42 @@ def _norm_ts(val: str | None) -> str:
     return (val or "").strip().replace("T", " ").replace("Z", "")
 
 
-def _is_after_cutoff(ts_val: str | None, cutoff: str | None) -> bool:
+def _classify_cutoff(ts_val: str | None, cutoff: str | None) -> str:
+    """Compare row date/timestamp against warehouse-local `cutoff` (`YYYY-MM-DD HH:MM[:SS]` or `YYYY-MM-DD`).
+
+    Returns:
+      - "OK": unambiguously at or before cutoff
+      - "POST_CUTOFF_NEXT_DAY": date-only row whose warehouse-local calendar date is strictly AFTER cutoff date (exclude cleanly!)
+      - "POST_CUTOFF_TS": full timestamp row strictly AFTER cutoff timestamp (exclude & flag!)
+      - "SAME_DAY_AMBIGUOUS": date-only row on the EXACT SAME calendar date as a mid-day cutoff time (cannot prove before vs after -> NEEDS_REVIEW!)
+    """
     if not cutoff or not ts_val:
-        return False
-    return _norm_ts(ts_val) > _norm_ts(cutoff)
+        return "OK"
+    ts = _norm_ts(ts_val)
+    co = _norm_ts(cutoff)
+    if len(ts) < 10 or len(co) < 10:
+        return "OK"
+
+    row_date = ts[:10]
+    co_date = co[:10]
+    has_row_time = len(ts) >= 16
+    has_co_time = len(co) >= 16
+
+    if not has_row_time:
+        if row_date > co_date:
+            return "POST_CUTOFF_NEXT_DAY"
+        if row_date < co_date:
+            return "OK"
+        # Same calendar date with NO time-of-day on the row:
+        # Only unambiguous if cutoff has no time or is end-of-day 23:59(:59)
+        if not has_co_time or co[11:16] == "23:59":
+            return "OK"
+        return "SAME_DAY_AMBIGUOUS"
+
+    # Row has full timestamp
+    if has_co_time:
+        return "POST_CUTOFF_TS" if ts > co else "OK"
+    return "POST_CUTOFF_NEXT_DAY" if row_date > co_date else "OK"
 
 
 def _wh(row: dict[str, str]) -> str:
@@ -153,7 +185,28 @@ def reconcile_directory(
         ts_sale = _norm_ts(r.get("sale_timestamp") or r.get("sale_date"))
         src = f"{sales_file}:row_{row_num} ({oref}{('/' + fid) if fid else ''})"
 
-        if effective_cutoff and ts_sale and len(ts_sale) >= 16 and _is_after_cutoff(ts_sale, effective_cutoff):
+        cutoff_rel = _classify_cutoff(ts_sale, effective_cutoff)
+        if cutoff_rel == "POST_CUTOFF_NEXT_DAY":
+            log_info(
+                "POST_CUTOFF_NEXT_DAY_EXCLUDED",
+                sku,
+                wh,
+                src,
+                f"Date-only sale `{ts_sale}` is on a calendar day strictly after warehouse-local cutoff `{effective_cutoff}`; cleanly excluded.",
+                severity="CUTOFF_EXCLUDED",
+            )
+            continue
+        if cutoff_rel == "SAME_DAY_AMBIGUOUS":
+            flag_review(
+                key if key in opening else None,
+                "SAME_DAY_DATE_ONLY_AMBIGUOUS",
+                sku,
+                wh,
+                src,
+                f"Date-only sale `{ts_sale}` shares cutoff calendar day `{effective_cutoff[:10]}` without timestamp; cannot prove before/after `{effective_cutoff}` -> held in NEEDS_REVIEW.",
+            )
+            continue
+        if cutoff_rel == "POST_CUTOFF_TS":
             flag_review(
                 key if key in opening else None,
                 "POST_CUTOFF_SALES_ROW",
@@ -242,7 +295,28 @@ def reconcile_directory(
         ts_move = _norm_ts(r.get("move_timestamp") or r.get("move_date"))
         src = f"{movements_file}:row_{row_num} ({mref or oref or 'NO_REF'})"
 
-        if effective_cutoff and ts_move and len(ts_move) >= 16 and _is_after_cutoff(ts_move, effective_cutoff):
+        cutoff_rel = _classify_cutoff(ts_move, effective_cutoff)
+        if cutoff_rel == "POST_CUTOFF_NEXT_DAY":
+            log_info(
+                "POST_CUTOFF_NEXT_DAY_EXCLUDED",
+                sku,
+                wh,
+                src,
+                f"Date-only movement `{mtype}` (`{ts_move}`) is on a calendar day strictly after warehouse-local cutoff `{effective_cutoff}`; cleanly excluded.",
+                severity="CUTOFF_EXCLUDED",
+            )
+            continue
+        if cutoff_rel == "SAME_DAY_AMBIGUOUS":
+            flag_review(
+                key if key in opening else None,
+                "SAME_DAY_DATE_ONLY_AMBIGUOUS",
+                sku,
+                wh,
+                src,
+                f"Date-only movement `{mtype}` (`{ts_move}`) shares cutoff calendar day `{effective_cutoff[:10]}` without timestamp; cannot prove before/after `{effective_cutoff}` -> held in NEEDS_REVIEW.",
+            )
+            continue
+        if cutoff_rel == "POST_CUTOFF_TS":
             flag_review(
                 key if key in opening else None,
                 "POST_CUTOFF_MOVEMENT_ROW",

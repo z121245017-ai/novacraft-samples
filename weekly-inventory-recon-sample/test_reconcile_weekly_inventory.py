@@ -184,6 +184,64 @@ class WeeklyInventoryReconRegressionTests(unittest.TestCase):
             self.assertEqual(rows_by_wh["SHOP-NORTH"]["status"], "NEEDS_REVIEW")
             self.assertIn("POST_CUTOFF_MOVEMENT_ROW", rows_by_wh["SHOP-NORTH"]["needs_review_reasons"])
 
+    def test_06_date_only_next_day_inbound_and_sales_cleanly_excluded_10_to_10(self):
+        """Codex repro: physical count 10 at 2026-11-22 21:00, opening 10, date-only inbound 2 on 2026-11-23
+        (and date-only sale on 2026-11-23) MUST be excluded cleanly -> expected 10, variance 0, MATCH, exit 0!"""
+        with tempfile.TemporaryDirectory() as td:
+            d = Path(td)
+            _setup_fixture(
+                d,
+                opening=[{"warehouse": "WH-MAIN", "sku": "SKU-DATE-1", "product_name": "Item Date", "opening_qty": 10, "unit_cost_usd": "5.00", "snapshot_date": "2026-11-16"}],
+                sales=[{"warehouse": "WH-MAIN", "order_ref": "ORD-NEXTDAY", "fulfillment_id": "FUL-ND-1", "sale_timestamp": "2026-11-23", "channel": "Shopify Online", "sku": "SKU-DATE-1", "qty_sold": 3, "status": "fulfilled"}],
+                movements=[{"warehouse": "WH-MAIN", "move_ref": "PO-NEXTDAY", "order_ref": "", "fulfillment_id": "", "move_timestamp": "2026-11-23", "type": "inbound_receipt", "sku": "SKU-DATE-1", "qty": 2, "note": "Next day delivery date-only"}],
+                physical=[{"warehouse": "WH-MAIN", "sku": "SKU-DATE-1", "physical_count": 10, "counted_at": "2026-11-22 21:00", "location": "Shelf 1"}],
+            )
+            res = reconcile_directory(d, as_of_cutoff="2026-11-22 21:00", write_outputs=True)
+            self.assertEqual(res["reconciliation_status"], "CLEAN")
+            self.assertEqual(res["needs_review_count"], 0)
+            row = res["rows"][0]
+            self.assertEqual(row["inbound_qty"], 0)
+            self.assertEqual(row["sales_fulfilled_qty"], 0)
+            self.assertEqual(row["expected_on_hand"], 10)
+            self.assertEqual(row["physical_count"], 10)
+            self.assertEqual(row["variance_qty"], 0)
+            self.assertEqual(row["status"], "MATCH")
+            excl = [a for a in res["anomalies"] if a["type"] == "POST_CUTOFF_NEXT_DAY_EXCLUDED"]
+            self.assertEqual(len(excl), 2)
+
+            proc = subprocess.run([sys.executable, str(SCRIPT), "--dir", str(d), "--cutoff", "2026-11-22 21:00"], capture_output=True, text=True)
+            self.assertEqual(proc.returncode, 0, proc.stdout + proc.stderr)
+
+    def test_07_date_only_same_day_as_midday_cutoff_flagged_needs_review(self):
+        """Date-only sales/movements on the EXACT same local calendar day (2026-11-22) as a 21:00 count
+        cannot be proven before vs after 21:00 -> MUST be marked NEEDS_REVIEW and exit 2!"""
+        with tempfile.TemporaryDirectory() as td:
+            d = Path(td)
+            _setup_fixture(
+                d,
+                opening=[
+                    {"warehouse": "WH-MAIN", "sku": "SKU-SAME-MOV", "product_name": "SameDay Mov", "opening_qty": 10, "unit_cost_usd": "5.00", "snapshot_date": "2026-11-16"},
+                    {"warehouse": "WH-MAIN", "sku": "SKU-SAME-SALE", "product_name": "SameDay Sale", "opening_qty": 10, "unit_cost_usd": "5.00", "snapshot_date": "2026-11-16"},
+                ],
+                sales=[{"warehouse": "WH-MAIN", "order_ref": "ORD-SD-1", "fulfillment_id": "FUL-SD-1", "sale_timestamp": "2026-11-22", "channel": "Shopify POS", "sku": "SKU-SAME-SALE", "qty_sold": 2, "status": "fulfilled"}],
+                movements=[{"warehouse": "WH-MAIN", "move_ref": "PO-SD-1", "order_ref": "", "fulfillment_id": "", "move_timestamp": "2026-11-22", "type": "inbound_receipt", "sku": "SKU-SAME-MOV", "qty": 2, "note": "Date-only on count day"}],
+                physical=[
+                    {"warehouse": "WH-MAIN", "sku": "SKU-SAME-MOV", "physical_count": 10, "counted_at": "2026-11-22 21:00", "location": "Shelf 1"},
+                    {"warehouse": "WH-MAIN", "sku": "SKU-SAME-SALE", "physical_count": 10, "counted_at": "2026-11-22 21:00", "location": "Shelf 2"},
+                ],
+            )
+            res = reconcile_directory(d, as_of_cutoff="2026-11-22 21:00", write_outputs=True)
+            self.assertEqual(res["reconciliation_status"], "NEEDS_REVIEW")
+            self.assertEqual(res["needs_review_count"], 2)
+            by_sku = {r["sku"]: r for r in res["rows"]}
+            for sku in ("SKU-SAME-MOV", "SKU-SAME-SALE"):
+                self.assertEqual(by_sku[sku]["status"], "NEEDS_REVIEW")
+                self.assertIn("SAME_DAY_DATE_ONLY_AMBIGUOUS", by_sku[sku]["needs_review_reasons"])
+                self.assertEqual(by_sku[sku]["expected_on_hand"], 10)
+
+            proc = subprocess.run([sys.executable, str(SCRIPT), "--dir", str(d), "--cutoff", "2026-11-22 21:00"], capture_output=True, text=True)
+            self.assertEqual(proc.returncode, 2)
+
 
 if __name__ == "__main__":
     unittest.main()
