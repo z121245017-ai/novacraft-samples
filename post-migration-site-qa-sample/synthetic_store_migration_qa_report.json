@@ -1,0 +1,133 @@
+{
+  "target_url": "https://northwind-roasters.example.test/ (100% Synthetic Migrated Storefront Fixture)",
+  "pages_crawled": 2,
+  "external_links_checked": 1,
+  "shopify_products_checked": 3,
+  "severity_counts": {
+    "HIGH": 7,
+    "MEDIUM": 6,
+    "LOW": 2
+  },
+  "total_findings": 15,
+  "pages": [
+    {
+      "url": "https://northwind-roasters.example.test/",
+      "final_url": "https://northwind-roasters.example.test/",
+      "status": 200,
+      "hops": 1
+    },
+    {
+      "url": "https://northwind-roasters.example.test/pages/contact",
+      "final_url": "https://northwind-roasters.example.test/pages/contact",
+      "status": 200,
+      "hops": 1
+    }
+  ],
+  "findings": [
+    {
+      "severity": "HIGH",
+      "category": "BROKEN_INTERNAL_LINK",
+      "source_page": "https://northwind-roasters.example.test/",
+      "target": "https://northwind-roasters.example.test/old-blog/brewing-guide",
+      "detail": "Legacy blog URL migrated without 301 redirect — returned `HTTP 404`."
+    },
+    {
+      "severity": "MEDIUM",
+      "category": "MULTI_HOP_REDIRECT_CHAIN",
+      "source_page": "https://northwind-roasters.example.test/shop",
+      "target": "https://northwind-roasters.example.test/collections/all",
+      "detail": "Redirect chain of 2 hops: `/shop` (301) -> `/store` (301) -> `/collections/all` (200)."
+    },
+    {
+      "severity": "HIGH",
+      "category": "STAGING_OR_DEV_URL_LEAK",
+      "source_page": "https://northwind-roasters.example.test/",
+      "target": "https://staging.northwind-old.wpengine.com",
+      "detail": "Live HTML references non-production/staging URL `https://staging.northwind-old.wpengine.com`."
+    },
+    {
+      "severity": "MEDIUM",
+      "category": "INSECURE_INTERNAL_HTTP",
+      "source_page": "https://northwind-roasters.example.test/",
+      "target": "http://northwind-roasters.example.test/collections/all",
+      "detail": "Internal link uses `http://` instead of `https://` (`http://northwind-roasters.example.test/collections/all`)."
+    },
+    {
+      "severity": "MEDIUM",
+      "category": "DEAD_PLACEHOLDER_CTA",
+      "source_page": "https://northwind-roasters.example.test/",
+      "target": "Request Wholesale Quote -> #",
+      "detail": "Conversion CTA `Request Wholesale Quote` links to dead placeholder `#`."
+    },
+    {
+      "severity": "HIGH",
+      "category": "INSECURE_FORM_ACTION",
+      "source_page": "https://northwind-roasters.example.test/",
+      "target": "http://northwind-roasters.example.test/contact",
+      "detail": "Form submits over plaintext HTTP (`http://northwind-roasters.example.test/contact`)."
+    },
+    {
+      "severity": "LOW",
+      "category": "IMAGES_MISSING_ALT",
+      "source_page": "https://northwind-roasters.example.test/",
+      "target": "1 images",
+      "detail": "1 image(s) missing `alt` text (first: `/cdn/hero.jpg`)."
+    },
+    {
+      "severity": "LOW",
+      "category": "MISSING_META_DESC",
+      "source_page": "https://northwind-roasters.example.test/pages/contact",
+      "target": "https://northwind-roasters.example.test/pages/contact",
+      "detail": "Page missing `<meta name=\"description\">`."
+    },
+    {
+      "severity": "HIGH",
+      "category": "MALFORMED_MAILTO",
+      "source_page": "https://northwind-roasters.example.test/pages/contact",
+      "target": "mailto:support@northwind-roasters",
+      "detail": "Broken `mailto:` link `mailto:support@northwind-roasters` on CTA `Email Support`."
+    },
+    {
+      "severity": "MEDIUM",
+      "category": "MALFORMED_TEL",
+      "source_page": "https://northwind-roasters.example.test/pages/contact",
+      "target": "tel:555-01",
+      "detail": "Short/invalid `tel:` link `tel:555-01` on CTA `Call Shop`."
+    },
+    {
+      "severity": "HIGH",
+      "category": "INVERTED_COMPARE_AT_PRICE",
+      "source_page": "https://northwind-roasters.example.test/products.json",
+      "target": "house-espresso-1lb / Whole Bean (SKU=NW-ESP-1LB)",
+      "detail": "Compare-at price (`16.00`) <= selling price (`18.50`); sale badge/discount tag broken."
+    },
+    {
+      "severity": "MEDIUM",
+      "category": "PRODUCT_MISSING_IMAGE",
+      "source_page": "https://northwind-roasters.example.test/products.json",
+      "target": "ethiopia-12oz",
+      "detail": "Product `Single Origin Ethiopia 12oz` has 0 images."
+    },
+    {
+      "severity": "HIGH",
+      "category": "INVALID_OR_ZERO_PRICE",
+      "source_page": "https://northwind-roasters.example.test/products.json",
+      "target": "ethiopia-12oz / Whole Bean (SKU=NW-ETH-12OZ)",
+      "detail": "Variant `ethiopia-12oz / Whole Bean` has missing or zero price (`0.00`)."
+    },
+    {
+      "severity": "MEDIUM",
+      "category": "VARIANT_MISSING_SKU",
+      "source_page": "https://northwind-roasters.example.test/products.json",
+      "target": "ceramic-dripper / Matte Black",
+      "detail": "Variant `ceramic-dripper / Matte Black` has blank SKU."
+    },
+    {
+      "severity": "HIGH",
+      "category": "DUPLICATE_SKU",
+      "source_page": "https://northwind-roasters.example.test/products.json",
+      "target": "NW-ESP-1LB",
+      "detail": "SKU `NW-ESP-1LB` is shared by 2 variants: house-espresso-1lb / Whole Bean, house-espresso-1lb / Espresso Grind."
+    }
+  ]
+}
