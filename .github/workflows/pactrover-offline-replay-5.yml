@@ -1,0 +1,160 @@
+name: Pactrover #5 Offline Receipt Replay
+
+on:
+  workflow_dispatch:
+
+jobs:
+  offline-replay:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - name: Setup pinned repos, build Nano helper inside container, and run offline replays (--network none)
+        shell: bash
+        run: |
+          set -euo pipefail
+          echo "=== HOST_ENV_START ==="
+          echo "UTC_RUN_START=$(date -u +%Y-%m-%dT%H:%M:%SZ)"
+          uname -a
+          grep -E '^(PRETTY_NAME|VERSION_ID)=' /etc/os-release || cat /etc/os-release
+          git --version
+          docker --version
+          echo "=== HOST_ENV_END ==="
+
+          work=$(mktemp -d)
+          chmod 755 "$work"
+          repo="$work/pactrover-www"
+          build="$work/build"
+          scripts="$work/scripts"
+          mkdir -p "$build" "$scripts"
+
+          echo "=== STEP_1_CHECKOUT_PINNED_REPOS ==="
+          www_pin="36287ea2c23feeda188929221152e9c92a5c8d04"
+          nano_pin="0d8eea4524b8da626cbab50c286c48eae25c76a9"
+
+          git init -q "$repo"
+          git -C "$repo" fetch -q --depth=1 https://github.com/pactrover/www.git "$www_pin"
+          git -C "$repo" checkout -q --detach FETCH_HEAD
+          echo "PACTROVER_WWW_COMMIT=$(git -C "$repo" rev-parse HEAD)"
+          test "$(git -C "$repo" rev-parse HEAD)" = "$www_pin"
+
+          src="$build/nano-node"
+          git init -q "$src"
+          git -C "$src" fetch -q --depth=1 https://github.com/nanocurrency/nano-node.git "$nano_pin"
+          git -C "$src" checkout -q --detach FETCH_HEAD
+          echo "NANO_NODE_COMMIT=$(git -C "$src" rev-parse HEAD)"
+          test "$(git -C "$src" rev-parse HEAD)" = "$nano_pin"
+
+          cat <<'EOF_BUILD' > "$scripts/build_nano.sh"
+          #!/usr/bin/env bash
+          set -euo pipefail
+          echo "=== CONTAINER_TOOLCHAIN ==="
+          grep -E '^(PRETTY_NAME|VERSION_ID)=' /etc/os-release || cat /etc/os-release
+          python3 --version
+          cc --version | head -n 2
+          openssl version
+          example="examples/nano-marketplace-receipt"
+          src="/work/build/nano-node"
+          build="/work/build"
+          cc -O2 -fPIC -shared -DED25519_CUSTOMHASH -DED25519_CUSTOMRNG -I"$src" \
+            "$example/nano_hash.c" "$src/crypto/ed25519-donna/ed25519.c" \
+            "$src/crypto/blake2/blake2b-ref.c" -o "$build/nano-verify.so"
+          echo "NANO_BUILD_EXIT=$?"
+          ls -la "$build/nano-verify.so"
+          sha256sum "$build/nano-verify.so"
+          EOF_BUILD
+
+          cat <<'EOF_REPLAY' > "$scripts/run_offline_replay.sh"
+          #!/usr/bin/env bash
+          set -uo pipefail
+          echo "=== ISOLATION_PROOF_START ==="
+          echo "--- /proc/net/dev ---"
+          cat /proc/net/dev
+          echo "--- /proc/net/route ---"
+          cat /proc/net/route
+          echo "--- negative_network_probes ---"
+          python3 - <<'PY_PROBE'
+          import socket
+          probes = [
+              ("tcp_192.0.2.1:443", lambda: socket.create_connection(("192.0.2.1", 443), timeout=3)),
+              ("dns_example.invalid", lambda: socket.getaddrinfo("example.invalid", 443)),
+          ]
+          for label, fn in probes:
+              try:
+                  fn()
+                  print(f"{label}: UNEXPECTED_SUCCESS")
+                  raise SystemExit(99)
+              except OSError as e:
+                  print(f"{label}: BLOCKED ({type(e).__name__}: {e})")
+          PY_PROBE
+          iso_rc=$?
+          echo "ISOLATION_PROBE_EXIT=$iso_rc"
+          echo "=== ISOLATION_PROOF_END ==="
+          if [ "$iso_rc" -ne 0 ]; then
+            echo "FIRST_BLOCKER=isolation_probe_failed"
+            exit "$iso_rc"
+          fi
+
+          echo "=== REPLAY_1_ATTO_OFFLINE_START ==="
+          echo "UTC_ATTO_START=$(date -u +%Y-%m-%dT%H:%M:%SZ)"
+          python3 examples/atto-receipt/verify.py --case llmrt-node-count --tamper-checks \
+            --evidence-file examples/atto-receipt-offline/llmrt-node-count.json \
+            > /tmp/atto_stdout.json 2> /tmp/atto_stderr.txt
+          atto_rc=$?
+          echo "UTC_ATTO_END=$(date -u +%Y-%m-%dT%H:%M:%SZ)"
+          echo "ATTO_EXIT=$atto_rc"
+          echo "--- ATTO_STDERR ---"
+          cat /tmp/atto_stderr.txt
+          echo "--- ATTO_STDOUT ---"
+          cat /tmp/atto_stdout.json
+          echo "=== REPLAY_1_ATTO_OFFLINE_END ==="
+          if [ "$atto_rc" -ne 0 ]; then
+            echo "FIRST_BLOCKER=atto_offline_replay_failed_stopping_before_nano"
+            exit "$atto_rc"
+          fi
+
+          echo "=== REPLAY_2_NANO_OFFLINE_START ==="
+          echo "UTC_NANO_START=$(date -u +%Y-%m-%dT%H:%M:%SZ)"
+          python3 examples/nano-marketplace-receipt/verify.py --nano-lib /work/build/nano-verify.so --tamper-checks \
+            --evidence-file examples/nano-marketplace-receipt/hello-world-5.json \
+            > /tmp/nano_stdout.json 2> /tmp/nano_stderr.txt
+          nano_rc=$?
+          echo "UTC_NANO_END=$(date -u +%Y-%m-%dT%H:%M:%SZ)"
+          echo "NANO_EXIT=$nano_rc"
+          echo "--- NANO_STDERR ---"
+          cat /tmp/nano_stderr.txt
+          echo "--- NANO_STDOUT ---"
+          cat /tmp/nano_stdout.json
+          echo "=== REPLAY_2_NANO_OFFLINE_END ==="
+          exit "$nano_rc"
+          EOF_REPLAY
+
+          chmod +x "$scripts/build_nano.sh" "$scripts/run_offline_replay.sh"
+
+          echo "=== STEP_2_PULL_IMAGE_AND_BUILD_NANO_HELPER ==="
+          img="public.ecr.aws/docker/library/python:3.12-bookworm"
+          docker pull -q "$img"
+          echo "CONTAINER_IMAGE=$img"
+          echo "CONTAINER_DIGEST=$(docker image inspect --format '{{index .RepoDigests 0}}' "$img")"
+
+          docker run --rm \
+            -v "$repo:/work/pactrover-www:ro" \
+            -v "$build:/work/build" \
+            -v "$scripts:/work/scripts:ro" \
+            -w /work/pactrover-www \
+            "$img" bash /work/scripts/build_nano.sh
+
+          echo "=== STEP_3_OFFLINE_REPLAY_NETWORK_NONE ==="
+          echo "UTC_OFFLINE_START=$(date -u +%Y-%m-%dT%H:%M:%SZ)"
+          set +e
+          docker run --rm \
+            --network none \
+            -v "$repo:/work/pactrover-www:ro" \
+            -v "$build:/work/build:ro" \
+            -v "$scripts:/work/scripts:ro" \
+            -w /work/pactrover-www \
+            "$img" bash /work/scripts/run_offline_replay.sh
+          replay_rc=$?
+          set -e
+          echo "UTC_RUN_END=$(date -u +%Y-%m-%dT%H:%M:%SZ)"
+          echo "OVERALL_REPLAY_EXIT=$replay_rc"
+          exit "$replay_rc"
